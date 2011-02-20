@@ -1,3 +1,3 @@
 Model           CR_HumanMaleStrong.x
-Include _FOHuman.fo3d anim_file CR_HumanMaleStrong.x atr HumMNor
+Include _FOHuman.fo3d anim_file CR_HumanMaleStrong.x anim male atr malestr
 
