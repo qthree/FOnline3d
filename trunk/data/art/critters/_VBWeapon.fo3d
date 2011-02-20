@@ -1,0 +1,23 @@
+
+#
+# VanBuren weapons template
+#
+
+Model %name%.x
+Speed 1
+
+Anim A 29 ModelFile Single
+Anim A 30 ModelFile Burst
+Anim A 31 ModelFile Sweep
+
+Anim H 29 ModelFile Single
+
+Anim J 29 ModelFile Single
+Anim J 30 ModelFile burst
+
+Anim L 30 ModelFile burst
+
+Anim A 75 laserdeath.x laserdeath
+Anim A 77 ModelFile boomdeath
+
+
