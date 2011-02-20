@@ -1,0 +1,8 @@
+Include _VBWeapon.fo3d name male_boomtest
+
+Layer 0
+ Value 0   Root Texture 0 Male_Skin_white.jpg
+ Value 1   Root Texture 0 male_Skin_whiteTT.jpg
+ Value 2   Root Texture 0 male_Skin_whiteYT.jpg
+ Value 3   Root Texture 0 male_Skin_Black.jpg
+
