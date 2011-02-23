@@ -88,6 +88,9 @@ Value 9 Root DisableSubset 0-1-2-3-4-5-6-7-8 Attach Armor_apa.x
 Value 11 Root DisableSubset 0-1-2-3-4-5-6-7-8-9 Attach %anim%_boomtest.fo3d
 Value 12 Root DisableSubset 0-1-2-3-4-5-6-7-8-9 Attach %anim%_laserdeathmodel.fo3d
 
+Value 13 Root DisableSubset 0-1-2-3-6-7-8-10 Attach Armor_%anim%_robes.x Texture 0 robe_f2.tga
+Value 14 Root DisableSubset 0-1-2-3-6-7-8-10 Attach Armor_%anim%_robes.x
+
 # Head
 Layer 4
   Value 5 Root Attach ATR_combatarmorhelmet.x
@@ -761,7 +764,7 @@ Anim A 6  %anim_file% %anim%_Com_Una_PanicRun_01
 Anim A 7  %anim%_Spear.x Spearout
 Anim A 8  %anim%_Spear.x Spearoff
 Anim A 12 %anim%_Pickup.x Pickup
-Anim A 13 %anim%_Use.x Use_unarmed
+Anim A 13 %anim%_Use.x Use
 Anim A 14 %anim_file% %anim%_Com_1H_Switch_Weapons_01
 Anim A 15 %anim_file% %anim%_Def_Una_to_Com_01
 Anim A 16 %anim_file% %anim%_Com_Una_Idle_01
@@ -820,7 +823,7 @@ Anim D 32 %anim_file% %anim%_Com_1H_Gun_Butt_01
 Anim D 34 %anim_file% %anim%_Com_1H_Gun_NoRecoil_01
 Anim D 35 %anim_file% %anim%_Com_1H_Maintenance_01
 Anim D 36 %anim_file% %anim%_Com_1H_Maintenance_01
-Anim D 40 %anim%_Dodge.x dodge
+Anim D 40 %anim%_Knife.x knife_dodge
 Anim D 42 %anim_file% %anim%_Com_1H_DmgFr_01
 Anim D 44 %anim_file% %anim%_Com_1H_DmgFrMult_01
 Anim D 46 %anim_file% %anim%_Com_1H_Walk_DmgFr_01
