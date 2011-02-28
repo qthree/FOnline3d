@@ -41,61 +41,96 @@ Layer 0
 
 # Body
 Layer 3
- Value 1   Root Subset 4 Texture 0 Male_baseblack.tga
-                Subset 3 Texture 0 %anim%_leatherpants.tga
-                Subset 6 Texture 0 %anim%_leatherpants.tga
-                Subset 7 Texture 0 %anim%_leatherpants.tga
-                Subset 8 Texture 0 %anim%_leatherpants.tga
-                Subset 10 Texture 0 %anim%_leatherpants.tga
-                Attach Armor_%anim%_leatherjacket.X  
- Value 2    Root Subset 3 Texture 0 %anim%_metaloutfit.tga
-            Subset 1 Texture 0 %anim%_metaloutfit.tga
-            Subset 6 Texture 0 %anim%_metaloutfit.tga
-            Subset 7 Texture 0 %anim%_metaloutfit.tga
-            Subset 8 Texture 0 %anim%_metaloutfit.tga
-            Subset 10 Texture 0 %anim%_metaloutfit.tga
-            Root DisableSubset 4 Attach armor_%anim%_metalarmor.x
- Value 3   Root Subset 10 texture 0 male_Skin_white.jpg
- Value 4   Root Subset 4 Texture 0 Male_baseblack.tga 
-           Subset 3 Texture 0 Male_basefal.tga
-           Subset 6 Texture 0 Male_basefal.tga
-           Subset 7 Texture 0 Male_basefal.tga
-           Subset 8 Texture 0 Male_basefal.tga  
- Value 5   Root DisableSubset 0-1-2-3-4-6-7-8 Attach ATR_combatarmor.x            
+ Value 1   Root Attach Armor_%anim%_leatherjacket.X  
+ Value 2   Root DisableSubset 4 Attach armor_%anim%_metalarmor.x
+ Value 3  
+ Value 4                  
+ Value 5   Root DisableSubset 4-7             
+Attach armor_%anim%_combatarmor.x            
  Value 6   Root DisableSubset 0-1-2-3-4-5-6-7-8     Attach ATR_PowerArmor.x 
 
-Value 7 Root DisableSubset 4-7 
- Texture 0 envarmorbody.png           
+Value 7 Root DisableSubset 4-7           
 Attach ATR_environmental.x
 
 Value 8 Root DisableSubset 4-7 
-#Subset 1 Texture 0 leatherarmorbody_%anim%.tga 
-Subset 3 Texture 0 leatherarmorbody_%anim%.tga 
-Subset 6 Texture 0 leatherarmorbody_%anim%.tga 
-Subset 8 Texture 0 leatherarmorbody_%anim%.tga 
 Attach armor_%anim%_leatherarmor.x
 
 Value 9 Root DisableSubset 0-1-2-3-4-5-6-7-8 Attach Armor_apa.x
 
  Value 10   Root DisableSubset 0-2-4-7
-                Subset 1 Texture 0 %anim%_cljacket_clothing.png
+                Attach Armor_%anim%_cmbleatherjacket.X  
+
+#Value 51 Root DisableSubset 0-1-2-3-4-5-6-7-8-9 Attach %anim%_boomtest.fo3d
+#Value 52 Root DisableSubset 0-1-2-3-4-5-6-7-8-9 Attach %anim%_laserdeathmodel.fo3d
+
+Value 11 Root DisableSubset 0-1-2-3-6-7-8-10 Attach Armor_%anim%_robes.x 
+Value 12 Root DisableSubset 0-1-2-3-6-7-8-10 Attach Armor_%anim%_robes.x Texture 0 robeholy.tga
+
+Value 13   Root Attach armor_combatranger.fo3d
+
+# Head
+Layer 4
+  Value 5 Root DisableLayer 7 Attach armor_%anim%_combatarmorhelmet.x
+  Value 6 Root Root Attach ATR_PowerArmorhelmet.x
+  Value 9 Root Attach Armor_apahelmet.x
+
+# ArmorClothing
+Layer 5
+   Value 1   Root Subset 4 Texture 0 Male_baseblack.tga
+                Subset 3 Texture 0 %anim%_leatherpants.tga
+                Subset 6 Texture 0 %anim%_leatherpants.tga
+                Subset 7 Texture 0 %anim%_leatherpants.tga
+                Subset 8 Texture 0 %anim%_leatherpants.tga
+                Subset 10 Texture 0 %anim%_leatherpants.tga                  
+ Value 2    Root 
+            Subset 3 Texture 0 %anim%_metaloutfit.tga
+            Subset 1 Texture 0 %anim%_metaloutfit.tga
+            Subset 6 Texture 0 %anim%_metaloutfit.tga
+            Subset 7 Texture 0 %anim%_metaloutfit.tga
+            Subset 8 Texture 0 %anim%_metaloutfit.tga
+            Subset 10 Texture 0 %anim%_metaloutfit.tga          
+ Value 3  
+
+   
+Value 4   Root Subset 0 Texture 0 %anim%_cloth.png
+Root Subset 1 Texture 0 %anim%_cloth.png 
+Root Subset 2 Texture 0 %anim%_cloth.png 
+Root Subset 3 Texture 0 %anim%_cloth.png 
+Root Subset 4 Texture 0 %anim%_cloth.png 
+Root Subset 6 Texture 0 %anim%_cloth.png 
+Root Subset 7 Texture 0 %anim%_cloth.png 
+Root Subset 8 Texture 0 %anim%_cloth.png
+Root Subset 10 Texture 0 %anim%_cloth.png               
+ Value 5   Root 
+            Subset 0 Texture 0 %anim%_CAclothing.jpg
+            Subset 1 Texture 0 %anim%_CAclothing.jpg
+            Subset 2 Texture 0 %anim%_CAclothing.jpg
+            Subset 3 Texture 0 %anim%_CAclothing.jpg
+            Subset 5 Texture 0 %anim%_CAclothing.jpg
+            Subset 6 Texture 0 %anim%_CAclothing.jpg
+            Subset 7 Texture 0 %anim%_CAclothing.jpg
+            Subset 8 Texture 0 %anim%_CAclothing.jpg
+            Subset 10 Texture 0 %anim%_CAclothing.jpg         
+
+
+Value 7 Root Texture 0 envarmorbody.png          
+
+
+Value 8 Root  
+#Subset 1 Texture 0 leatherarmorbody_%anim%.tga 
+Subset 3 Texture 0 leatherarmorbody_%anim%.tga 
+Subset 6 Texture 0 leatherarmorbody_%anim%.tga 
+Subset 8 Texture 0 leatherarmorbody_%anim%.tga 
+
+Value 10   Root Subset 1 Texture 0 %anim%_cljacket_clothing.png
                 Subset 6 Texture 0 %anim%_cljacket_clothing.png
                 Subset 3 Texture 0 %anim%_cljacket_clothing.png
                 Subset 8 Texture 0 %anim%_cljacket_clothing.png
                 Subset 10 Texture 0 %anim%_cljacket_clothing.png
-                Attach Armor_%anim%_cmbleatherjacket.X  
+                
+Value 13   Root Texture 0 ncr10_body.png 
 
-Value 11 Root DisableSubset 0-1-2-3-4-5-6-7-8-9 Attach %anim%_boomtest.fo3d
-Value 12 Root DisableSubset 0-1-2-3-4-5-6-7-8-9 Attach %anim%_laserdeathmodel.fo3d
-
-Value 13 Root DisableSubset 0-1-2-3-6-7-8-10 Attach Armor_%anim%_robes.x Texture 0 robe_f2.tga
-Value 14 Root DisableSubset 0-1-2-3-6-7-8-10 Attach Armor_%anim%_robes.x
-
-# Head
-Layer 4
-  Value 5 Root Attach ATR_combatarmorhelmet.x
-  Value 6 Root Root Attach ATR_PowerArmorhelmet.x
-  Value 9 Root Attach Armor_apahelmet.x
+ 
 
 # Right Handle
 Layer 1
@@ -259,10 +294,10 @@ Layer 7
  Value 41  Attach ATR_%atr%_HaiCrown.x Texture 0 HaiCrown_brownGrey_LG.tga
  Value 42  Root Attach rasta.x
  Value 43  Root Attach Ponytailtest.x
- Value 44  Attach ATR_%atr%_HaiCrown.x Texture 0 HaiCrown_white_LG.tga
- Value 45  Attach ATR_%atr%_HaiCrown.x Texture 0 HaiCrown_whiteGrey_LG.tga
- Value 46  Attach ATR_%atr%_HaiCrown.x Texture 0 HaiCrown_blonde_LG.tga
- Value 47  Attach ATR_%atr%_HaiCrown.x Texture 0 HaiCrown_blondeGrey_LG.tga
+ Value 44  Attach Hair_%anim%_bob.x 
+ Value 45  Attach Hair_%anim%_bob.x Texture 0 HairBobBlonde.jpg
+ Value 46  Attach Hair_%anim%_bob.x Texture 0 HairBobBrown.jpg
+ Value 47  Attach Hair_%anim%_bob.x Texture 0 HairBobBlack.jpg
  Value 48  Attach ATR_%atr%_HaiCrown.x Texture 0 HaiCrown_red_LG.tga
  Value 49  Attach ATR_%atr%_HaiCrown.x Texture 0 HaiCrown_redGrey_LG.tga
  Value 50  Attach ATR_%atr%_HaiGreaser.x
@@ -689,45 +724,93 @@ Layer 12
  Value 2 Attach ATR_%atr%_ShoPowerArmor.x
  Value 5 Attach ATR_%atr%_ShoCombatArmor.x
 
-# Armlet
+# Pants
 Layer 13
- Value 1 Attach ATR_%atr%_VanPipBoyClosed.x
- Value 2 Attach ATR_%atr%_VanPipBoyOpen.x
+ Value 1 Root DisableLayer 5 Subset 6 Texture 0 %anim%_cloth_white.jpg
+         Root Subset 8 Texture 0 %anim%_cloth_white.jpg
+ Value 2 Root DisableLayer 5 Subset 6 Texture 0 %anim%_cloth_white.jpg
+         Root Subset 3 Texture 0 %anim%_cloth_white.jpg
+         Root Subset 8 Texture 0 %anim%_cloth_white.jpg
+ Value 3 Root DisableLayer 5 Subset 6 Texture 0 %anim%_cloth_white.jpg
+         Root Subset 3 Texture 0 %anim%_cloth_white.jpg
+         Root Subset 7 Texture 0 %anim%_cloth_white.jpg
+         Root Subset 8 Texture 0 %anim%_cloth_white.jpg
+Value 4  Root DisableLayer 5 Subset 6 Texture 0 %anim%_cloth_white.jpg
+         Root Subset 3 Texture 0 %anim%_cloth_white.jpg
+         Root Subset 7 Texture 0 %anim%_cloth_white.jpg
+         Root Subset 8 Texture 0 %anim%_cloth_white.jpg
+         Root Subset 10 Texture 0 %anim%_cloth_white.jpg
+Value 5 Root DisableLayer 5 Subset 6 Texture 0 %anim%_cloth_red.jpg
+         Root Subset 8 Texture 0 %anim%_cloth_red.jpg
+ Value 6 Root DisableLayer 5 Subset 6 Texture 0 %anim%_cloth_red.jpg
+         Root Subset 3 Texture 0 %anim%_cloth_red.jpg
+         Root Subset 8 Texture 0 %anim%_cloth_red.jpg
+ Value 7 Root DisableLayer 5 Subset 6 Texture 0 %anim%_cloth_red.jpg
+         Root Subset 3 Texture 0 %anim%_cloth_red.jpg
+         Root Subset 7 Texture 0 %anim%_cloth_red.jpg
+         Root Subset 8 Texture 0 %anim%_cloth_red.jpg
+Value 8  Root DisableLayer 5 Subset 6 Texture 0 %anim%_cloth_red.jpg
+         Root Subset 3 Texture 0 %anim%_cloth_red.jpg
+         Root Subset 7 Texture 0 %anim%_cloth_red.jpg
+         Root Subset 8 Texture 0 %anim%_cloth_red.jpg
+         Root Subset 10 Texture 0 %anim%_cloth_red.jpg
+Value 9 Root DisableLayer 5 Subset 6 Texture 0 %anim%_cloth_black.jpg
+         Root Subset 8 Texture 0 %anim%_cloth_black.jpg
+ Value 10 Root DisableLayer 5 Subset 6 Texture 0 %anim%_cloth_black.jpg
+         Root Subset 3 Texture 0 %anim%_cloth_black.jpg
+         Root Subset 8 Texture 0 %anim%_cloth_black.jpg
+ Value 11 Root DisableLayer 5 Subset 6 Texture 0 %anim%_cloth_black.jpg
+         Root Subset 3 Texture 0 %anim%_cloth_black.jpg
+         Root Subset 7 Texture 0 %anim%_cloth_black.jpg
+         Root Subset 8 Texture 0 %anim%_cloth_black.jpg
+Value 12  Root DisableLayer 5 Subset 6 Texture 0 %anim%_cloth_black.jpg
+         Root Subset 3 Texture 0 %anim%_cloth_black.jpg
+         Root Subset 7 Texture 0 %anim%_cloth_black.jpg
+         Root Subset 8 Texture 0 %anim%_cloth_black.jpg
+         Root Subset 10 Texture 0 %anim%_cloth_black.jpg
+Value 13 Root DisableLayer 5 Subset 6 Texture 0 %anim%_cloth_lightBrown.jpg
+         Root Subset 8 Texture 0 %anim%_cloth_lightBrown.jpg
+ Value 14 Root DisableLayer 5 Subset 6 Texture 0 %anim%_cloth_lightBrown.jpg
+         Root Subset 3 Texture 0 %anim%_cloth_lightBrown.jpg
+         Root Subset 8 Texture 0 %anim%_cloth_lightBrown.jpg
+ Value 15 Root DisableLayer 5 Subset 6 Texture 0 %anim%_cloth_lightBrown.jpg
+         Root Subset 3 Texture 0 %anim%_cloth_lightBrown.jpg
+         Root Subset 7 Texture 0 %anim%_cloth_lightBrown.jpg
+         Root Subset 8 Texture 0 %anim%_cloth_lightBrown.jpg
+Value 16  Root DisableLayer 5 Subset 6 Texture 0 %anim%_cloth_lightBrown.jpg
+         Root Subset 3 Texture 0 %anim%_cloth_lightBrown.jpg
+         Root Subset 7 Texture 0 %anim%_cloth_lightBrown.jpg
+         Root Subset 8 Texture 0 %anim%_cloth_lightBrown.jpg
+         Root Subset 10 Texture 0 %anim%_cloth_lightBrown.jpg  
+ 
 
-# Back
+# UpperClothing
 Layer 14
- Value 1   Attach ATR_%atr%_BacLeatherOutfit.x
- Value 2   Attach ATR_%atr%_BacLeatherOutfit.x Texture 0 BacLeatherOutfit_biohazard_LG.tga
- Value 3   Attach ATR_%atr%_BacLeatherOutfit.x Texture 0 BacLeatherOutfit_dragon_LG.tga
- Value 4   Attach ATR_%atr%_BacLeatherOutfit.x Texture 0 BacLeatherOutfit_eagle_LG.tga
- Value 101 Attach ATR_%atr%_BacPrisonSuit.x
- Value 102 Attach ATR_%atr%_BacPrisonSuit.x    Texture 0 BacPrisonSuit_02_LG.tga
- Value 103 Attach ATR_%atr%_BacPrisonSuit.x    Texture 0 BacPrisonSuit_03_LG.tga
- Value 104 Attach ATR_%atr%_BacPrisonSuit.x    Texture 0 BacPrisonSuit_04_LG.tga
- Value 105 Attach ATR_%atr%_BacPrisonSuit.x    Texture 0 BacPrisonSuit_05_LG.tga
- Value 106 Attach ATR_%atr%_BacPrisonSuit.x    Texture 0 BacPrisonSuit_06_LG.tga
- Value 107 Attach ATR_%atr%_BacPrisonSuit.x    Texture 0 BacPrisonSuit_07_LG.tga
- Value 108 Attach ATR_%atr%_BacPrisonSuit.x    Texture 0 BacPrisonSuit_08_LG.tga
- Value 109 Attach ATR_%atr%_BacPrisonSuit.x    Texture 0 BacPrisonSuit_09_LG.tga
- Value 110 Attach ATR_%atr%_BacPrisonSuit.x    Texture 0 BacPrisonSuit_10_LG.tga
- Value 111 Attach ATR_%atr%_BacPrisonSuit.x    Texture 0 BacPrisonSuit_11_LG.tga
- Value 112 Attach ATR_%atr%_BacPrisonSuit.x    Texture 0 BacPrisonSuit_12_LG.tga
- Value 113 Attach ATR_%atr%_BacPrisonSuit.x    Texture 0 BacPrisonSuit_13_LG.tga
- Value 114 Attach ATR_%atr%_BacPrisonSuit.x    Texture 0 BacPrisonSuit_14_LG.tga
- Value 115 Attach ATR_%atr%_BacPrisonSuit.x    Texture 0 BacPrisonSuit_15_LG.tga
- Value 116 Attach ATR_%atr%_BacPrisonSuit.x    Texture 0 BacPrisonSuit_16_LG.tga
- Value 117 Attach ATR_%atr%_BacPrisonSuit.x    Texture 0 BacPrisonSuit_17_LG.tga
- Value 118 Attach ATR_%atr%_BacPrisonSuit.x    Texture 0 BacPrisonSuit_18_LG.tga
- Value 119 Attach ATR_%atr%_BacPrisonSuit.x    Texture 0 BacPrisonSuit_19_LG.tga
- Value 120 Attach ATR_%atr%_BacPrisonSuit.x    Texture 0 BacPrisonSuit_20_LG.tga
- Value 121 Attach ATR_%atr%_BacPrisonSuit.x    Texture 0 BacPrisonSuit_21_LG.tga
- Value 122 Attach ATR_%atr%_BacPrisonSuit.x    Texture 0 BacPrisonSuit_22_LG.tga  
- Value 123 Attach ATR_%atr%_BacPrisonSuit.x    Texture 0 BacPrisonSuit_23_LG.tga
- Value 124 Attach ATR_%atr%_BacPrisonSuit.x    Texture 0 BacPrisonSuit_24_LG.tga
- Value 213 Attach ATR_%atr%_BacVaultSuit.x
- Value 226 Attach ATR_%atr%_BacVaultSuit.x     Texture 0 BacVaultSuit_26_LG.tga
- Value 229 Attach ATR_%atr%_BacVaultSuit.x     Texture 0 BacVaultSuit_29_LG.tga
-
+ Value 1  Root DisableLayer 5 Subset 1 Texture 0 %anim%_cloth_white.jpg
+ Value 2  Root DisableLayer 5 Subset 0 Texture 0 %anim%_cloth_white.jpg
+          Root  Subset 1 Texture 0 %anim%_cloth_white.jpg
+ Value 3 Root DisableLayer 5 Subset 0 Texture 0 %anim%_cloth_white.jpg
+         Root Subset 1 Texture 0 %anim%_cloth_white.jpg
+         Root Subset 2 Texture 0 %anim%_cloth_white.jpg
+Value 4  Root DisableLayer 5 Subset 1 Texture 0 %anim%_cloth_red.jpg
+ Value 5  Root DisableLayer 5 Subset 0 Texture 0 %anim%_cloth_red.jpg
+          Root  Subset 1 Texture 0 %anim%_cloth_red.jpg
+ Value 6 Root DisableLayer 5 Subset 0 Texture 0 %anim%_cloth_red.jpg
+         Root Subset 1 Texture 0 %anim%_cloth_red.jpg
+         Root Subset 2 Texture 0 %anim%_cloth_red.jpg
+Value 7  Root DisableLayer 5 Subset 1 Texture 0 %anim%_cloth_black.jpg
+Value 8  Root DisableLayer 5 Subset 0 Texture 0 %anim%_cloth_black.jpg
+          Root  Subset 1 Texture 0 %anim%_cloth_black.jpg
+Value 9 Root DisableLayer 5 Subset 0 Texture 0 %anim%_cloth_black.jpg
+         Root Subset 1 Texture 0 %anim%_cloth_black.jpg
+         Root Subset 2 Texture 0 %anim%_cloth_black.jpg
+Value 10  Root DisableLayer 5 Subset 1 Texture 0 %anim%_cloth_lightBrown.jpg
+Value 11  Root DisableLayer 5 Subset 0 Texture 0 %anim%_cloth_lightBrown.jpg
+          Root  Subset 1 Texture 0 %anim%_cloth_lightBrown.jpg
+Value 12 Root DisableLayer 5 Subset 0 Texture 0 %anim%_cloth_lightBrown.jpg
+         Root Subset 1 Texture 0 %anim%_cloth_lightBrown.jpg
+         Root Subset 2 Texture 0 %anim%_cloth_lightBrown.jpg
+        
 # Backpack
 Layer 15
  Value 1 Attach ATR_%atr%_BacPaLg01.x
@@ -856,24 +939,11 @@ Anim F 8  %anim%_sledgehammer.x sledgehammer_off
 Anim F 9  %anim_file% %anim%_Def_1H_Fidget_01
 Anim F 15 %anim_file% %anim%_Def_1H_to_Com_01
 Anim F 16 %anim%_sledgehammer.x sledgehammer_idle
-Anim F 17 %anim_file% %anim%_Com_1H_to_Def_01
 Anim F 24 %anim%_sledgehammer.x sledgehammer_thurst
 Anim F 26 %anim%_sledgehammer.x sledgehammer_swing
-Anim F 27 %anim_file% %anim%_Com_2HC_Melee_Slash_01
 Anim F 28 %anim%_knife.x knife_throw
-Anim F 29 %anim%_pistol.x pistol_shoot
-Anim F 30 %anim_file% %anim%_Com_1H_Gun_Burst_01
-Anim F 31 %anim_file% %anim%_Com_1H_Gun_Sweep_01
-Anim F 32 %anim_file% %anim%_Com_1H_Gun_Butt_01
-Anim F 34 %anim_file% %anim%_Com_1H_Gun_NoRecoil_01
-Anim F 35 %anim_file% %anim%_Com_1H_Maintenance_01
-Anim F 36 %anim_file% %anim%_Com_1H_Maintenance_01
-Anim F 40 %anim%_Dodge.x dodge
-Anim F 42 %anim_file% %anim%_Com_1H_DmgFr_01
-Anim F 44 %anim_file% %anim%_Com_1H_DmgFrMult_01
-Anim F 46 %anim_file% %anim%_Com_1H_Walk_DmgFr_01
+Anim F 40 %anim%_sledgehammer.x sledgehammer_dodge
 Anim F 52 %anim%_Fallgetup.x Fall_back
-Anim F 54 %anim_file% %anim%_Com_1H_Walk_DmgFr_01
 Anim F 58 %anim%_Fallgetup.x Fall_front
 
 # Spear
@@ -982,6 +1052,7 @@ Anim M 7  %anim%_bazooka.x bazooka_on
 Anim M 8  %anim%_bazooka.x bazooka_off
 Anim M 29 %anim%_bazooka.x bazooka_shoot
 Anim M 35 %anim%_bazooka.x bazooka_shoot
+Anim M 40 %anim%_bazooka.x bazooka_dodge
 
 # Minigun
 Anim L 1  %anim%_minigun.x minigun_idle
