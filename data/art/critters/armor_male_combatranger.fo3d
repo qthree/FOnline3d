@@ -1,0 +1,227 @@
+Include _VBWeapon.fo3d name armor_male_combatranger
+
+
+# Unarmed
+Anim A 1 armor_male_combatranger.x idle
+Anim A 3 armor_male_combatranger.x walk
+Anim A 5 armor_male_combatranger.x run
+Anim A 7  male_Spear.x Spearout
+Anim A 8  male_Spear.x Spearoff
+Anim A 12 male_Pickup.x Pickup
+Anim A 13 male_Use.x Use
+Anim A 14 %anim_file% male_Com_1H_Switch_Weapons_01
+Anim A 15 %anim_file% male_Def_Una_to_Com_01
+Anim A 16 %anim_file% male_Com_Una_Idle_01
+Anim A 17 %anim_file% male_Com_Una_To_Def_01
+Anim A 18 male_Punch.x punch
+Anim A 19 %anim_file% male_Com_Una_Punch_Jab_01
+Anim A 20 %anim_file% male_Def_Una_Fidget_MedSkill_01
+Anim A 21 male_Kick.x Kick
+Anim A 22 male_Kick.x Kick
+Anim A 23 %anim_file% male_Def_Una_Fidget_Medskill_02
+Anim A 40 male_Dodge.x Dodge
+Anim A 42 male_Damage.x Damage_back
+Anim A 43 male_Damage.x Damage_front
+Anim A 44 male_bananadance.x dance
+Anim A 46 %anim_file% male_Com_Una_Walk_DmgFr_01
+Anim A 48 %anim_file% male_Com_Una_Limp_DmgFr_01
+Anim A 50 %anim_file% male_Com_Una_Run_DmgFr_01
+Anim A 52 male_Fallgetup.x Fall_back
+Anim A 53 male_Fallgetup.x Fall_forward
+Anim A 54 %anim_file% male_Com_Una_Laydown_ProneB_01
+Anim A 55 %anim_file% male_Com_Una_Laydown_ProneF_01
+Anim A 56 male_Fallgetup.x knockedback
+Anim A 57 male_Fallgetup.x knockedforward
+Anim A 58 male_Fallgetup.x Getup_back
+Anim A 59 male_Fallgetup.x Getup_forward
+Anim A 60 %anim_file% male_ProneB_Una_DmgFr_01
+Anim A 61 %anim_file% male_ProneF_Una_DmgFr_01
+Anim A 62 %anim_file% male_ProneB_Una_DmgFrMult_01
+Anim A 63 %anim_file% male_ProneF_Una_DmgFrMult_01
+Anim A 64 %anim_file% male_ProneB_Una_Twitch_01
+Anim A 65 %anim_file% male_ProneF_Una_Twitch_01
+Anim A 66 %anim_file% male_ProneB_Una_Death_01
+Anim A 67 %anim_file% male_ProneF_Una_Death_01
+
+Anim A 75 laserdeath.x laserdeath
+Anim A 77 male_boomtest.x boomdeath 
+
+# Knife
+Anim D 1  male_knife.x knife_idle
+Anim D 2  %anim_file% male_Com_1H_Stunned_01
+Anim D 3  %anim_file% male_Com_1H_Walk_01
+Anim D 7  male_knife.x knife_on
+Anim D 8  male_knife.x knife_off
+Anim D 9  %anim_file% male_Def_1H_Fidget_01
+Anim D 15 %anim_file% male_Def_1H_to_Com_01
+Anim D 16 male_knife.x knife_idle
+Anim D 17 %anim_file% male_Com_1H_to_Def_01
+Anim D 24 male_knife.x knife_thurst
+Anim D 26 male_knife.x knife_swing
+Anim D 27 %anim_file% male_Com_2HC_Melee_Slash_01
+Anim D 28 male_knife.x knife_throw
+Anim D 29 male_pistol.x pistol_shoot
+Anim D 30 %anim_file% male_Com_1H_Gun_Burst_01
+Anim D 31 %anim_file% male_Com_1H_Gun_Sweep_01
+Anim D 32 %anim_file% male_Com_1H_Gun_Butt_01
+Anim D 34 %anim_file% male_Com_1H_Gun_NoRecoil_01
+Anim D 35 %anim_file% male_Com_1H_Maintenance_01
+Anim D 36 %anim_file% male_Com_1H_Maintenance_01
+Anim D 40 male_Knife.x knife_dodge
+Anim D 42 %anim_file% male_Com_1H_DmgFr_01
+Anim D 44 %anim_file% male_Com_1H_DmgFrMult_01
+Anim D 46 %anim_file% male_Com_1H_Walk_DmgFr_01
+Anim D 52 male_Fallgetup.x Fall_back
+Anim D 54 %anim_file% male_Com_1H_Walk_DmgFr_01
+Anim D 58 male_Fallgetup.x Fall_front
+#AnimEqual 1 E D
+#AnimEqual 1 F D
+#AnimEqual 1 G D
+#AnimEqual 1 H D
+AnimEqual 1 I H
+#AnimEqual 1 J D
+
+# Club
+Anim E 1  male_club.x club_idle
+Anim E 7  male_club.x club_on
+Anim E 8  male_club.x club_off
+Anim E 16 male_club.x club_idle
+Anim E 24 male_knife.x knife_thurst
+Anim E 26 male_club.x club_swing
+Anim E 52 male_Fallgetup.x Fall_back
+Anim E 58 male_Fallgetup.x Fall_front
+
+# Sledgehammer
+
+Anim F 2  %anim_file% male_Com_1H_Stunned_01
+Anim F 3  male_sledgehammer.x sledgehammer_Walk
+Anim F 7  male_sledgehammer.x sledgehammer_on
+Anim F 8  male_sledgehammer.x sledgehammer_off
+Anim F 9  %anim_file% male_Def_1H_Fidget_01
+Anim F 15 %anim_file% male_Def_1H_to_Com_01
+Anim F 16 male_sledgehammer.x sledgehammer_idle
+Anim F 24 male_sledgehammer.x sledgehammer_thurst
+Anim F 26 male_sledgehammer.x sledgehammer_swing
+Anim F 28 male_knife.x knife_throw
+Anim F 40 male_sledgehammer.x sledgehammer_dodge
+Anim F 52 male_Fallgetup.x Fall_back
+Anim F 58 male_Fallgetup.x Fall_front
+
+# Spear
+Anim G 1  male_spear.x spearidle
+Anim G 2  %anim_file% male_Com_1H_Stunned_01
+Anim G 3  %anim_file% male_Com_1H_Walk_01
+Anim G 7  male_spear.x spearon
+Anim G 8  male_spear.x spearoff
+Anim G 9  %anim_file% male_Def_1H_Fidget_01
+Anim G 15 %anim_file% male_Def_1H_to_Com_01
+Anim G 16 male_spear.x spearidle
+Anim G 17 %anim_file% male_Com_1H_to_Def_01
+Anim G 24 male_Spear.x Spearhit
+Anim G 26 male_Spear.x Spearhit
+Anim G 27 %anim_file% male_Com_2HC_Melee_Slash_01
+Anim G 28 male_Spear.x spear_throw
+Anim G 29 male_spear.x spearhit
+Anim G 30 %anim_file% male_Com_1H_Gun_Burst_01
+Anim G 31 %anim_file% male_Com_1H_Gun_Sweep_01
+Anim G 32 %anim_file% male_Com_1H_Gun_Butt_01
+Anim G 34 %anim_file% male_Com_1H_Gun_NoRecoil_01
+Anim G 35 %anim_file% male_Com_1H_Maintenance_01
+Anim G 36 %anim_file% male_Com_1H_Maintenance_01
+Anim G 40 male_Dodge.x dodge
+Anim G 42 %anim_file% male_Com_1H_DmgFr_01
+Anim G 44 %anim_file% male_Com_1H_DmgFrMult_01
+Anim G 46 %anim_file% male_Com_1H_Walk_DmgFr_01
+Anim G 52 male_Fallgetup.x Fall_back
+Anim G 54 %anim_file% male_Com_1H_Walk_DmgFr_01
+Anim G 58 male_Fallgetup.x Fall_front
+
+# Pistol
+Anim H 1  male_pistol.x pistol_idle
+Anim H 2  %anim_file% male_Com_1H_Stunned_01
+Anim H 3  %anim_file% male_Com_1H_Walk_01
+Anim H 7  male_pistol.x pistol_on
+Anim H 8  male_pistol.x pistol_off
+Anim H 9  %anim_file% male_Def_1H_Fidget_01
+Anim H 15 %anim_file% male_Def_1H_to_Com_01
+Anim H 16 male_pistol.x pistol_idle
+Anim H 17 %anim_file% male_Com_1H_to_Def_01
+Anim H 24 male_Spear.x Spearhit
+Anim H 26 male_Spear.x Spearhit
+Anim H 27 %anim_file% male_Com_2HC_Melee_Slash_01
+Anim H 28 %anim_file% male_Com_1H_Throw_01
+Anim H 29 male_pistol.x pistol_shoot
+Anim H 30 male_pistol.x pistol_Burst
+Anim H 31 %anim_file% male_Com_1H_Gun_Sweep_01
+Anim H 32 %anim_file% male_Com_1H_Gun_Butt_01
+Anim H 34 %anim_file% male_Com_1H_Gun_NoRecoil_01
+Anim H 35 male_pistol.x pistol_shoot
+Anim H 36 %anim_file% male_Com_1H_Maintenance_01
+Anim H 40 male_Dodge.x dodge
+Anim H 42 %anim_file% male_Com_1H_DmgFr_01
+Anim H 44 %anim_file% male_Com_1H_DmgFrMult_01
+Anim H 46 %anim_file% male_Com_1H_Walk_DmgFr_01
+Anim H 52 male_Fallgetup.x Fall_back
+Anim H 54 %anim_file% male_Com_1H_Walk_DmgFr_01
+Anim H 58 male_Fallgetup.x Fall_front
+
+#Rifles
+Anim J 1 male_Rifle.x Rifle_idle
+Anim J 7 male_Rifle.x Rifle_on
+Anim J 8 male_Rifle.x Rifle_off
+Anim J 16 male_Rifle.x Rifle_idle
+Anim J 29 male_Rifle.x Rifle_shoot
+Anim J 30 male_Rifle.x Rifle_burst
+Anim J 35 male_Rifle.x Rifle_shoot
+#Anim J 40 male_Dodge.x dodge
+#Anim J 52 male_Fallgetup.x Fall_back
+#Anim J 58 male_Fallgetup.x Fall_front
+
+# 2 handed
+Anim K 1  male_BigGun.x Biggun_idle
+Anim K 2  %anim_file% male_Com_2HH_Stunned_01
+Anim K 3  male_BigGun.x Biggun_walk
+Anim K 5  male_BigGun.x Biggun_run
+Anim K 7  male_BigGun.x Biggun_off
+Anim K 8  male_BigGun.x Biggun_on
+Anim K 9  %anim_file% male_Def_2HH_Fidget_01
+Anim K 15 %anim_file% male_Def_2HH_to_Com_01
+Anim K 16 %anim_file% male_Com_2HH_Idle_01
+Anim K 17 %anim_file% male_Com_2HH_to_Def_01
+Anim K 28 %anim_file% male_Com_2HH_Throw_01
+Anim K 29 male_Biggun.x Biggun_shoot
+Anim K 30 male_Biggun.x Biggun_Burst
+Anim K 31 %anim_file% male_Com_2HH_Gun_Sweep_01
+Anim K 32 %anim_file% male_Com_2HH_Gun_Butt_01
+Anim K 33 %anim_file% male_Com_2HH_Gun_Burst_01
+Anim K 34 %anim_file% male_Com_2HH_Gun_NoRecoil_01
+Anim K 35 male_Biggun.x Biggun_shoot
+Anim K 36 %anim_file% male_Com_2HH_Maintenance_01
+Anim K 40 %anim_file% male_Com_2HH_Dodge_01
+Anim K 42 %anim_file% male_Com_2HH_DmgFr_01
+Anim K 44 %anim_file% male_Com_2HH_DmgFrMult_01
+Anim K 46 %anim_file% male_Com_2HH_Walk_DmgFr_01
+Anim K 52 %anim_file% male_Com_2HH_Knock_ProneB_01
+Anim K 54 %anim_file% male_Com_2HH_Laydown_ProneB_01
+Anim K 58 %anim_file% male_Com_ProneB_2HH_to_Com_01
+
+# Bazooka
+Anim M 1  male_bazooka.x bazooka_idle
+Anim M 3  male_bazooka.x bazooka_walk
+Anim M 5  male_BigGun.x Biggun_run
+Anim M 7  male_bazooka.x bazooka_on
+Anim M 8  male_bazooka.x bazooka_off
+Anim M 29 male_bazooka.x bazooka_shoot
+Anim M 35 male_bazooka.x bazooka_shoot
+Anim M 40 male_bazooka.x bazooka_dodge
+
+# Minigun
+Anim L 1  male_minigun.x minigun_idle
+Anim L 3  male_minigun.x minigun_walk
+Anim L 5  male_BigGun.x Biggun_run
+Anim L 7  male_minigun.x minigun_on
+Anim L 8  male_minigun.x minigun_off
+Anim L 30 male_minigun.x minigun_shoot
+Anim L 35 male_minigun.x minigun_shoot
+#AnimEqual 1 L K
+#AnimEqual 1 M K
