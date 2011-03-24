@@ -66,7 +66,7 @@ Value 9 Root DisableSubset 0-1-2-3-4-5-6-7-8 Attach Armor_apa.x
 Value 11 Root DisableSubset 0-1-2-3-6-7-8-10 Attach Armor_%anim%_robes.x 
 Value 12 Root DisableSubset 0-1-2-3-6-7-8-10 Attach Armor_%anim%_robes.x Texture 0 robeholy.tga
 
-Value 13   Root Attach armor_combatranger.fo3d
+Value 13   Root Attach armor_%anim%_combatranger.fo3d
 
 Value 14   Root DisableSubset 4-7             
 Attach armor_%anim%_combatarmor.x Texture 0 CA_mk2.jpg
@@ -77,15 +77,18 @@ Attach armor_%anim%_combatarmor.x Texture 0 CA_BOS.jpg
 Value 16   Root DisableSubset 4-7             
 Attach armor_%anim%_combatarmor.x  Texture 0 CA_enc.jpg
 
+Value 17 Root DisableSubset 0-4 Attach armor_%anim%_gunsmith.x
+
 # Head --------------------------
 Layer 4
   Value 5 Root DisableLayer 7 Attach armor_%anim%_combatarmorhelmet.x
   Value 6 Root Root Attach ATR_PowerArmorhelmet.x
   Value 9 Root Attach Armor_apahelmet.x
+  Value 13 Root Attach Armor_%anim%_combatrangerhelmet.x
   Value 14 Root DisableLayer 7 Attach armor_%anim%_combatarmorhelmet.x Texture 0 CA_mk2.jpg
   Value 15 Root DisableLayer 7 Attach armor_%anim%_combatarmorhelmet.x Texture 0 CA_bos.jpg
   Value 16 Root DisableLayer 7 Attach armor_%anim%_combatarmorhelmet.x Texture 0 CA_enc.jpg 
-
+  Value 17 Root DisableLayer 7 Attach armor_male_gasmask.x
 # ArmorClothing --------------------------------------
 Layer 5
    Value 1   Root Subset 4 Texture 0 Male_baseblack.tga
@@ -140,7 +143,17 @@ Value 10   Root Subset 1 Texture 0 %anim%_cljacket_clothing.png
                 Subset 8 Texture 0 %anim%_cljacket_clothing.png
                 Subset 10 Texture 0 %anim%_cljacket_clothing.png
                 
-Value 13   Root Texture 0 ncr10_body.png 
+Value 13   Root
+            Subset 0 Texture 0 ncr10_%anim%_body.png
+            Subset 1 Texture 0 ncr10_%anim%_body.png
+            Subset 2 Texture 0 ncr10_%anim%_body.png
+            Subset 3 Texture 0 ncr10_%anim%_body.png
+            Subset 4 Texture 0 ncr10_%anim%_body.png
+            Subset 5 Texture 0 ncr10_%anim%_body.png
+            Subset 6 Texture 0 ncr10_%anim%_body.png
+            Subset 7 Texture 0 ncr10_%anim%_body.png
+            Subset 8 Texture 0 ncr10_%anim%_body.png
+            Subset 10 Texture 0 ncr10_%anim%_body.png   
 
 Value 16   Root 
             Subset 0 Texture 0 %anim%_CAclothingenc.jpg
@@ -152,6 +165,13 @@ Value 16   Root
             Subset 7 Texture 0 %anim%_CAclothingenc.jpg
             Subset 8 Texture 0 %anim%_CAclothingenc.jpg
             Subset 10 Texture 0 %anim%_CAclothingenc.jpg 
+
+Value 17 Root Subset 1 Texture 0 %anim%_gunsmith_clothing.jpg
+            Subset 3 Texture 0 %anim%_gunsmith_clothing.jpg
+            Subset 6 Texture 0 %anim%_gunsmith_clothing.jpg
+            Subset 7 Texture 0 %anim%_gunsmith_clothing.jpg
+            Subset 8 Texture 0 %anim%_gunsmith_clothing.jpg
+            Subset 10 Texture 0 %anim%_gunsmith_clothing.jpg 
  
 
 # Right Handle
@@ -1043,7 +1063,6 @@ Anim J 40 %anim%_rifle.x rifle_dodge
 Anim K 1  %anim%_BigGun.x Biggun_idle
 Anim K 2  %anim_file% %anim%_Com_2HH_Stunned_01
 Anim K 3  %anim%_BigGun.x Biggun_walk
-Anim K 5  %anim%_BigGun.x Biggun_run
 Anim K 7  %anim%_BigGun.x Biggun_off
 Anim K 8  %anim%_BigGun.x Biggun_on
 Anim K 9  %anim_file% %anim%_Def_2HH_Fidget_01
