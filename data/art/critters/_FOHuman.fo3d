@@ -336,10 +336,10 @@ Layer 7
  Value 41  Attach ATR_%atr%_HaiCrown.x Texture 0 HaiCrown_brownGrey_LG.tga
  Value 42  Root Attach rasta.x
  Value 43  Root Attach Ponytailtest.x
- Value 44  Attach Hair_%anim%_bob.x 
- Value 45  Attach Hair_%anim%_bob.x Texture 0 HairBobBlonde.jpg
- Value 46  Attach Hair_%anim%_bob.x Texture 0 HairBobBrown.jpg
- Value 47  Attach Hair_%anim%_bob.x Texture 0 HairBobBlack.jpg
+ Value 44  Attach Hair_%anim%_bob.x Texture 0 Hair_%anim%_Bob.jpg
+ Value 45  Attach Hair_%anim%_bob.x Texture 0 Hair_%anim%_Bob_Blonde.jpg
+ Value 46  Attach Hair_%anim%_bob.x Texture 0 Hair_%anim%_Bob_Brown.jpg
+ Value 47  Attach Hair_%anim%_bob.x Texture 0 Hair_%anim%_Bob_Black.jpg
  Value 48  Attach ATR_%atr%_HaiCrown.x Texture 0 HaiCrown_red_LG.tga
  Value 49  Attach ATR_%atr%_HaiCrown.x Texture 0 HaiCrown_redGrey_LG.tga
  Value 50  Attach ATR_%atr%_HaiGreaser.x
