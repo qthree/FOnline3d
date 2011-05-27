@@ -183,8 +183,8 @@ Layer 1
  Value 5   Attach WP_22Autoloader.fo3d                              Link R_Handle_1  Scale 50
  Value 6   Attach WP_22Autoloader_GunSilencer.fo3d                  Link R_Handle_1  Scale 50
  Value 7   Attach WP_2mmGaussPistol.fo3d                            Link R_Handle_1  Scale 50
- Value 8   Attach WP_44Revolver.fo3d                                Link R_Handle_1  Scale 50
- Value 9   Attach WP_45Autoloader.fo3d                              Link R_Handle_1  Scale 1.07 RotY -90 MoveX 2
+ Value 8   Attach WP_10mmpistol.x                                Link R_Handle_1  Scale 50
+ Value 9   Attach WP_10mmsmg.x                              Link R_Handle_1  Scale 1.07 RotY -90 MoveX 2
  Value 10  Attach WP_45Autoloader_GunExtClip.fo3d                   Link R_Handle_1  Scale 50
  Value 11  Attach WP_45Autoloader_GunExtClip_GunSilencer.fo3d       Link R_Handle_1  Scale 50
  Value 12  Attach WP_45Autoloader_GunSilencer.fo3d                  Link R_Handle_1  Scale 50
@@ -235,7 +235,10 @@ Layer 1
  Value 100 Attach IT_FirstAidKit.x                                  Link R_Handle_1   Scale 50 
  Value 101 Attach IT_SecurityKit.x                                  Link R_Handle_1   Scale 50
  Value 102 Attach IT_Toolkit.x                                      Link R_Handle_1   Scale 50
- Value 103 Attach wp_powerfist.x                                      
+ Value 120 Attach WP_alienblaster.x                                   Link R_Handle_1   Scale 50
+ Value 235 Attach wp_powerfist.x                                      
+ Value 241 Attach WP_223pistol.x                                      Link R_Handle_1   Scale 50
+ Value 313 Attach WP_44magnum.x                                       Link R_Handle_1   Scale 10
 
 # Left Handle
 Layer 2
@@ -298,7 +301,10 @@ Layer 2
  Value 100 Attach IT_FirstAidKit.x                                  Link L_Hand RotX -90 RotZ 75 MoveZ 0.11 MoveX -0.03
  Value 101 Attach IT_SecurityKit.x                                  Link L_Hand RotX -90 RotZ 75 MoveZ 0.11 MoveX -0.03
  Value 102 Attach IT_Toolkit.x                                      Link L_Hand RotX -90 RotZ 75 MoveZ 0.11 MoveX -0.03
-
+ Value 120 Attach WP_alienblaster.x                                   Link R_Thigh RotX -90   Scale 50
+ Value 235 Attach wp_powerfist.x                                      
+ Value 241 Attach WP_223pistol.x                                      Link R_Thigh RotX -90   Scale 50
+ Value 313 Attach WP_44magnum.x                                       Link R_Thigh RotX -90   Scale 10
 
 # Hair
 Layer 7
@@ -857,6 +863,7 @@ Value 12 Root DisableLayer 5 Subset 0 Texture 0 %anim%_cloth_lightBrown.jpg
 Layer 15
  Value 1 Attach ATR_HumMNor_BacPaLg01.x Link Spine_1 Scale 70 RotZ -90 RotX 180 MoveX -88 MoveZ -5 RotY 5
  Value 2 Attach ATR_HumMNor_BacPaSm01.x Link Spine_1 Scale 70 RotZ -90 RotX 180 MoveX -88 MoveZ -5 RotY 5
+ Value 3 Attach It_backpackCA.x Link Spine_1 Scale 0.6 RotZ -90 RotX 180 MoveX -6 MoveZ -8 RotY 5
 
 
 
