@@ -196,9 +196,9 @@ Layer 1
  Value 18  Attach WP_9mmAutoloader_GunSilencer.fo3d                 Link R_Handle_1  Scale 50
  Value 19  Attach fxtest.x                                Link R_Handle_1  Scale 1.7 RotY 180 MoveX 2
  Value 20  Attach WP_9mmMachinePistol_GunExtClip.fo3d               Link R_Handle_1  Scale 50
- Value 21  Attach WP_9mmMachinePistol_GunExtClip_GunSilencer.fo3d   Link R_Handle_1  Scale 50
+ Value 21  Attach WP_brassknuckles.x   Link R_Hand  Scale 0
  Value 22  Attach WP_9mmMachinePistol_GunExtClip_GunSuppressor.fo3d Link R_Handle_1  Scale 50
- Value 23  Attach WP_9mmMachinePistol_GunSilencer.fo3d              Link R_Handle_1  Scale 50
+ Value 23  Attach WP_assaultrifle.x                                 Link R_Handle_1  Scale 2
  Value 24  Attach WP_9mmMachinePistol_GunSuppressor.fo3d            Link R_Handle_1  Scale 50
  Value 25  Attach scorcher.x                                        Link R_Handle_1  Scale 0.08 RotY -90 MoveY 1 MoveX 2
  Value 26  Attach WP_ArcWelder.x                                    Link R_Handle_1  Scale 50
@@ -239,6 +239,10 @@ Layer 1
  Value 235 Attach wp_powerfist.x                                      
  Value 241 Attach WP_223pistol.x                                      Link R_Handle_1   Scale 50
  Value 313 Attach WP_44magnum.x                                       Link R_Handle_1   Scale 10
+ Value 350 Attach WP_bozar.x                                       Link R_Handle_1 Scale 0.6
+ Value 354 Attach WP_pancor.x                                       Link R_Handle_1   Scale 0.5
+ Value 392 Attach WP_gaussrifle.x                                       Link R_Handle_1   Scale 10
+ Value 405 Attach WP_assaultrifleext.x                                       Link R_Handle_1   Scale 2
 
 # Left Handle
 Layer 2
@@ -264,7 +268,7 @@ Layer 2
  Value 20  Attach WP_9mmMachinePistol_GunExtClip.fo3d               Link L_Hand RotX -90 RotZ 75 MoveZ 0.11 MoveX -0.03
  Value 21  Attach WP_9mmMachinePistol_GunExtClip_GunSilencer.fo3d   Link L_Hand RotX -90 RotZ 75 MoveZ 0.11 MoveX -0.03
  Value 22  Attach WP_9mmMachinePistol_GunExtClip_GunSuppressor.fo3d Link L_Hand RotX -90 RotZ 75 MoveZ 0.11 MoveX -0.03
- Value 23  Attach WP_9mmMachinePistol_GunSilencer.fo3d              Link L_Hand RotX -90 RotZ 75 MoveZ 0.11 MoveX -0.03
+ Value 23  Attach WP_assaultrifle.x                                 Link Spine_1 Scale 0.17 MoveZ -10 MoveX 15 RotX 70 RotZ 90
  Value 24  Attach WP_9mmMachinePistol_GunSuppressor.fo3d            Link L_Hand RotX -90 RotZ 75 MoveZ 0.11 MoveX -0.03
  Value 25  Attach WP_APOLLOLaserPistol.fo3d                         Link L_Hand RotX -90 RotZ 75 MoveZ 0.11 MoveX -0.03
  Value 26  Attach WP_ArcWelder.x                                    Link L_Hand RotX -90 RotZ 75 MoveZ 0.11 MoveX -0.03
@@ -305,6 +309,10 @@ Layer 2
  Value 235 Attach wp_powerfist.x                                      
  Value 241 Attach WP_223pistol.x                                      Link R_Thigh RotX -90   Scale 50
  Value 313 Attach WP_44magnum.x                                       Link R_Thigh RotX -90   Scale 10
+ Value 350 Attach WP_bozar.x                                       Link Spine_1 Scale 0.6
+ Value 354 Attach WP_pancor.x                                       Link Spine_1   Scale 0.5 RotX 90 MoveZ -9 RotZ 30 RotY 55
+ Value 392 Attach WP_gaussrifle.x                                       Link Spine_1   Scale 10 RotX 90 MoveZ -9 RotZ 30 RotY 55
+ Value 405 Attach WP_assaultrifleext.x                                       Link Spine_1   Scale 2
 
 # Hair
 Layer 7
