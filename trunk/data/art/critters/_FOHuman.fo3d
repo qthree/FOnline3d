@@ -78,6 +78,7 @@ Value 16   Root DisableSubset 4-7
 Attach armor_%anim%_combatarmor.x  Texture 0 CA_enc.jpg
 
 Value 17 Root DisableSubset 0-4 Attach armor_%anim%_gunsmith.x
+Value 18 Root DisableSubset 0-1-2 Attach armor_%anim%_suit.x
 
 # Head --------------------------
 Layer 4
@@ -89,6 +90,7 @@ Layer 4
   Value 15 Root DisableLayer 7 Attach armor_%anim%_combatarmorhelmet.x Texture 0 CA_bos.jpg
   Value 16 Root DisableLayer 7 Attach armor_%anim%_combatarmorhelmet.x Texture 0 CA_enc.jpg 
   Value 17 Root DisableLayer 7 Attach armor_male_gasmask.x
+  Value 18 Root DisableLayer 7 Attach armor_suit_hat.x
 # ArmorClothing --------------------------------------
 Layer 5
    Value 1   Root Subset 4 Texture 0 Male_baseblack.tga
@@ -172,7 +174,15 @@ Value 17 Root Subset 1 Texture 0 %anim%_gunsmith_clothing.jpg
             Subset 7 Texture 0 %anim%_gunsmith_clothing.jpg
             Subset 8 Texture 0 %anim%_gunsmith_clothing.jpg
             Subset 10 Texture 0 %anim%_gunsmith_clothing.jpg 
- 
+
+Value 18 Root Subset 1 Texture 0 Armor_%anim%_suit_clothing.jpg
+Subset 3 Texture 0 Armor_%anim%_suit_clothing.jpg
+Subset 4 Texture 0 Armor_%anim%_suit_clothing.jpg
+Subset 6 Texture 0 Armor_%anim%_suit_clothing.jpg
+Subset 7 Texture 0 Armor_%anim%_suit_clothing.jpg
+Subset 8 Texture 0 Armor_%anim%_suit_clothing.jpg
+Subset 10 Texture 0 Armor_%anim%_suit_clothing.jpg
+
 
 # Right Handle
 Layer 1
