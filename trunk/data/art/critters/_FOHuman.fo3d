@@ -190,24 +190,24 @@ Layer 1
  Value 2   Attach WP_223Autoloader.fo3d                             Link R_Handle_1  Scale 50
  Value 3   Attach WP_223Autoloader_GunSilencer.fo3d                 Link R_Handle_1  Scale 50
  Value 4   Attach WP_Minigun.fo3d                                Link R_Handle_1  
- Value 5   Attach WP_22Autoloader.fo3d                              Link R_Handle_1  Scale 50
+ Value 5   Attach WP_club.x                                         Link R_Handle_1  Scale 1.6
  Value 6   Attach WP_22Autoloader_GunSilencer.fo3d                  Link R_Handle_1  Scale 50
  Value 7   Attach WP_2mmGaussPistol.fo3d                            Link R_Handle_1  Scale 50
- Value 8   Attach WP_10mmpistol.x                                Link R_Handle_1  Scale 50
- Value 9   Attach WP_10mmsmg.x                              Link R_Handle_1  Scale 1.07 RotY -90 MoveX 2
+ Value 8   Attach WP_10mmpistol.x                                  Link R_Handle_1  Scale 2.3 RotY -90 RotZ 10 MoveX 4 MoveY 1
+ Value 9   Attach WP_10mmsmg.x                                     Link R_Handle_1  Scale 1.8 RotY -90 RotZ 10 MoveX 4 MoveY 1
  Value 10  Attach WP_45Autoloader_GunExtClip.fo3d                   Link R_Handle_1  Scale 50
- Value 11  Attach WP_45Autoloader_GunExtClip_GunSilencer.fo3d       Link R_Handle_1  Scale 50
- Value 12  Attach WP_45Autoloader_GunSilencer.fo3d                  Link R_Handle_1  Scale 50
+ Value 11  Attach WP_Flamer.x                                       Link Spine_1 Scale 0.25 MoveZ -10 MoveX 32 MoveY 5 RotX 110 RotZ -100 RotY 115
+ Value 12  Attach WP_Minigun.fo3d                                Link R_Handle_1
  Value 13  Attach WP_45Revolver.fo3d                                Link R_Handle_1  Scale 50
  Value 14  Attach WP_50Revolver.fo3d                                Link R_Handle_1  Scale 50
  Value 15  Attach WP_9mmAutoloader.fo3d                             Link R_Handle_1  Scale 70 RotX -90
- Value 16  Attach WP_9mmAutoloader_GunExtClip.fo3d                  Link R_Handle_1  Scale 50
+ Value 16  Attach WP_laserpistol.x                                  Link R_Handle_1  Scale 1.4 RotY -90 RotZ 10 MoveX 4
  Value 17  Attach WP_9mmAutoloader_GunExtClip_GunSilencer.fo3d      Link R_Handle_1  Scale 50
  Value 18  Attach WP_9mmAutoloader_GunSilencer.fo3d                 Link R_Handle_1  Scale 50
  Value 19  Attach fxtest.x                                Link R_Handle_1  Scale 1.7 RotY 180 MoveX 2
  Value 20  Attach WP_9mmMachinePistol_GunExtClip.fo3d               Link R_Handle_1  Scale 50
- Value 21  Attach WP_brassknuckles.x   Link R_Hand  Scale 0
- Value 22  Attach WP_9mmMachinePistol_GunExtClip_GunSuppressor.fo3d Link R_Handle_1  Scale 50
+ Value 21  Attach WP_brassknuckles.x                                Link R_Hand  Scale 0
+ Value 22  Attach WP_14mmpistol.x                                   Link R_Handle_1  Scale 0.6 RotY -90 RotZ 10 MoveX 4 MoveY 1
  Value 23  Attach WP_assaultrifle.x                                 Link R_Handle_1  Scale 3 RotY -75 RotZ -10 MoveX 2
  Value 24  Attach WP_9mmMachinePistol_GunSuppressor.fo3d            Link R_Handle_1  Scale 50
  Value 25  Attach scorcher.x                                        Link R_Handle_1  Scale 0.08 RotY -90 MoveY 1 MoveX 2
@@ -235,39 +235,52 @@ Layer 1
  Value 47  Attach WP_Machete.x                                      Link R_Handle_1  Scale 50
  Value 48  Attach WP_NightStick.x                                   Link R_Handle_1  Scale 60 RotX 90 RotY 6
  Value 49  Attach WP_Rock.x                                         Link R_Handle_1  Scale 50
- Value 50  Attach WP_huntingrifle.fo3d                               Link R_Handle_1 Scale 0.17 RotY -70 RotX 10 #RotZ -20
+ Value 50  Attach WP_huntingrifle.fo3d                              Link R_Handle_1 Scale 0.17 RotY -70 RotX 10 #RotZ -20
  Value 51  Attach WP_Shiv.x                                         Link R_Handle_1  Scale 50
  Value 52  Attach WP_Switchblade.x                                  Link R_Handle_1  Scale 50
  Value 53  Attach WP_TableLeg.x                                     Link R_Handle_1  Scale 50
- Value 54  Attach WP_CombatKnife.x                                Link R_Handle_1  Scale 50 RotX 90
+ Value 54  Attach WP_CombatKnife.x                                  Link R_Handle_1  Scale 50 RotX 90
  Value 55  Attach WP_Speartest.x                                    Link R_Handle_1 Scale 0.8 RotX 90 MoveX 5
- Value 56  Attach WP_Sledgehammer.x                            Link L_Handle_1 RotX 90 Scale 1.05 RotY 6 RotZ -70
+ Value 56  Attach WP_Sledgehammer.x                                 Link L_Handle_1 RotX 90 Scale 1.05 RotY 6 RotZ -70
  Value 100 Attach IT_FirstAidKit.x                                  Link R_Handle_1   Scale 50 
  Value 101 Attach IT_SecurityKit.x                                  Link R_Handle_1   Scale 50
  Value 102 Attach IT_Toolkit.x                                      Link R_Handle_1   Scale 50
- Value 120 Attach WP_alienblaster.x                                   Link R_Handle_1   Scale 50
+ Value 118 Attach WP_laserrifle.x                                   Link R_Handle_1   Scale 0.25 RotY -75 RotZ -10 MoveX 2
+ Value 120 Attach WP_alienblaster.x                                 Link R_Handle_1  Scale 1.5 RotY -90 RotZ 10 MoveX 2 MoveY 1
+ Value 161 Attach WP_bbgun.x                                        Link R_Handle_1   Scale 1.3 RotY -75 RotZ -10 MoveX 2 
+ Value 162 Attach WP_bbgunLE.x                                      Link R_Handle_1   Scale 1.25 RotY -75 RotZ -10 MoveX 2 
  Value 235 Attach wp_powerfist.x                                      
- Value 241 Attach WP_223pistol.x                                      Link R_Handle_1   Scale 50
- Value 313 Attach WP_44magnum.x                                       Link R_Handle_1   Scale 10
- Value 350 Attach WP_bozar.x                                       Link R_Handle_1 Scale 0.6
+ Value 241 Attach WP_223pistol.x                                    Link R_Handle_1  Scale 3.7 RotY -90 RotZ 10 MoveX 4 MoveY 1
+ Value 242 Attach WP_combatshotgun.x                                Link R_Handle_1   Scale 0.9 RotY -75 RotZ -10 MoveX 2
+ Value 268 Attach WP_hkcaws.x                                       Link R_Handle_1   Scale 6 RotY -75 RotZ -10 MoveX 2 
+ Value 313 Attach WP_44magnum.x                                     Link R_Handle_1  Scale 0.75 RotY -90 RotZ 10 MoveX 4 MoveY 1
+ Value 350 Attach WP_bozar.x                                        Link R_Handle_1 Scale 0.6
+ Value 351 Attach WP_fnfal.x                                        Link R_Handle_1   Scale 1.4 RotY -75 RotZ -10 MoveX 2
  Value 354 Attach WP_pancor.x                                       Link R_Handle_1   Scale 0.5
- Value 392 Attach WP_gaussrifle.x                                       Link R_Handle_1   Scale 8 RotY -75 RotZ -10 MoveX 2
- Value 405 Attach WP_assaultrifleext.x                                       Link R_Handle_1   Scale 3 RotY -75 RotZ -10 MoveX 2
+ Value 389 Attach WP_Minigun.fo3d Texture 0 ITEM_avengerminigun.tga   Link R_Handle_1
+ Value 392 Attach WP_gaussrifle.x                                   Link R_Handle_1   Scale 8 RotY -75 RotZ -10 MoveX 2
+ Value 395 Attach WP_vindicator.fo3d                                Link R_Handle_1 
+ Value 401 Attach WP_laserrifleext.x                                Link R_Handle_1  Scale 0.25 RotY -110 RotZ -30
+ Value 403 Attach WP_fnfal_redsight.x                               Link R_Handle_1   Scale 1.4 RotY -75 RotZ -10 MoveX 2
+ Value 405 Attach WP_assaultrifleext.x                              Link R_Handle_1   Scale 3 RotY -75 RotZ -10 MoveX 2
+ Value 496 Root DisableSubset 5 Attach WP_boxinggloves.x
+
+
 
 # Left Handle
 Layer 2
  Value 1   Attach WP_15mmArtemisRailGun.x                           Link L_Hand RotX -90 RotZ 75 MoveZ 0.11 MoveX -0.03
  Value 2   Attach WP_223Autoloader.fo3d                             Link L_Hand RotX -90 RotZ 75 MoveZ 0.11 MoveX -0.03
  Value 3   Attach WP_223Autoloader_GunSilencer.fo3d                 Link L_Hand RotX -90 RotZ 75 MoveZ 0.11 MoveX -0.03
- Value 4   Attach WP_Minigun.fo3d                                Link Spine_1 RotZ 180 RotY 80 MoveZ -20 MoveX 16 MoveY -14
- Value 5   Attach WP_22Autoloader.fo3d                              Link L_Hand RotX -90 RotZ 75 MoveZ 0.11 MoveX -0.03
+ Value 4   Attach WP_Minigun.x                                Link Spine_1 RotZ 180 RotY 80 MoveZ -20 MoveX 16 MoveY -14
+ Value 5   Attach WP_club.x                              Link L_Hand RotX -90 RotZ 75 MoveZ 0.11 MoveX -0.03
  Value 6   Attach WP_22Autoloader_GunSilencer.fo3d                  Link L_Hand RotX -90 RotZ 75 MoveZ 0.11 MoveX -0.03
  Value 7   Attach WP_2mmGaussPistol.fo3d                            Link L_Hand RotX -90 RotZ 75 MoveZ 0.11 MoveX -0.03 
  Value 8   Attach WP_44Revolver.fo3d                                Link R_Thigh Scale 70
  Value 9   #Attach WP_45Autoloader.fo3d                              Link R_Thigh Scale 1 RotY 90 MoveY 3.7 MoveX 3 MoveZ -4
  Value 10  Attach WP_45Autoloader_GunExtClip.fo3d                   Link L_Hand RotX -90 RotZ 75 MoveZ 0.11 MoveX -0.03
- Value 11  Attach WP_45Autoloader_GunExtClip_GunSilencer.fo3d       Link L_Hand RotX -90 RotZ 75 MoveZ 0.11 MoveX -0.03
- Value 12  Attach WP_45Autoloader_GunSilencer.fo3d                  Link L_Hand RotX -90 RotZ 75 MoveZ 0.11 MoveX -0.03
+ Value 11  Attach WP_Flamer.x                                       Link Spine_1 Scale 0.25 MoveZ -10 MoveX 32 MoveY 5 RotX 110 RotZ -100 RotY 115
+ Value 12  Attach WP_Minigun.fo3d                                Link R_Handle_1
  Value 13  Attach WP_45Revolver.fo3d                                Link L_Hand RotX -90 RotZ 75 MoveZ 0.11 MoveX -0.03
  Value 14  Attach WP_50Revolver.fo3d                                Link L_Hand RotX -90 RotZ 75 MoveZ 0.11 MoveX -0.03
  Value 15  Attach WP_9mmAutoloader.fo3d                             Link R_Thigh RotX -90 RotZ 75 MoveZ 0.11 MoveX -0.03 Scale 70
@@ -277,7 +290,7 @@ Layer 2
  Value 19  #Attach WP_GreaseGun.fo3d                                 Link R_Thigh RotX -90 
  Value 20  Attach WP_9mmMachinePistol_GunExtClip.fo3d               Link L_Hand RotX -90 RotZ 75 MoveZ 0.11 MoveX -0.03
  Value 21  Attach WP_9mmMachinePistol_GunExtClip_GunSilencer.fo3d   Link L_Hand RotX -90 RotZ 75 MoveZ 0.11 MoveX -0.03
- Value 22  Attach WP_9mmMachinePistol_GunExtClip_GunSuppressor.fo3d Link L_Hand RotX -90 RotZ 75 MoveZ 0.11 MoveX -0.03
+ Value 22  Attach WP_14mmpistol.x                                   Link R_Thigh Scale 0.6
  Value 23  Attach WP_assaultrifle.x                                 Link Spine_1 Scale 3 MoveZ -10 MoveX 15 RotX 70 RotZ 90
  Value 24  Attach WP_9mmMachinePistol_GunSuppressor.fo3d            Link L_Hand RotX -90 RotZ 75 MoveZ 0.11 MoveX -0.03
  Value 25  Attach WP_APOLLOLaserPistol.fo3d                         Link L_Hand RotX -90 RotZ 75 MoveZ 0.11 MoveX -0.03
@@ -316,13 +329,22 @@ Layer 2
  Value 101 Attach IT_SecurityKit.x                                  Link L_Hand RotX -90 RotZ 75 MoveZ 0.11 MoveX -0.03
  Value 102 Attach IT_Toolkit.x                                      Link L_Hand RotX -90 RotZ 75 MoveZ 0.11 MoveX -0.03
  Value 120 Attach WP_alienblaster.x                                   Link R_Thigh RotX -90   Scale 50
+ Value 161 Attach WP_bbgun.x                                         Link Spine_1   Scale 10 RotX 90 MoveZ -9 RotZ 30 RotY 55
+ Value 162 Attach WP_bbgunle.x                                       Link Spine_1   Scale 10 RotX 90 MoveZ -9 RotZ 30 RotY 55
  Value 235 Attach wp_powerfist.x                                      
  Value 241 Attach WP_223pistol.x                                      Link R_Thigh RotX -90   Scale 50
+ Value 242 Attach WP_combatshotgun.x                                  Link Spine_1   Scale 10 RotX 90 MoveZ -9 RotZ 30 RotY 55
+ Value 268 Attach WP_hkcaws.x                                         Link Spine_1   Scale 10 RotX 90 MoveZ -9 RotZ 30 RotY 55
  Value 313 Attach WP_44magnum.x                                       Link R_Thigh RotX -90   Scale 10
- Value 350 Attach WP_bozar.x                                       Link Spine_1 Scale 0.6
- Value 354 Attach WP_pancor.x                                       Link Spine_1   Scale 0.5 RotX 90 MoveZ -9 RotZ 30 RotY 55
+ Value 350 Attach WP_bozar.x                                          Link Spine_1 Scale 0.6
+ Value 354 Attach WP_pancor.x                                         Link Spine_1   Scale 0.5 RotX 90 MoveZ -9 RotZ 30 RotY 55
+ Value 351 Attach WP_fnfal.x                                          Link Spine_1   Scale 1.4 RotX 90 MoveZ -9 RotZ 30 RotY 55
  Value 392 Attach WP_gaussrifle.x                                       Link Spine_1   Scale 10 RotX 90 MoveZ -9 RotZ 30 RotY 55
- Value 405 Attach WP_assaultrifleext.x                                       Link Spine_1   Scale 3
+ Value 395 Attach WP_vindicator.x                              Link Spine_1 RotZ 180 RotY 80 MoveZ -20 MoveX 16 MoveY -14
+ Value 403 Attach WP_fnfal_redsight.x                              Link Spine_1   Scale 1.4 RotX 90 MoveZ -9 RotZ 30 RotY 55
+ Value 405 Attach WP_assaultrifleext.x                              Link Spine_1   Scale 10 RotX 90 MoveZ -9 RotZ 30 RotY 55
+ 
+
 
 # Hair
 Layer 7
