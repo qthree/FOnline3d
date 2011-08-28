@@ -7,6 +7,11 @@
 Root
 Speed 1
 Scale 0.0165
+Effect 3D_SpecularMapping.fx
+EffDef Floats Specular_Power 5.0
+
+
+
 
 #
 # Layers
@@ -15,26 +20,26 @@ Scale 0.0165
 
 # Skin
 Layer 0
- Value 0   Root Texture 0 %anim%_Skin_white.jpg
- Value 1   Root Texture 0 %anim%_Skin_whiteTT.jpg
- Value 2   Root Texture 0 %anim%_Skin_whiteYT.jpg
- Value 3   Root Texture 0 %anim%_Skin_Black.jpg
- Value 4   Root Texture 0 %anim%_Skin_BlackTT.jpg
- Value 5   Root Texture 0 %anim%_Skin_BlackYT.jpg
- Value 6   Root Texture 0 %anim%_Skin_indian.jpg
- Value 7   Root Texture 0 %anim%_Skin_indianTT.jpg
- Value 8   Root Texture 0 %anim%_Skin_indianYT.jpg
- Value 9   Root Texture 0 %anim%_Skin_dtanned.jpg
- Value 10  Root Texture 0 %anim%_Skin_dtannedTT.jpg
- Value 11  Root Texture 0 %anim%_Skin_dtannedYT.jpg
- Value 12  Root Texture 0 %anim%_Skin_pale.jpg
- Value 13  Root Texture 0 %anim%_Skin_paleTT.jpg
- Value 14  Root Texture 0 %anim%_Skin_paleYT.jpg
- Value 15  Root Texture 0 %anim%_Skin_yellow.jpg
- Value 16  Root Texture 0 %anim%_Skin_yellowTT.jpg
- Value 17  Root Texture 0 %anim%_Skin_yellowYT.jpg
- Value 18  Root Texture 0 %anim%_basefal.tga
- Value 19  Root Texture 0 %anim%_baseblack.tga
+ Value 0   Root Texture 0 %anim%_Skin_white.jpg Texture 2 %anim%_skin_spec.tga
+ Value 1   Root Texture 0 %anim%_Skin_whiteTT.jpg Texture 2 %anim%_skin_spec.tga
+ Value 2   Root Texture 0 %anim%_Skin_whiteYT.jpg Texture 2 %anim%_skin_spec.tga
+ Value 3   Root Texture 0 %anim%_Skin_Black.jpg Texture 2 %anim%_skin_spec.tga
+ Value 4   Root Texture 0 %anim%_Skin_BlackTT.jpg Texture 2 %anim%_skin_spec.tga
+ Value 5   Root Texture 0 %anim%_Skin_BlackYT.jpg Texture 2 %anim%_skin_spec.tga
+ Value 6   Root Texture 0 %anim%_Skin_indian.jpg Texture 2 %anim%_skin_spec.tga
+ Value 7   Root Texture 0 %anim%_Skin_indianTT.jpg  Texture 2 %anim%_skin_spec.tga
+ Value 8   Root Texture 0 %anim%_Skin_indianYT.jpg Texture 2 %anim%_skin_spec.tga
+ Value 9   Root Texture 0 %anim%_Skin_dtanned.jpg Texture 2 %anim%_skin_spec.tga
+ Value 10  Root Texture 0 %anim%_Skin_dtannedTT.jpg Texture 2 %anim%_skin_spec.tga
+ Value 11  Root Texture 0 %anim%_Skin_dtannedYT.jpg Texture 2 %anim%_skin_spec.tga
+ Value 12  Root Texture 0 %anim%_Skin_pale.jpg Texture 2 %anim%_skin_spec.tga
+ Value 13  Root Texture 0 %anim%_Skin_paleTT.jpg Texture 2 %anim%_skin_spec.tga
+ Value 14  Root Texture 0 %anim%_Skin_paleYT.jpg Texture 2 %anim%_skin_spec.tga
+ Value 15  Root Texture 0 %anim%_Skin_yellow.jpg Texture 2 %anim%_skin_spec.tga
+ Value 16  Root Texture 0 %anim%_Skin_yellowTT.jpg Texture 2 %anim%_skin_spec.tga
+ Value 17  Root Texture 0 %anim%_Skin_yellowYT.jpg Texture 2 %anim%_skin_spec.tga
+ Value 18  Root Texture 0 %anim%_basefal.tga 
+ Value 19  Root Texture 0 %anim%_baseblack.tga 
  Value 20  Root Texture 0 %anim%_jmpyellow.tga
  Value 21  Root Texture 0 %anim%_pickard.tga
  Value 22  Root Texture 0 %anim%_basemetal.tga
@@ -42,11 +47,11 @@ Layer 0
 # Body
 Layer 3
  Value 1   Root Attach Armor_%anim%_leatherjacket.X  
- Value 2   Root DisableSubset 4 Attach armor_%anim%_metalarmor.x
- Value 3  
+ Value 2   Root DisableSubset 4 Attach armor_%anim%_metalarmor.fo3d 
+ Value 3   Root DisableSubset 4 Attach armor_%anim%_metalarmor.fo3d
  Value 4                  
  Value 5   Root DisableSubset 4-7             
-Attach armor_%anim%_combatarmor.x            
+Attach armor_%anim%_combatarmor.fo3d            
  Value 6   Root DisableSubset 0-1-2-3-4-5-6-7-8     Attach ATR_PowerArmor.x 
 
 Value 7 Root DisableSubset 4-7           
@@ -69,119 +74,119 @@ Value 12 Root DisableSubset 0-1-2-3-6-7-8-10 Attach Armor_%anim%_robes.x Texture
 Value 13   Root Attach armor_%anim%_combatranger.fo3d
 
 Value 14   Root DisableSubset 4-7             
-Attach armor_%anim%_combatarmor.x Texture 0 CA_mk2.jpg
+Attach armor_%anim%_combatarmor.fo3d 
 
 Value 15   Root DisableSubset 4-7             
-Attach armor_%anim%_combatarmor.x Texture 0 CA_BOS.jpg
+Attach armor_%anim%_combatarmor.fo3d
 
 Value 16   Root DisableSubset 4-7             
-Attach armor_%anim%_combatarmor.x  Texture 0 CA_enc.jpg
+Attach armor_%anim%_combatarmor.fo3d
 
 Value 17 Root DisableSubset 0-4 Attach armor_%anim%_gunsmith.x
 Value 18 Root DisableSubset 0-1-2 Attach armor_%anim%_suit.x
 
 # Head --------------------------
 Layer 4
-  Value 5 Root DisableLayer 7 Attach armor_%anim%_combatarmorhelmet.x
+  Value 5 Root DisableLayer 7 Attach armor_%anim%_combatarmorhelmet.fo3d
   Value 6 Root Root Attach ATR_PowerArmorhelmet.x
   Value 9 Root Attach Armor_apahelmet.x
   Value 13 Root Attach Armor_%anim%_combatrangerhelmet.x
-  Value 14 Root DisableLayer 7 Attach armor_%anim%_combatarmorhelmet.x Texture 0 CA_mk2.jpg
-  Value 15 Root DisableLayer 7 Attach armor_%anim%_combatarmorhelmet.x Texture 0 CA_bos.jpg
-  Value 16 Root DisableLayer 7 Attach armor_%anim%_combatarmorhelmet.x Texture 0 CA_enc.jpg 
+  Value 14 Root DisableLayer 7 Attach armor_%anim%_combatarmorhelmet.fo3d
+  Value 15 Root DisableLayer 7 Attach armor_%anim%_combatarmorhelmet.fo3d
+  Value 16 Root DisableLayer 7 Attach armor_%anim%_combatarmorhelmet.fo3d 
   Value 17 Root DisableLayer 7 Attach armor_male_gasmask.x
   Value 18 Root DisableLayer 7 Attach armor_suit_hat.x
 # ArmorClothing --------------------------------------
 Layer 5
-   Value 1   Root Subset 4 Texture 0 Male_baseblack.tga
+   Value 1   Root Subset 4 Texture 0 Male_baseblack.tga Texture 2 no_spec.tga
                 Subset 3 Texture 0 %anim%_leatherpants.tga
                 Subset 6 Texture 0 %anim%_leatherpants.tga
                 Subset 7 Texture 0 %anim%_leatherpants.tga
                 Subset 8 Texture 0 %anim%_leatherpants.tga
                 Subset 10 Texture 0 %anim%_leatherpants.tga                  
  Value 2    Root 
-            Subset 3 Texture 0 %anim%_metaloutfit.tga
-            Subset 1 Texture 0 %anim%_metaloutfit.tga
-            Subset 6 Texture 0 %anim%_metaloutfit.tga
-            Subset 7 Texture 0 %anim%_metaloutfit.tga
-            Subset 8 Texture 0 %anim%_metaloutfit.tga
-            Subset 10 Texture 0 %anim%_metaloutfit.tga          
+            Subset 3 Texture 0 %anim%_metaloutfit.tga Texture 2 no_spec.tga
+            Subset 1 Texture 0 %anim%_metaloutfit.tga Texture 2 no_spec.tga
+            Subset 6 Texture 0 %anim%_metaloutfit.tga Texture 2 no_spec.tga
+            Subset 7 Texture 0 %anim%_metaloutfit.tga Texture 2 no_spec.tga
+            Subset 8 Texture 0 %anim%_metaloutfit.tga Texture 2 no_spec.tga
+            Subset 10 Texture 0 %anim%_metaloutfit.tga  Texture 2 no_spec.tga   
  Value 3  
 
    
-Value 4   Root Subset 0 Texture 0 %anim%_cloth.png
-Root Subset 1 Texture 0 %anim%_cloth.png 
-Root Subset 2 Texture 0 %anim%_cloth.png 
-Root Subset 3 Texture 0 %anim%_cloth.png 
-Root Subset 4 Texture 0 %anim%_cloth.png 
-Root Subset 6 Texture 0 %anim%_cloth.png 
-Root Subset 7 Texture 0 %anim%_cloth.png 
-Root Subset 8 Texture 0 %anim%_cloth.png
-Root Subset 10 Texture 0 %anim%_cloth.png               
+Value 4   Root Subset 0 Texture 0 %anim%_cloth.png Texture 2 no_spec.tga
+Root Subset 1 Texture 0 %anim%_cloth.png Texture 2 no_spec.tga
+Root Subset 2 Texture 0 %anim%_cloth.png Texture 2 no_spec.tga
+Root Subset 3 Texture 0 %anim%_cloth.png Texture 2 no_spec.tga
+Root Subset 4 Texture 0 %anim%_cloth.png Texture 2 no_spec.tga
+Root Subset 6 Texture 0 %anim%_cloth.png Texture 2 no_spec.tga
+Root Subset 7 Texture 0 %anim%_cloth.png Texture 2 no_spec.tga
+Root Subset 8 Texture 0 %anim%_cloth.png Texture 2 no_spec.tga
+Root Subset 10 Texture 0 %anim%_cloth.png Texture 2 no_spec.tga             
  Value 5   Root 
-            Subset 0 Texture 0 %anim%_CAclothing.jpg
-            Subset 1 Texture 0 %anim%_CAclothing.jpg
-            Subset 2 Texture 0 %anim%_CAclothing.jpg
-            Subset 3 Texture 0 %anim%_CAclothing.jpg
-            Subset 5 Texture 0 %anim%_CAclothing.jpg
-            Subset 6 Texture 0 %anim%_CAclothing.jpg
-            Subset 7 Texture 0 %anim%_CAclothing.jpg
-            Subset 8 Texture 0 %anim%_CAclothing.jpg
-            Subset 10 Texture 0 %anim%_CAclothing.jpg         
+            Subset 0 Texture 0 %anim%_CAclothing.jpg Texture 2 no_spec.tga
+            Subset 1 Texture 0 %anim%_CAclothing.jpg Texture 2 no_spec.tga
+            Subset 2 Texture 0 %anim%_CAclothing.jpg Texture 2 no_spec.tga
+            Subset 3 Texture 0 %anim%_CAclothing.jpg Texture 2 no_spec.tga
+            Subset 5 Texture 0 %anim%_CAclothing.jpg Texture 2 no_spec.tga
+            Subset 6 Texture 0 %anim%_CAclothing.jpg Texture 2 no_spec.tga
+            Subset 7 Texture 0 %anim%_CAclothing.jpg Texture 2 no_spec.tga
+            Subset 8 Texture 0 %anim%_CAclothing.jpg Texture 2 no_spec.tga
+            Subset 10 Texture 0 %anim%_CAclothing.jpg Texture 2 no_spec.tga
 
 
-Value 7 Root Texture 0 envarmorbody.png          
+Value 7 Root Texture 0 envarmorbody.png      Texture 2 no_spec.tga     
 
 
 Value 8 Root  
-#Subset 1 Texture 0 leatherarmorbody_%anim%.tga 
-Subset 3 Texture 0 leatherarmorbody_%anim%.tga 
-Subset 6 Texture 0 leatherarmorbody_%anim%.tga 
-Subset 8 Texture 0 leatherarmorbody_%anim%.tga 
+#Subset 1 Texture 0 leatherarmorbody_%anim%.tga  Texture 2 no_spec.tga
+Subset 3 Texture 0 leatherarmorbody_%anim%.tga  Texture 2 no_spec.tga
+Subset 6 Texture 0 leatherarmorbody_%anim%.tga  Texture 2 no_spec.tga
+Subset 8 Texture 0 leatherarmorbody_%anim%.tga  Texture 2 no_spec.tga
 
-Value 10   Root Subset 1 Texture 0 %anim%_cljacket_clothing.png
-                Subset 6 Texture 0 %anim%_cljacket_clothing.png
-                Subset 3 Texture 0 %anim%_cljacket_clothing.png
-                Subset 8 Texture 0 %anim%_cljacket_clothing.png
-                Subset 10 Texture 0 %anim%_cljacket_clothing.png
+Value 10   Root Subset 1 Texture 0 %anim%_cljacket_clothing.png Texture 2 no_spec.tga
+                Subset 6 Texture 0 %anim%_cljacket_clothing.png Texture 2 no_spec.tga
+                Subset 3 Texture 0 %anim%_cljacket_clothing.png Texture 2 no_spec.tga
+                Subset 8 Texture 0 %anim%_cljacket_clothing.png Texture 2 no_spec.tga
+                Subset 10 Texture 0 %anim%_cljacket_clothing.png Texture 2 no_spec.tga
                 
 Value 13   Root
-            Subset 0 Texture 0 ncr10_%anim%_body.png
-            Subset 1 Texture 0 ncr10_%anim%_body.png
-            Subset 2 Texture 0 ncr10_%anim%_body.png
-            Subset 3 Texture 0 ncr10_%anim%_body.png
-            Subset 4 Texture 0 ncr10_%anim%_body.png
-            Subset 5 Texture 0 ncr10_%anim%_body.png
-            Subset 6 Texture 0 ncr10_%anim%_body.png
-            Subset 7 Texture 0 ncr10_%anim%_body.png
-            Subset 8 Texture 0 ncr10_%anim%_body.png
-            Subset 10 Texture 0 ncr10_%anim%_body.png   
+            Subset 0 Texture 0 ncr10_%anim%_body.png  Texture 2 no_spec.tga
+            Subset 1 Texture 0 ncr10_%anim%_body.png Texture 2 no_spec.tga
+            Subset 2 Texture 0 ncr10_%anim%_body.png Texture 2 no_spec.tga
+            Subset 3 Texture 0 ncr10_%anim%_body.png Texture 2 no_spec.tga
+            Subset 4 Texture 0 ncr10_%anim%_body.png Texture 2 no_spec.tga
+            Subset 5 Texture 0 ncr10_%anim%_body.png Texture 2 no_spec.tga
+            Subset 6 Texture 0 ncr10_%anim%_body.png Texture 2 no_spec.tga
+            Subset 7 Texture 0 ncr10_%anim%_body.png Texture 2 no_spec.tga
+            Subset 8 Texture 0 ncr10_%anim%_body.png Texture 2 no_spec.tga
+            Subset 10 Texture 0 ncr10_%anim%_body.png    Texture 2 no_spec.tga
 
 Value 16   Root 
-            Subset 0 Texture 0 %anim%_CAclothingenc.jpg
-            Subset 1 Texture 0 %anim%_CAclothingenc.jpg
-            Subset 2 Texture 0 %anim%_CAclothingenc.jpg
-            Subset 3 Texture 0 %anim%_CAclothingenc.jpg
-            Subset 5 Texture 0 %anim%_CAclothingenc.jpg
-            Subset 6 Texture 0 %anim%_CAclothingenc.jpg
-            Subset 7 Texture 0 %anim%_CAclothingenc.jpg
-            Subset 8 Texture 0 %anim%_CAclothingenc.jpg
-            Subset 10 Texture 0 %anim%_CAclothingenc.jpg 
+            Subset 0 Texture 0 %anim%_CAclothingenc.jpg  Texture 2 no_spec.tga
+            Subset 1 Texture 0 %anim%_CAclothingenc.jpg Texture 2 no_spec.tga
+            Subset 2 Texture 0 %anim%_CAclothingenc.jpg Texture 2 no_spec.tga
+            Subset 3 Texture 0 %anim%_CAclothingenc.jpg Texture 2 no_spec.tga
+            Subset 5 Texture 0 %anim%_CAclothingenc.jpg Texture 2 no_spec.tga
+            Subset 6 Texture 0 %anim%_CAclothingenc.jpg Texture 2 no_spec.tga
+            Subset 7 Texture 0 %anim%_CAclothingenc.jpg Texture 2 no_spec.tga
+            Subset 8 Texture 0 %anim%_CAclothingenc.jpg Texture 2 no_spec.tga
+            Subset 10 Texture 0 %anim%_CAclothingenc.jpg  Texture 2 no_spec.tga
 
-Value 17 Root Subset 1 Texture 0 %anim%_gunsmith_clothing.jpg
-            Subset 3 Texture 0 %anim%_gunsmith_clothing.jpg
-            Subset 6 Texture 0 %anim%_gunsmith_clothing.jpg
-            Subset 7 Texture 0 %anim%_gunsmith_clothing.jpg
-            Subset 8 Texture 0 %anim%_gunsmith_clothing.jpg
-            Subset 10 Texture 0 %anim%_gunsmith_clothing.jpg 
+Value 17 Root Subset 1 Texture 0 %anim%_gunsmith_clothing.jpg  Texture 2 no_spec.tga
+            Subset 3 Texture 0 %anim%_gunsmith_clothing.jpg Texture 2 no_spec.tga
+            Subset 6 Texture 0 %anim%_gunsmith_clothing.jpg Texture 2 no_spec.tga
+            Subset 7 Texture 0 %anim%_gunsmith_clothing.jpg Texture 2 no_spec.tga
+            Subset 8 Texture 0 %anim%_gunsmith_clothing.jpg Texture 2 no_spec.tga
+            Subset 10 Texture 0 %anim%_gunsmith_clothing.jpg  Texture 2 no_spec.tga
 
-Value 18 Root Subset 1 Texture 0 Armor_%anim%_suit_clothing.jpg
-Subset 3 Texture 0 Armor_%anim%_suit_clothing.jpg
-Subset 4 Texture 0 Armor_%anim%_suit_clothing.jpg
-Subset 6 Texture 0 Armor_%anim%_suit_clothing.jpg
-Subset 7 Texture 0 Armor_%anim%_suit_clothing.jpg
-Subset 8 Texture 0 Armor_%anim%_suit_clothing.jpg
-Subset 10 Texture 0 Armor_%anim%_suit_clothing.jpg
+Value 18 Root Subset 1 Texture 0 Armor_%anim%_suit_clothing.jpg  Texture 2 no_spec.tga
+Subset 3 Texture 0 Armor_%anim%_suit_clothing.jpg Texture 2 no_spec.tga
+Subset 4 Texture 0 Armor_%anim%_suit_clothing.jpg Texture 2 no_spec.tga
+Subset 6 Texture 0 Armor_%anim%_suit_clothing.jpg Texture 2 no_spec.tga
+Subset 7 Texture 0 Armor_%anim%_suit_clothing.jpg Texture 2 no_spec.tga
+Subset 8 Texture 0 Armor_%anim%_suit_clothing.jpg Texture 2 no_spec.tga
+Subset 10 Texture 0 Armor_%anim%_suit_clothing.jpg Texture 2 no_spec.tga
 
 
 # Right Handle
@@ -205,12 +210,12 @@ Layer 1
  Value 17  Attach WP_9mmAutoloader_GunExtClip_GunSilencer.fo3d      Link R_Handle_1  Scale 50
  Value 18  Attach WP_9mmAutoloader_GunSilencer.fo3d                 Link R_Handle_1  Scale 50
  Value 19  Attach fxtest.x                                Link R_Handle_1  Scale 1.7 RotY 180 MoveX 2
- Value 20  Attach WP_9mmMachinePistol_GunExtClip.fo3d               Link R_Handle_1  Scale 50
+ Value 20  Attach Wp_Crowbar.x                                      Link R_Handle_1  Scale 0.8 RotY 10 RotZ 10
  Value 21  Attach WP_brassknuckles.x                                Link R_Hand  Scale 0
  Value 22  Attach WP_14mmpistol.x                                   Link R_Handle_1  Scale 0.6 RotY -90 RotZ 10 MoveX 4 MoveY 1
  Value 23  Attach WP_assaultrifle.x                                 Link R_Handle_1  Scale 3 RotY -75 RotZ -10 MoveX 2
  Value 24  Attach WP_9mmMachinePistol_GunSuppressor.fo3d            Link R_Handle_1  Scale 50
- Value 25  Attach scorcher.x                                        Link R_Handle_1  Scale 0.08 RotY -90 MoveY 1 MoveX 2
+ Value 25  Attach WP_GrenadeFrag.x                                  Link R_Handle_1  Scale 3.5  MoveX 3 RotY -60
  Value 26  Attach WP_ArcWelder.x                                    Link R_Handle_1  Scale 50
  Value 27  Attach WP_Baseballbat.x                                  Link R_Handle_1  Scale 50
  Value 28  Attach WP_CattleProd.x                                   Link R_Handle_1  Scale 50
@@ -236,35 +241,42 @@ Layer 1
  Value 48  Attach WP_NightStick.x                                   Link R_Handle_1  Scale 60 RotX 90 RotY 6
  Value 49  Attach WP_Rock.x                                         Link R_Handle_1  Scale 50
  Value 50  Attach WP_huntingrifle.fo3d                              Link R_Handle_1 Scale 0.17 RotY -70 RotX 10 #RotZ -20
- Value 51  Attach WP_Shiv.x                                         Link R_Handle_1  Scale 50
+ Value 51  Attach WP_Dynamite.x                                     Link R_Handle_1  Scale 1.5 RotX 90 RotY 90
  Value 52  Attach WP_Switchblade.x                                  Link R_Handle_1  Scale 50
  Value 53  Attach WP_TableLeg.x                                     Link R_Handle_1  Scale 50
  Value 54  Attach WP_CombatKnife.x                                  Link R_Handle_1  Scale 50 RotX 90
  Value 55  Attach WP_Speartest.x                                    Link R_Handle_1 Scale 0.8 RotX 90 MoveX 5
  Value 56  Attach WP_Sledgehammer.x                                 Link L_Handle_1 RotX 90 Scale 1.05 RotY 6 RotZ -70
+ Value 79  Attach WP_flare.x      Texture 0 Item_flare.tga          Link R_Handle_1 Scale 25 MoveX 3
  Value 100 Attach IT_FirstAidKit.x                                  Link R_Handle_1   Scale 50 
  Value 101 Attach IT_SecurityKit.x                                  Link R_Handle_1   Scale 50
  Value 102 Attach IT_Toolkit.x                                      Link R_Handle_1   Scale 50
  Value 118 Attach WP_laserrifle.x                                   Link R_Handle_1   Scale 0.25 RotY -75 RotZ -10 MoveX 2
  Value 120 Attach WP_alienblaster.x                                 Link R_Handle_1  Scale 1.5 RotY -90 RotZ 10 MoveX 2 MoveY 1
+ Value 160 Attach WP_CattleProd.x                                   Link R_Handle_1  Scale 0.8 RotY 10 RotZ 10
  Value 161 Attach WP_bbgun.x                                        Link R_Handle_1   Scale 1.3 RotY -75 RotZ -10 MoveX 2 
  Value 162 Attach WP_bbgunLE.x                                      Link R_Handle_1   Scale 1.25 RotY -75 RotZ -10 MoveX 2 
  Value 235 Attach wp_powerfist.x                                      
+ Value 236 Attach wp_combatknife.x                                  Link R_Handle_1  Scale 0.25 RotY -90 MoveZ -5.5 MoveX 2
  Value 241 Attach WP_223pistol.x                                    Link R_Handle_1  Scale 3.7 RotY -90 RotZ 10 MoveX 4 MoveY 1
  Value 242 Attach WP_combatshotgun.x                                Link R_Handle_1   Scale 0.9 RotY -75 RotZ -10 MoveX 2
  Value 268 Attach WP_hkcaws.x                                       Link R_Handle_1   Scale 6 RotY -75 RotZ -10 MoveX 2 
  Value 313 Attach WP_44magnum.x                                     Link R_Handle_1  Scale 0.75 RotY -90 RotZ 10 MoveX 4 MoveY 1
- Value 350 Attach WP_bozar.x                                        Link R_Handle_1 Scale 0.6
- Value 351 Attach WP_fnfal.x                                        Link R_Handle_1   Scale 1.4 RotY -75 RotZ -10 MoveX 2
+ Value 350 Attach WP_bozar.x                                        Link R_Handle_1 Scale 0.6 RotY -75 RotZ -10 MoveX 2
+ Value 351 Attach WP_fnfal.x                                       Link R_Handle_1   Scale 1.4 RotY -75 RotZ -10 MoveX 2
+ Value 352 Attach WP_HKg11.x                                     Link R_Handle_1  Scale 6 RotY -90 RotZ 14 MoveX 4 MoveY 1
  Value 354 Attach WP_pancor.x                                       Link R_Handle_1   Scale 0.5
  Value 389 Attach WP_Minigun.fo3d Texture 0 ITEM_avengerminigun.tga   Link R_Handle_1
+ Value 390 Attach WP_SolarScorcher.x                               Link R_Handle_1  Scale 0.08 RotY -90 MoveY 1 MoveX 2 
+ Value 391 Attach WP_HKg11e.x                                     Link R_Handle_1  Scale 6 RotY -90 RotZ 14 MoveX 4 MoveY 1
  Value 392 Attach WP_gaussrifle.x                                   Link R_Handle_1   Scale 8 RotY -75 RotZ -10 MoveX 2
  Value 395 Attach WP_vindicator.fo3d                                Link R_Handle_1 
  Value 401 Attach WP_laserrifleext.x                                Link R_Handle_1  Scale 0.25 RotY -110 RotZ -30
  Value 403 Attach WP_fnfal_redsight.x                               Link R_Handle_1   Scale 1.4 RotY -75 RotZ -10 MoveX 2
  Value 405 Attach WP_assaultrifleext.x                              Link R_Handle_1   Scale 3 RotY -75 RotZ -10 MoveX 2
  Value 496 Root DisableSubset 5 Attach WP_boxinggloves.x
-
+ Value 544 Attach WP_MineFrag.x                                     Link R_Handle_1  RotX 90 RotZ 90 Scale 0.20 MoveX 3
+ Value 600 Attach WP_dynacord.x                                     Link R_Handle_1 Scale 2
 
 
 # Left Handle
@@ -325,6 +337,7 @@ Layer 2
  Value 54  Attach WP_ThrowingKnife.x                                Link L_Hand RotX -90 RotZ 75 MoveZ 0.11 MoveX -0.03 
  Value 55  Attach WP_Speartest.x                                        Link Spine_1 Scale 0.7 RotX 90 MoveZ -9 RotZ 30 RotY 55 
  Value 56  #Attach WP_Sledgehammer.x                                  Link Spine_1 
+ Value 79  Attach WP_flare.x                                        Link L_Handle_1
  Value 100 Attach IT_FirstAidKit.x                                  Link L_Hand RotX -90 RotZ 75 MoveZ 0.11 MoveX -0.03
  Value 101 Attach IT_SecurityKit.x                                  Link L_Hand RotX -90 RotZ 75 MoveZ 0.11 MoveX -0.03
  Value 102 Attach IT_Toolkit.x                                      Link L_Hand RotX -90 RotZ 75 MoveZ 0.11 MoveX -0.03
@@ -337,8 +350,9 @@ Layer 2
  Value 268 Attach WP_hkcaws.x                                         Link Spine_1   Scale 10 RotX 90 MoveZ -9 RotZ 30 RotY 55
  Value 313 Attach WP_44magnum.x                                       Link R_Thigh RotX -90   Scale 10
  Value 350 Attach WP_bozar.x                                          Link Spine_1 Scale 0.6
- Value 354 Attach WP_pancor.x                                         Link Spine_1   Scale 0.5 RotX 90 MoveZ -9 RotZ 30 RotY 55
  Value 351 Attach WP_fnfal.x                                          Link Spine_1   Scale 1.4 RotX 90 MoveZ -9 RotZ 30 RotY 55
+ Value 352 Attach WP_hkg11.x                                       Link R_Thigh RotX -90   Scale 10
+ Value 354 Attach WP_pancor.x                                         Link Spine_1   Scale 0.5 RotX 90 MoveZ -9 RotZ 30 RotY 55
  Value 392 Attach WP_gaussrifle.x                                       Link Spine_1   Scale 10 RotX 90 MoveZ -9 RotZ 30 RotY 55
  Value 395 Attach WP_vindicator.x                              Link Spine_1 RotZ 180 RotY 80 MoveZ -20 MoveX 16 MoveY -14
  Value 403 Attach WP_fnfal_redsight.x                              Link Spine_1   Scale 1.4 RotX 90 MoveZ -9 RotZ 30 RotY 55
