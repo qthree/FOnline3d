@@ -20,29 +20,35 @@ EffDef Floats Specular_Power 5.0
 
 # Skin
 Layer 0
- Value 0   Root Texture 0 %anim%_Skin_white.jpg Texture 2 %anim%_skin_spec.tga
- Value 1   Root Texture 0 %anim%_Skin_whiteTT.jpg Texture 2 %anim%_skin_spec.tga
- Value 2   Root Texture 0 %anim%_Skin_whiteYT.jpg Texture 2 %anim%_skin_spec.tga
- Value 3   Root Texture 0 %anim%_Skin_Black.jpg Texture 2 %anim%_skin_spec.tga
- Value 4   Root Texture 0 %anim%_Skin_BlackTT.jpg Texture 2 %anim%_skin_spec.tga
- Value 5   Root Texture 0 %anim%_Skin_BlackYT.jpg Texture 2 %anim%_skin_spec.tga
- Value 6   Root Texture 0 %anim%_Skin_indian.jpg Texture 2 %anim%_skin_spec.tga
- Value 7   Root Texture 0 %anim%_Skin_indianTT.jpg  Texture 2 %anim%_skin_spec.tga
- Value 8   Root Texture 0 %anim%_Skin_indianYT.jpg Texture 2 %anim%_skin_spec.tga
- Value 9   Root Texture 0 %anim%_Skin_dtanned.jpg Texture 2 %anim%_skin_spec.tga
- Value 10  Root Texture 0 %anim%_Skin_dtannedTT.jpg Texture 2 %anim%_skin_spec.tga
- Value 11  Root Texture 0 %anim%_Skin_dtannedYT.jpg Texture 2 %anim%_skin_spec.tga
- Value 12  Root Texture 0 %anim%_Skin_pale.jpg Texture 2 %anim%_skin_spec.tga
- Value 13  Root Texture 0 %anim%_Skin_paleTT.jpg Texture 2 %anim%_skin_spec.tga
- Value 14  Root Texture 0 %anim%_Skin_paleYT.jpg Texture 2 %anim%_skin_spec.tga
- Value 15  Root Texture 0 %anim%_Skin_yellow.jpg Texture 2 %anim%_skin_spec.tga
- Value 16  Root Texture 0 %anim%_Skin_yellowTT.jpg Texture 2 %anim%_skin_spec.tga
- Value 17  Root Texture 0 %anim%_Skin_yellowYT.jpg Texture 2 %anim%_skin_spec.tga
- Value 18  Root Texture 0 %anim%_basefal.tga 
- Value 19  Root Texture 0 %anim%_baseblack.tga 
- Value 20  Root Texture 0 %anim%_jmpyellow.tga
- Value 21  Root Texture 0 %anim%_pickard.tga
- Value 22  Root Texture 0 %anim%_basemetal.tga
+ Value 1   Root Texture 0 %anim%_Skin_white.jpg Texture 2 %anim%_skin_spec.tga
+ Value 2   Root Texture 0 %anim%_Skin_whiteTT.jpg Texture 2 %anim%_skin_spec.tga
+ Value 3   Root Texture 0 %anim%_Skin_whiteYT.jpg Texture 2 %anim%_skin_spec.tga
+ Value 4   Root Texture 0 %anim%_Skin_Black.jpg Texture 2 %anim%_skin_spec_shiny.tga
+ Value 5   Root Texture 0 %anim%_Skin_BlackTT.jpg Texture 2 %anim%_skin_spec_shiny.tga
+ Value 6   Root Texture 0 %anim%_Skin_BlackYT.jpg Texture 2 %anim%_skin_spec_shiny.tga
+ Value 7   Root Texture 0 %anim%_Skin_indian.jpg Texture 2 %anim%_skin_spec.tga
+ Value 8   Root Texture 0 %anim%_Skin_indianTT.jpg  Texture 2 %anim%_skin_spec.tga
+ Value 9   Root Texture 0 %anim%_Skin_indianYT.jpg Texture 2 %anim%_skin_spec.tga
+ Value 10  Root Texture 0 %anim%_Skin_dtanned.jpg Texture 2 %anim%_skin_spec.tga
+ Value 11  Root Texture 0 %anim%_Skin_dtannedTT.jpg Texture 2 %anim%_skin_spec.tga
+ Value 12  Root Texture 0 %anim%_Skin_dtannedYT.jpg Texture 2 %anim%_skin_spec.tga
+ Value 13  Root Texture 0 %anim%_Skin_pale.jpg Texture 2 %anim%_skin_spec.tga
+ Value 14  Root Texture 0 %anim%_Skin_paleTT.jpg Texture 2 %anim%_skin_spec.tga
+ Value 15  Root Texture 0 %anim%_Skin_paleYT.jpg Texture 2 %anim%_skin_spec.tga
+ Value 16  Root Texture 0 %anim%_Skin_yellow.jpg Texture 2 %anim%_skin_spec.tga
+ Value 17  Root Texture 0 %anim%_Skin_yellowTT.jpg Texture 2 %anim%_skin_spec.tga
+ Value 18  Root Texture 0 %anim%_Skin_yellowYT.jpg Texture 2 %anim%_skin_spec.tga
+ Value 19  Root Texture 0 %anim%_Skin_arabic.jpg Texture 2 %anim%_skin_spec.tga
+ Value 20  Root Texture 0 %anim%_Skin_arabicTT.jpg Texture 2 %anim%_skin_spec.tga
+ Value 21  Root Texture 0 %anim%_Skin_arabicYT.jpg Texture 2 %anim%_skin_spec.tga
+ Value 22  Root Texture 0 %anim%_Skin_tanned.jpg Texture 2 %anim%_skin_spec.tga
+ Value 23  Root Texture 0 %anim%_Skin_tannedTT.jpg Texture 2 %anim%_skin_spec.tga
+ Value 24  Root Texture 0 %anim%_Skin_tannedYT.jpg Texture 2 %anim%_skin_spec.tga
+ Value 25  Root Texture 0 %anim%_basefal.tga 
+ Value 26  Root Texture 0 %anim%_baseblack.tga 
+ Value 27  Root Texture 0 %anim%_jmpyellow.tga
+ Value 28  Root Texture 0 %anim%_pickard.tga
+ Value 29  Root Texture 0 %anim%_basemetal.tga
 
 # Body
 Layer 3
@@ -258,7 +264,7 @@ Layer 1
  Value 162 Attach WP_bbgunLE.x                                      Link R_Handle_1   Scale 1.25 RotY -75 RotZ -10 MoveX 2 
  Value 235 Attach wp_powerfist.x                                      
  Value 236 Attach wp_combatknife.x                                  Link R_Handle_1  Scale 0.25 RotY -90 MoveZ -5.5 MoveX 2
- Value 241 Attach WP_223pistol.x                                    Link R_Handle_1  Scale 3.7 RotY -90 RotZ 10 MoveX 4 MoveY 1
+ Value 241 Attach WP_223pistol.x                                 Link R_Handle_1  Scale 3.7 RotY -90 RotZ 10 MoveX 4 MoveY 1         
  Value 242 Attach WP_combatshotgun.x                                Link R_Handle_1   Scale 0.9 RotY -75 RotZ -10 MoveX 2
  Value 268 Attach WP_hkcaws.x                                       Link R_Handle_1   Scale 6 RotY -75 RotZ -10 MoveX 2 
  Value 313 Attach WP_44magnum.x                                     Link R_Handle_1  Scale 0.75 RotY -90 RotZ 10 MoveX 4 MoveY 1
@@ -396,10 +402,10 @@ Layer 7
  Value 41  Attach ATR_%atr%_HaiCrown.x Texture 0 HaiCrown_brownGrey_LG.tga
  Value 42  Root Attach rasta.x
  Value 43  Root Attach Ponytailtest.x
- Value 44  Attach Hair_%anim%_bob.x Texture 0 Hair_%anim%_Bob.jpg
- Value 45  Attach Hair_%anim%_bob.x Texture 0 Hair_%anim%_Bob_Blonde.jpg
- Value 46  Attach Hair_%anim%_bob.x Texture 0 Hair_%anim%_Bob_Brown.jpg
- Value 47  Attach Hair_%anim%_bob.x Texture 0 Hair_%anim%_Bob_Black.jpg
+ Value 44  Attach Hair_%anim%_bob.fo3d
+ Value 45  Attach Hair_%anim%_bob.fo3d
+ Value 46  Attach Hair_%anim%_bob.fo3d
+ Value 47  Attach Hair_%anim%_bob.fo3d
  Value 48  Attach ATR_%atr%_HaiCrown.x Texture 0 HaiCrown_red_LG.tga
  Value 49  Attach ATR_%atr%_HaiCrown.x Texture 0 HaiCrown_redGrey_LG.tga
  Value 50  Attach ATR_%atr%_HaiGreaser.x
@@ -828,90 +834,90 @@ Layer 12
 
 # Pants
 Layer 13
- Value 1 Root DisableLayer 5 Subset 6 Texture 0 %anim%_cloth_white.jpg
-         Root Subset 8 Texture 0 %anim%_cloth_white.jpg
- Value 2 Root DisableLayer 5 Subset 6 Texture 0 %anim%_cloth_white.jpg
-         Root Subset 3 Texture 0 %anim%_cloth_white.jpg
-         Root Subset 8 Texture 0 %anim%_cloth_white.jpg
- Value 3 Root DisableLayer 5 Subset 6 Texture 0 %anim%_cloth_white.jpg
-         Root Subset 3 Texture 0 %anim%_cloth_white.jpg
-         Root Subset 7 Texture 0 %anim%_cloth_white.jpg
-         Root Subset 8 Texture 0 %anim%_cloth_white.jpg
-Value 4  Root DisableLayer 5 Subset 6 Texture 0 %anim%_cloth_white.jpg
-         Root Subset 3 Texture 0 %anim%_cloth_white.jpg
-         Root Subset 7 Texture 0 %anim%_cloth_white.jpg
-         Root Subset 8 Texture 0 %anim%_cloth_white.jpg
-         Root Subset 10 Texture 0 %anim%_cloth_white.jpg
-Value 5 Root DisableLayer 5 Subset 6 Texture 0 %anim%_cloth_red.jpg
-         Root Subset 8 Texture 0 %anim%_cloth_red.jpg
- Value 6 Root DisableLayer 5 Subset 6 Texture 0 %anim%_cloth_red.jpg
-         Root Subset 3 Texture 0 %anim%_cloth_red.jpg
-         Root Subset 8 Texture 0 %anim%_cloth_red.jpg
- Value 7 Root DisableLayer 5 Subset 6 Texture 0 %anim%_cloth_red.jpg
-         Root Subset 3 Texture 0 %anim%_cloth_red.jpg
-         Root Subset 7 Texture 0 %anim%_cloth_red.jpg
-         Root Subset 8 Texture 0 %anim%_cloth_red.jpg
-Value 8  Root DisableLayer 5 Subset 6 Texture 0 %anim%_cloth_red.jpg
-         Root Subset 3 Texture 0 %anim%_cloth_red.jpg
-         Root Subset 7 Texture 0 %anim%_cloth_red.jpg
-         Root Subset 8 Texture 0 %anim%_cloth_red.jpg
-         Root Subset 10 Texture 0 %anim%_cloth_red.jpg
-Value 9 Root DisableLayer 5 Subset 6 Texture 0 %anim%_cloth_black.jpg
-         Root Subset 8 Texture 0 %anim%_cloth_black.jpg
- Value 10 Root DisableLayer 5 Subset 6 Texture 0 %anim%_cloth_black.jpg
-         Root Subset 3 Texture 0 %anim%_cloth_black.jpg
-         Root Subset 8 Texture 0 %anim%_cloth_black.jpg
- Value 11 Root DisableLayer 5 Subset 6 Texture 0 %anim%_cloth_black.jpg
-         Root Subset 3 Texture 0 %anim%_cloth_black.jpg
-         Root Subset 7 Texture 0 %anim%_cloth_black.jpg
-         Root Subset 8 Texture 0 %anim%_cloth_black.jpg
-Value 12  Root DisableLayer 5 Subset 6 Texture 0 %anim%_cloth_black.jpg
-         Root Subset 3 Texture 0 %anim%_cloth_black.jpg
-         Root Subset 7 Texture 0 %anim%_cloth_black.jpg
-         Root Subset 8 Texture 0 %anim%_cloth_black.jpg
-         Root Subset 10 Texture 0 %anim%_cloth_black.jpg
-Value 13 Root DisableLayer 5 Subset 6 Texture 0 %anim%_cloth_lightBrown.jpg
-         Root Subset 8 Texture 0 %anim%_cloth_lightBrown.jpg
- Value 14 Root DisableLayer 5 Subset 6 Texture 0 %anim%_cloth_lightBrown.jpg
-         Root Subset 3 Texture 0 %anim%_cloth_lightBrown.jpg
-         Root Subset 8 Texture 0 %anim%_cloth_lightBrown.jpg
- Value 15 Root DisableLayer 5 Subset 6 Texture 0 %anim%_cloth_lightBrown.jpg
-         Root Subset 3 Texture 0 %anim%_cloth_lightBrown.jpg
-         Root Subset 7 Texture 0 %anim%_cloth_lightBrown.jpg
-         Root Subset 8 Texture 0 %anim%_cloth_lightBrown.jpg
-Value 16  Root DisableLayer 5 Subset 6 Texture 0 %anim%_cloth_lightBrown.jpg
-         Root Subset 3 Texture 0 %anim%_cloth_lightBrown.jpg
-         Root Subset 7 Texture 0 %anim%_cloth_lightBrown.jpg
-         Root Subset 8 Texture 0 %anim%_cloth_lightBrown.jpg
-         Root Subset 10 Texture 0 %anim%_cloth_lightBrown.jpg  
+ Value 1 Root DisableLayer 5 Subset 6 Texture 0 %anim%_cloth_white.jpg Texture 2 no_spec.tga
+         Root Subset 8 Texture 0 %anim%_cloth_white.jpg  Texture 2 no_spec.tga
+ Value 2 Root DisableLayer 5 Subset 6 Texture 0 %anim%_cloth_white.jpg Texture 2 no_spec.tga
+         Root Subset 3 Texture 0 %anim%_cloth_white.jpg Texture 2 no_spec.tga
+         Root Subset 8 Texture 0 %anim%_cloth_white.jpg Texture 2 no_spec.tga
+ Value 3 Root DisableLayer 5 Subset 6 Texture 0 %anim%_cloth_white.jpg Texture 2 no_spec.tga
+         Root Subset 3 Texture 0 %anim%_cloth_white.jpg Texture 2 no_spec.tga
+         Root Subset 7 Texture 0 %anim%_cloth_white.jpg Texture 2 no_spec.tga
+         Root Subset 8 Texture 0 %anim%_cloth_white.jpg Texture 2 no_spec.tga
+Value 4  Root DisableLayer 5  Subset 6 Texture 0 %anim%_cloth_white.jpg Texture 2 no_spec.tga
+         Root Subset 3 Texture 0 %anim%_cloth_white.jpg Texture 2 no_spec.tga
+         Root Subset 7 Texture 0 %anim%_cloth_white.jpg Texture 2 no_spec.tga
+         Root Subset 8 Texture 0 %anim%_cloth_white.jpg Texture 2 no_spec.tga
+         Root Subset 10 Texture 0 %anim%_cloth_white.jpg Texture 2 no_spec.tga
+Value 5 Root DisableLayer 5 Subset 6 Texture 0 %anim%_cloth_red.jpg Texture 2 no_spec.tga
+         Root Subset 8 Texture 0 %anim%_cloth_red.jpg Texture 2 no_spec.tga
+ Value 6 Root DisableLayer 5 Subset 6 Texture 0 %anim%_cloth_red.jpg Texture 2 no_spec.tga
+         Root Subset 3 Texture 0 %anim%_cloth_red.jpg Texture 2 no_spec.tga
+         Root Subset 8 Texture 0 %anim%_cloth_red.jpg Texture 2 no_spec.tga
+ Value 7 Root DisableLayer 5 Subset 6 Texture 0 %anim%_cloth_red.jpg Texture 2 no_spec.tga
+         Root Subset 3 Texture 0 %anim%_cloth_red.jpg Texture 2 no_spec.tga
+         Root Subset 7 Texture 0 %anim%_cloth_red.jpg Texture 2 no_spec.tga
+         Root Subset 8 Texture 0 %anim%_cloth_red.jpg Texture 2 no_spec.tga
+Value 8  Root DisableLayer 5 Subset 6 Texture 0 %anim%_cloth_red.jpg Texture 2 no_spec.tga
+         Root Subset 3 Texture 0 %anim%_cloth_red.jpg Texture 2 no_spec.tga
+         Root Subset 7 Texture 0 %anim%_cloth_red.jpg Texture 2 no_spec.tga
+         Root Subset 8 Texture 0 %anim%_cloth_red.jpg Texture 2 no_spec.tga
+         Root Subset 10 Texture 0 %anim%_cloth_red.jpg Texture 2 no_spec.tga
+Value 9 Root DisableLayer 5 Subset 6 Texture 0 %anim%_cloth_black.jpg Texture 2 no_spec.tga
+         Root Subset 8 Texture 0 %anim%_cloth_black.jpg Texture 2 no_spec.tga
+ Value 10 Root DisableLayer 5 Subset 6 Texture 0 %anim%_cloth_black.jpg Texture 2 no_spec.tga
+         Root Subset 3 Texture 0 %anim%_cloth_black.jpg Texture 2 no_spec.tga
+         Root Subset 8 Texture 0 %anim%_cloth_black.jpg Texture 2 no_spec.tga
+ Value 11 Root DisableLayer 5 Subset 6 Texture 0 %anim%_cloth_black.jpg Texture 2 no_spec.tga
+         Root Subset 3 Texture 0 %anim%_cloth_black.jpg Texture 2 no_spec.tga
+         Root Subset 7 Texture 0 %anim%_cloth_black.jpg Texture 2 no_spec.tga
+         Root Subset 8 Texture 0 %anim%_cloth_black.jpg Texture 2 no_spec.tga
+Value 12  Root DisableLayer 5 Subset 6 Texture 0 %anim%_cloth_black.jpg Texture 2 no_spec.tga
+         Root Subset 3 Texture 0 %anim%_cloth_black.jpg Texture 2 no_spec.tga
+         Root Subset 7 Texture 0 %anim%_cloth_black.jpg Texture 2 no_spec.tga
+         Root Subset 8 Texture 0 %anim%_cloth_black.jpg Texture 2 no_spec.tga
+         Root Subset 10 Texture 0 %anim%_cloth_black.jpg Texture 2 no_spec.tga
+Value 13 Root DisableLayer 5 Subset 6 Texture 0 %anim%_cloth_lightBrown.jpg Texture 2 no_spec.tga
+         Root Subset 8 Texture 0 %anim%_cloth_lightBrown.jpg Texture 2 no_spec.tga
+ Value 14 Root DisableLayer 5 Subset 6 Texture 0 %anim%_cloth_lightBrown.jpg Texture 2 no_spec.tga
+         Root Subset 3 Texture 0 %anim%_cloth_lightBrown.jpg Texture 2 no_spec.tga
+         Root Subset 8 Texture 0 %anim%_cloth_lightBrown.jpg Texture 2 no_spec.tga
+ Value 15 Root DisableLayer 5 Subset 6 Texture 0 %anim%_cloth_lightBrown.jpg Texture 2 no_spec.tga
+         Root Subset 3 Texture 0 %anim%_cloth_lightBrown.jpg Texture 2 no_spec.tga
+         Root Subset 7 Texture 0 %anim%_cloth_lightBrown.jpg Texture 2 no_spec.tga
+         Root Subset 8 Texture 0 %anim%_cloth_lightBrown.jpg Texture 2 no_spec.tga
+Value 16  Root DisableLayer 5 Subset 6 Texture 0 %anim%_cloth_lightBrown.jpg Texture 2 no_spec.tga
+         Root Subset 3 Texture 0 %anim%_cloth_lightBrown.jpg Texture 2 no_spec.tga
+         Root Subset 7 Texture 0 %anim%_cloth_lightBrown.jpg Texture 2 no_spec.tga
+         Root Subset 8 Texture 0 %anim%_cloth_lightBrown.jpg Texture 2 no_spec.tga
+         Root Subset 10 Texture 0 %anim%_cloth_lightBrown.jpg   Texture 2 no_spec.tga
  
 
 # UpperClothing
 Layer 14
- Value 1  Root DisableLayer 5 Subset 1 Texture 0 %anim%_cloth_white.jpg
- Value 2  Root DisableLayer 5 Subset 0 Texture 0 %anim%_cloth_white.jpg
-          Root  Subset 1 Texture 0 %anim%_cloth_white.jpg
- Value 3 Root DisableLayer 5 Subset 0 Texture 0 %anim%_cloth_white.jpg
-         Root Subset 1 Texture 0 %anim%_cloth_white.jpg
-         Root Subset 2 Texture 0 %anim%_cloth_white.jpg
-Value 4  Root DisableLayer 5 Subset 1 Texture 0 %anim%_cloth_red.jpg
- Value 5  Root DisableLayer 5 Subset 0 Texture 0 %anim%_cloth_red.jpg
-          Root  Subset 1 Texture 0 %anim%_cloth_red.jpg
- Value 6 Root DisableLayer 5 Subset 0 Texture 0 %anim%_cloth_red.jpg
-         Root Subset 1 Texture 0 %anim%_cloth_red.jpg
-         Root Subset 2 Texture 0 %anim%_cloth_red.jpg
-Value 7  Root DisableLayer 5 Subset 1 Texture 0 %anim%_cloth_black.jpg
-Value 8  Root DisableLayer 5 Subset 0 Texture 0 %anim%_cloth_black.jpg
-          Root  Subset 1 Texture 0 %anim%_cloth_black.jpg
-Value 9 Root DisableLayer 5 Subset 0 Texture 0 %anim%_cloth_black.jpg
-         Root Subset 1 Texture 0 %anim%_cloth_black.jpg
-         Root Subset 2 Texture 0 %anim%_cloth_black.jpg
-Value 10  Root DisableLayer 5 Subset 1 Texture 0 %anim%_cloth_lightBrown.jpg
-Value 11  Root DisableLayer 5 Subset 0 Texture 0 %anim%_cloth_lightBrown.jpg
-          Root  Subset 1 Texture 0 %anim%_cloth_lightBrown.jpg
-Value 12 Root DisableLayer 5 Subset 0 Texture 0 %anim%_cloth_lightBrown.jpg
-         Root Subset 1 Texture 0 %anim%_cloth_lightBrown.jpg
-         Root Subset 2 Texture 0 %anim%_cloth_lightBrown.jpg
+ Value 1  Root DisableLayer 5 Subset 1 Texture 0 %anim%_cloth_white.jpg Texture 2 no_spec.tga
+ Value 2  Root DisableLayer 5 Subset 0 Texture 0 %anim%_cloth_white.jpg Texture 2 no_spec.tga
+          Root  Subset 1 Texture 0 %anim%_cloth_white.jpg Texture 2 no_spec.tga
+ Value 3 Root DisableLayer 5 Subset 0 Texture 0 %anim%_cloth_white.jpg Texture 2 no_spec.tga
+         Root Subset 1 Texture 0 %anim%_cloth_white.jpg Texture 2 no_spec.tga
+         Root Subset 2 Texture 0 %anim%_cloth_white.jpg Texture 2 no_spec.tga
+Value 4  Root DisableLayer 5 Subset 1 Texture 0 %anim%_cloth_red.jpg Texture 2 no_spec.tga
+ Value 5  Root DisableLayer 5 Subset 0 Texture 0 %anim%_cloth_red.jpg Texture 2 no_spec.tga
+          Root  Subset 1 Texture 0 %anim%_cloth_red.jpg Texture 2 no_spec.tga
+ Value 6 Root DisableLayer 5 Subset 0 Texture 0 %anim%_cloth_red.jpg Texture 2 no_spec.tga
+         Root Subset 1 Texture 0 %anim%_cloth_red.jpg Texture 2 no_spec.tga
+         Root Subset 2 Texture 0 %anim%_cloth_red.jpg Texture 2 no_spec.tga
+Value 7  Root DisableLayer 5 Subset 1 Texture 0 %anim%_cloth_black.jpg Texture 2 no_spec.tga
+Value 8  Root DisableLayer 5 Subset 0 Texture 0 %anim%_cloth_black.jpg Texture 2 no_spec.tga
+          Root  Subset 1 Texture 0 %anim%_cloth_black.jpg Texture 2 no_spec.tga
+Value 9 Root DisableLayer 5 Subset 0 Texture 0 %anim%_cloth_black.jpg Texture 2 no_spec.tga
+         Root Subset 1 Texture 0 %anim%_cloth_black.jpg Texture 2 no_spec.tga
+         Root Subset 2 Texture 0 %anim%_cloth_black.jpg Texture 2 no_spec.tga
+Value 10  Root DisableLayer 5 Subset 1 Texture 0 %anim%_cloth_lightBrown.jpg Texture 2 no_spec.tga
+Value 11  Root DisableLayer 5 Subset 0 Texture 0 %anim%_cloth_lightBrown.jpg Texture 2 no_spec.tga
+          Root  Subset 1 Texture 0 %anim%_cloth_lightBrown.jpg Texture 2 no_spec.tga
+Value 12 Root DisableLayer 5 Subset 0 Texture 0 %anim%_cloth_lightBrown.jpg Texture 2 no_spec.tga
+         Root Subset 1 Texture 0 %anim%_cloth_lightBrown.jpg Texture 2 no_spec.tga
+         Root Subset 2 Texture 0 %anim%_cloth_lightBrown.jpg Texture 2 no_spec.tga
         
 # Backpack
 Layer 15
