@@ -1,0 +1,9 @@
+Model Hair_male_bob.x
+Effect 3D_SpecularMapping.fx 
+EffDef Floats Specular_Power 10.0 
+
+Layer 7
+ Value 44  Root Texture 0 Hair_male_Bob.jpg Texture 2 hair_male_bob_spec.tga
+ Value 45  Root Texture 0 Hair_male_Bob_Blonde.jpg Texture 2 hair_male_bob_spec.tga
+ Value 46  Root Texture 0 Hair_male_Bob_Brown.jpg Texture 2 hair_male_bob_spec.tga
+ Value 47  Root Texture 0 Hair_male_Bob_Black.jpg Texture 2 hair_male_bob_spec.tga

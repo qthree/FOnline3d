@@ -1,0 +1,7 @@
+
+model eff_Bulletcase_anim.x
+
+
+Anim A 1 eff_Bulletcase_anim.x idle
+
+Anim I 30 eff_Bulletcase_anim.x burstsmg
