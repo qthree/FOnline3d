@@ -21,41 +21,70 @@ EffDef Floats Specular_Power 5.0
 # Skin
 Layer 0
  Value 1   Root Texture 0 %anim%_Skin_white.jpg Texture 2 %anim%_skin_spec.tga
+           Root Attach Eff_bloodfloor.fo3d 
  Value 2   Root Texture 0 %anim%_Skin_whiteTT.jpg Texture 2 %anim%_skin_spec.tga
+           Root Attach Eff_bloodfloor.fo3d 
  Value 3   Root Texture 0 %anim%_Skin_whiteYT.jpg Texture 2 %anim%_skin_spec.tga
+           Root Attach Eff_bloodfloor.fo3d 
  Value 4   Root Texture 0 %anim%_Skin_Black.jpg Texture 2 %anim%_skin_spec_shiny.tga
+           Root Attach Eff_bloodfloor.fo3d 
  Value 5   Root Texture 0 %anim%_Skin_BlackTT.jpg Texture 2 %anim%_skin_spec_shiny.tga
+           Root Attach Eff_bloodfloor.fo3d 
  Value 6   Root Texture 0 %anim%_Skin_BlackYT.jpg Texture 2 %anim%_skin_spec_shiny.tga
+           Root Attach Eff_bloodfloor.fo3d 
  Value 7   Root Texture 0 %anim%_Skin_indian.jpg Texture 2 %anim%_skin_spec.tga
+           Root Attach Eff_bloodfloor.fo3d 
  Value 8   Root Texture 0 %anim%_Skin_indianTT.jpg  Texture 2 %anim%_skin_spec.tga
+           Root Attach Eff_bloodfloor.fo3d 
  Value 9   Root Texture 0 %anim%_Skin_indianYT.jpg Texture 2 %anim%_skin_spec.tga
+           Root Attach Eff_bloodfloor.fo3d 
  Value 10  Root Texture 0 %anim%_Skin_dtanned.jpg Texture 2 %anim%_skin_spec.tga
+           Root Attach Eff_bloodfloor.fo3d 
  Value 11  Root Texture 0 %anim%_Skin_dtannedTT.jpg Texture 2 %anim%_skin_spec.tga
+           Root Attach Eff_bloodfloor.fo3d 
  Value 12  Root Texture 0 %anim%_Skin_dtannedYT.jpg Texture 2 %anim%_skin_spec.tga
+           Root Attach Eff_bloodfloor.fo3d 
  Value 13  Root Texture 0 %anim%_Skin_pale.jpg Texture 2 %anim%_skin_spec.tga
+           Root Attach Eff_bloodfloor.fo3d 
  Value 14  Root Texture 0 %anim%_Skin_paleTT.jpg Texture 2 %anim%_skin_spec.tga
+           Root Attach Eff_bloodfloor.fo3d 
  Value 15  Root Texture 0 %anim%_Skin_paleYT.jpg Texture 2 %anim%_skin_spec.tga
+           Root Attach Eff_bloodfloor.fo3d 
  Value 16  Root Texture 0 %anim%_Skin_yellow.jpg Texture 2 %anim%_skin_spec.tga
+           Root Attach Eff_bloodfloor.fo3d 
  Value 17  Root Texture 0 %anim%_Skin_yellowTT.jpg Texture 2 %anim%_skin_spec.tga
+           Root Attach Eff_bloodfloor.fo3d 
  Value 18  Root Texture 0 %anim%_Skin_yellowYT.jpg Texture 2 %anim%_skin_spec.tga
+           Root Attach Eff_bloodfloor.fo3d 
  Value 19  Root Texture 0 %anim%_Skin_arabic.jpg Texture 2 %anim%_skin_spec.tga
+           Root Attach Eff_bloodfloor.fo3d 
  Value 20  Root Texture 0 %anim%_Skin_arabicTT.jpg Texture 2 %anim%_skin_spec.tga
+           Root Attach Eff_bloodfloor.fo3d 
  Value 21  Root Texture 0 %anim%_Skin_arabicYT.jpg Texture 2 %anim%_skin_spec.tga
+           Root Attach Eff_bloodfloor.fo3d 
  Value 22  Root Texture 0 %anim%_Skin_tanned.jpg Texture 2 %anim%_skin_spec.tga
+           Root Attach Eff_bloodfloor.fo3d 
  Value 23  Root Texture 0 %anim%_Skin_tannedTT.jpg Texture 2 %anim%_skin_spec.tga
+           Root Attach Eff_bloodfloor.fo3d 
  Value 24  Root Texture 0 %anim%_Skin_tannedYT.jpg Texture 2 %anim%_skin_spec.tga
- Value 25  Root Texture 0 %anim%_basefal.tga 
- Value 26  Root Texture 0 %anim%_baseblack.tga 
+           Root Attach Eff_bloodfloor.fo3d 
+ Value 25  Root Texture 0 %anim%_basefal.tga
+           Root Attach Eff_bloodfloor.fo3d 
+ Value 26  Root Texture 0 %anim%_baseblack.tga
+           Root Attach Eff_bloodfloor.fo3d  
  Value 27  Root Texture 0 %anim%_jmpyellow.tga
+           Root Attach Eff_bloodfloor.fo3d 
  Value 28  Root Texture 0 %anim%_pickard.tga
+           Root Attach Eff_bloodfloor.fo3d 
  Value 29  Root Texture 0 %anim%_basemetal.tga
+           Root Attach Eff_bloodfloor.fo3d 
 
 # Body
 Layer 3
- Value 1   Root Attach Armor_%anim%_leatherjacket.X  
+ Value 1   Root Attach Armor_%anim%_leatherjacket.fo3d  
  Value 2   Root DisableSubset 4 Attach armor_%anim%_metalarmor.fo3d 
  Value 3   Root DisableSubset 4 Attach armor_%anim%_metalarmor.fo3d
- Value 4                  
+ Value 4   Root Attach armor_%anim%_ncr_patrol.x               
  Value 5   Root DisableSubset 4-7             
 Attach armor_%anim%_combatarmor.fo3d            
  Value 6   Root DisableSubset 0-1-2-3-4-5-6-7-8     Attach ATR_PowerArmor.x 
@@ -104,13 +133,14 @@ Layer 4
   Value 18 Root DisableLayer 7 Attach armor_suit_hat.x
 # ArmorClothing --------------------------------------
 Layer 5
-   Value 1   Root Subset 4 Texture 0 Male_baseblack.tga Texture 2 no_spec.tga
-                Subset 3 Texture 0 %anim%_leatherpants.tga
-                Subset 6 Texture 0 %anim%_leatherpants.tga
-                Subset 7 Texture 0 %anim%_leatherpants.tga
-                Subset 8 Texture 0 %anim%_leatherpants.tga
-                Subset 10 Texture 0 %anim%_leatherpants.tga                  
- Value 2    Root 
+   Value 1  Root Subset 4 Texture 0 Male_baseblack.tga Texture 2 %anim%_leatherpants_spec.tga
+              Subset 3 Texture 0 %anim%_leatherpants.tga Texture 2 %anim%_leatherpants_spec.tga 
+                Subset 6 Texture 0 %anim%_leatherpants.tga Texture 2 %anim%_leatherpants_spec.tga
+                Subset 7 Texture 0 %anim%_leatherpants.tga Texture 2 %anim%_leatherpants_spec.tga
+                Subset 8 Texture 0 %anim%_leatherpants.tga Texture 2 %anim%_leatherpants_spec.tga
+                Subset 10 Texture 0 %anim%_leatherpants.tga Texture 2 %anim%_leatherpants_spec.tga           
+ 
+Value 2    Root 
             Subset 3 Texture 0 %anim%_metaloutfit.tga Texture 2 no_spec.tga
             Subset 1 Texture 0 %anim%_metaloutfit.tga Texture 2 no_spec.tga
             Subset 6 Texture 0 %anim%_metaloutfit.tga Texture 2 no_spec.tga
@@ -264,14 +294,14 @@ Layer 1
  Value 162 Attach WP_bbgunLE.x                                      Link R_Handle_1   Scale 1.25 RotY -75 RotZ -10 MoveX 2 
  Value 235 Attach wp_powerfist.x                                      
  Value 236 Attach wp_combatknife.x                                  Link R_Handle_1  Scale 0.25 RotY -90 MoveZ -5.5 MoveX 2
- Value 241 Attach WP_223pistol.x                                 Link R_Handle_1  Scale 3.7 RotY -90 RotZ 10 MoveX 4 MoveY 1         
+ Value 241 Attach WP_223pistol.x                                 Link R_Handle_1  Scale 3.5 RotY -90 RotZ 10 MoveX 4 MoveY 1         
  Value 242 Attach WP_combatshotgun.x                                Link R_Handle_1   Scale 0.9 RotY -75 RotZ -10 MoveX 2
  Value 268 Attach WP_hkcaws.x                                       Link R_Handle_1   Scale 6 RotY -75 RotZ -10 MoveX 2 
  Value 313 Attach WP_44magnum.x                                     Link R_Handle_1  Scale 0.75 RotY -90 RotZ 10 MoveX 4 MoveY 1
  Value 350 Attach WP_bozar.x                                        Link R_Handle_1 Scale 0.6 RotY -75 RotZ -10 MoveX 2
  Value 351 Attach WP_fnfal.x                                       Link R_Handle_1   Scale 1.4 RotY -75 RotZ -10 MoveX 2
  Value 352 Attach WP_HKg11.x                                     Link R_Handle_1  Scale 6 RotY -90 RotZ 14 MoveX 4 MoveY 1
- Value 354 Attach WP_pancor.x                                       Link R_Handle_1   Scale 0.5
+ Value 354 Attach WP_pancor.x                                       Link R_Handle_1   Scale 0.13 RotY -75 RotZ -10 MoveX 2
  Value 389 Attach WP_Minigun.fo3d Texture 0 ITEM_avengerminigun.tga   Link R_Handle_1
  Value 390 Attach WP_SolarScorcher.x                               Link R_Handle_1  Scale 0.08 RotY -90 MoveY 1 MoveX 2 
  Value 391 Attach WP_HKg11e.x                                     Link R_Handle_1  Scale 6 RotY -90 RotZ 14 MoveX 4 MoveY 1
@@ -831,7 +861,8 @@ Layer 12
  Value 1 Attach ATR_%atr%_ShoLeatherOutfit.x
  Value 2 Attach ATR_%atr%_ShoPowerArmor.x
  Value 5 Attach ATR_%atr%_ShoCombatArmor.x
-
+ Value 101 Root Attach Muzzleflash.fo3d
+           Root Attach eff_Bulletcase_anim.fo3d
 # Pants
 Layer 13
  Value 1 Root DisableLayer 5 Subset 6 Texture 0 %anim%_cloth_white.jpg Texture 2 no_spec.tga
@@ -982,17 +1013,8 @@ Anim A 56 %anim%_Fallgetup.x knockedback
 Anim A 57 %anim%_Fallgetup.x knockedforward
 Anim A 58 %anim%_Fallgetup.x Getup_back
 Anim A 59 %anim%_Fallgetup.x Getup_forward
-Anim A 60 %anim_file% %anim%_ProneB_Una_DmgFr_01
-Anim A 61 %anim_file% %anim%_ProneF_Una_DmgFr_01
-Anim A 62 %anim_file% %anim%_ProneB_Una_DmgFrMult_01
-Anim A 63 %anim_file% %anim%_ProneF_Una_DmgFrMult_01
-Anim A 64 %anim%_superdance.x superdance
-Anim A 65 %anim_file% %anim%_ProneF_Una_Twitch_01
-Anim A 66 %anim_file% %anim%_ProneB_Una_Death_01
-Anim A 67 %anim_file% %anim%_ProneF_Una_Death_01
-
-Anim A 75 laserdeath.x laserdeath
-Anim A 77 %anim%_boomtest.x boomdeath 
+Anim A 66 %anim%_Fallgetup.x knockedback
+Anim A 67 %anim%_Fallgetup.x knockedforward
 
 # Knife
 Anim D 1  %anim%_knife.x knife_idle
@@ -1019,15 +1041,9 @@ Anim D 40 %anim%_Knife.x knife_dodge
 Anim D 42 %anim_file% %anim%_Com_1H_DmgFr_01
 Anim D 44 %anim_file% %anim%_Com_1H_DmgFrMult_01
 Anim D 46 %anim_file% %anim%_Com_1H_Walk_DmgFr_01
-Anim D 52 %anim%_Fallgetup.x Fall_back
 Anim D 54 %anim_file% %anim%_Com_1H_Walk_DmgFr_01
-Anim D 58 %anim%_Fallgetup.x Fall_front
-#AnimEqual 1 E D
-#AnimEqual 1 F D
-#AnimEqual 1 G D
-#AnimEqual 1 H D
-AnimEqual 1 I H
-#AnimEqual 1 J D
+
+
 
 # Club
 Anim E 1  %anim%_club.x club_idle
@@ -1037,8 +1053,6 @@ Anim E 16 %anim%_club.x club_idle
 Anim E 24 %anim%_knife.x knife_thurst
 Anim E 26 %anim%_club.x club_swing
 Anim E 40 %anim%_club.x club_dodge
-Anim E 52 %anim%_Fallgetup.x Fall_back
-Anim E 58 %anim%_Fallgetup.x Fall_front
 
 # Sledgehammer
 Anim F 1  %anim%_sledgehammer.x sledgehammer_idle
@@ -1053,8 +1067,6 @@ Anim F 24 %anim%_sledgehammer.x sledgehammer_thurst
 Anim F 26 %anim%_sledgehammer.x sledgehammer_swing
 Anim F 28 %anim%_knife.x knife_throw
 Anim F 40 %anim%_sledgehammer.x sledgehammer_dodge
-Anim F 52 %anim%_Fallgetup.x Fall_back
-Anim F 58 %anim%_Fallgetup.x Fall_front
 
 # Spear
 Anim G 1  %anim%_spear.x spear_idle
@@ -1081,9 +1093,7 @@ Anim G 40 %anim%_spear.x spear_dodge
 Anim G 42 %anim_file% %anim%_Com_1H_DmgFr_01
 Anim G 44 %anim_file% %anim%_Com_1H_DmgFrMult_01
 Anim G 46 %anim_file% %anim%_Com_1H_Walk_DmgFr_01
-Anim G 52 %anim%_Fallgetup.x Fall_back
 Anim G 54 %anim_file% %anim%_Com_1H_Walk_DmgFr_01
-Anim G 58 %anim%_Fallgetup.x Fall_front
 
 # Pistol
 Anim H 1  %anim%_pistol.x pistol_idle
@@ -1110,9 +1120,36 @@ Anim H 40 %anim%_Dodge.x dodge
 Anim H 42 %anim_file% %anim%_Com_1H_DmgFr_01
 Anim H 44 %anim_file% %anim%_Com_1H_DmgFrMult_01
 Anim H 46 %anim_file% %anim%_Com_1H_Walk_DmgFr_01
-Anim H 52 %anim%_Fallgetup.x Fall_back
 Anim H 54 %anim_file% %anim%_Com_1H_Walk_DmgFr_01
-Anim H 58 %anim%_Fallgetup.x Fall_front
+
+
+# smg
+Anim I 1  %anim%_pistol.x pistol_idle
+Anim I 2  %anim_file% %anim%_Com_1H_Stunned_01
+Anim I 3  %anim_file% %anim%_Com_1H_Walk_01
+Anim I 7  %anim%_pistol.x pistol_on
+Anim I 8  %anim%_pistol.x pistol_off
+Anim I 9  %anim_file% %anim%_Def_1H_Fidget_01
+Anim I 15 %anim_file% %anim%_Def_1H_to_Com_01
+Anim I 16 %anim%_pistol.x pistol_idle
+Anim I 17 %anim_file% %anim%_Com_1H_to_Def_01
+Anim I 24 %anim%_Spear.x Spearhit
+Anim I 26 %anim%_Spear.x Spearhit
+Anim I 27 %anim_file% %anim%_Com_2HC_Melee_Slash_01
+Anim I 28 %anim_file% %anim%_Com_1H_Throw_01
+Anim I 29 %anim%_pistol.x pistol_shoot
+Anim I 30 %anim%_pistol.x pistol_Burst
+Anim I 31 %anim_file% %anim%_Com_1H_Gun_Sweep_01
+Anim I 32 %anim_file% %anim%_Com_1H_Gun_Butt_01
+Anim I 34 %anim_file% %anim%_Com_1H_Gun_NoRecoil_01
+Anim I 35 %anim%_pistol.x pistol_shoot
+Anim I 36 %anim_file% %anim%_Com_1H_Maintenance_01
+Anim I 40 %anim%_Dodge.x dodge
+Anim I 42 %anim_file% %anim%_Com_1H_DmgFr_01
+Anim I 44 %anim_file% %anim%_Com_1H_DmgFrMult_01
+Anim I 46 %anim_file% %anim%_Com_1H_Walk_DmgFr_01
+Anim I 54 %anim_file% %anim%_Com_1H_Walk_DmgFr_01
+
 
 #Rifles
 Anim J 1 %anim%_Rifle.x Rifle_idle
@@ -1123,8 +1160,6 @@ Anim J 29 %anim%_Rifle.x Rifle_shoot
 Anim J 30 %anim%_Rifle.x Rifle_burst
 Anim J 35 %anim%_Rifle.x Rifle_shoot
 Anim J 40 %anim%_rifle.x rifle_dodge
-#Anim J 52 %anim%_Fallgetup.x Fall_back
-#Anim J 58 %anim%_Fallgetup.x Fall_front
 
 # 2 handed
 Anim K 1  %anim%_BigGun.x Biggun_idle

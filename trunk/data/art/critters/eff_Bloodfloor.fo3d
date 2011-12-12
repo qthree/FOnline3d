@@ -1,0 +1,14 @@
+
+model eff_bloodfloor.x
+Effect 3D_SpecularMapping.fx
+EffDef Floats Specular_Power 8.0
+
+Anim A 52 eff_bloodfloor.x idle
+Anim A 53 eff_bloodfloor.x idle
+Anim A 56 eff_bloodfloor.x idle
+Anim A 57 eff_bloodfloor.x idle
+Anim A 66 eff_bloodfloor.x bloodback
+Anim A 67 eff_bloodfloor.x bloodfront
+
+Root Texture 0 Bloodfloor.jpg
+Root Texture 2 Bloodfloor_spec.jpg
