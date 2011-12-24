@@ -1,0 +1,7 @@
+Include _VBWeapon.fo3d name WP_combatknife
+
+Effect 3D_SpecularMapping.fx
+EffDef Floats Specular_Power 8.0
+
+Texture 0 ITEM_combatknife.tga
+Texture 2 ITEM_combatknife_spec.tga
