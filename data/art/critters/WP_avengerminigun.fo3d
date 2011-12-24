@@ -1,0 +1,7 @@
+Include _VBWeapon.fo3d name WP_minigun
+
+Effect 3D_SpecularMapping.fx
+EffDef Floats Specular_Power 8.0
+
+Texture 0 ITEM_avengerminigun.tga
+Texture 2 ITEM_avengerminigun_spec.tga
