@@ -1,9 +1,0 @@
-
-model muzzleflash.x
-
-Effect 3D_SelfIlluminated.fx 
-DisableShadow
-
-Anim A 1 muzzleflash.x idle
-
-Anim I 30 muzzleflash.x burstsmg
