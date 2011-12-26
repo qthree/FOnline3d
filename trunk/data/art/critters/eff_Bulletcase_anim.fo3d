@@ -2,6 +2,13 @@
 model eff_Bulletcase_anim.x
 
 
-Anim A 1 eff_Bulletcase_anim.x idle
+Anim A 1  eff_Bulletcase_anim.x idle
 
+Anim H 29 eff_Bulletcase_anim.x singlepistol
+Anim I 29 eff_Bulletcase_anim.x singlepistol
 Anim I 30 eff_Bulletcase_anim.x burstsmg
+
+Anim J 29 eff_Bulletcase_anim.x riflesingle
+Anim J 30 eff_Bulletcase_anim.x rifleburst
+
+Anim L 30 eff_Bulletcase_anim.x minigunburst

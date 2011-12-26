@@ -11,8 +11,6 @@ Effect 3D_SpecularMapping.fx
 EffDef Floats Specular_Power 5.0
 
 
-
-
 #
 # Layers
 #
@@ -861,7 +859,7 @@ Layer 12
  Value 1 Attach ATR_%atr%_ShoLeatherOutfit.x
  Value 2 Attach ATR_%atr%_ShoPowerArmor.x
  Value 5 Attach ATR_%atr%_ShoCombatArmor.x
- Value 101 Root Attach Muzzleflash.fo3d
+ Value 101 Root Attach eff_muzzleflash.fo3d
            Root Attach eff_Bulletcase_anim.fo3d
 # Pants
 Layer 13
