@@ -82,16 +82,22 @@ Layer 3
  Value 1   Root Attach Armor_%anim%_leatherjacket.fo3d  
  Value 2   Root DisableSubset 4 Attach armor_%anim%_metalarmor.fo3d 
  Value 3   Root DisableSubset 4 Attach armor_%anim%_metalarmor.fo3d
- Value 4   Root Attach armor_%anim%_ncr_patrol.x               
+ Value 4 Root 
+            Subset 3 Texture 0 %anim%_metaloutfit.tga Texture 2 no_spec.tga
+            Subset 1 Texture 0 %anim%_metaloutfit.tga Texture 2 no_spec.tga
+            Subset 6 Texture 0 %anim%_metaloutfit.tga Texture 2 no_spec.tga
+            Subset 7 Texture 0 %anim%_metaloutfit.tga Texture 2 no_spec.tga
+            Subset 8 Texture 0 %anim%_metaloutfit.tga Texture 2 no_spec.tga
+            Subset 10 Texture 0 %anim%_metaloutfit.tga  Texture 2 no_spec.tga           
  Value 5   Root DisableSubset 4-7             
 Attach armor_%anim%_combatarmor.fo3d            
- Value 6   Root DisableSubset 0-1-2-3-4-5-6-7-8     Attach ATR_PowerArmor.x 
+ Value 6   Root DisableSubset 0-1-2-3-4-5-6-7-8     Attach armor_PowerArmor.fo3d 
 
 Value 7 Root DisableSubset 4-7           
 Attach ATR_environmental.x
 
 Value 8 Root DisableSubset 4-7 
-Attach armor_%anim%_leatherarmor.x
+Attach armor_%anim%_leatherarmor.fo3d
 
 Value 9 Root DisableSubset 0-1-2-3-4-5-6-7-8 Attach Armor_apa.x
 
@@ -117,11 +123,15 @@ Attach armor_%anim%_combatarmor.fo3d
 
 Value 17 Root DisableSubset 0-4 Attach armor_%anim%_gunsmith.x
 Value 18 Root DisableSubset 0-1-2 Attach armor_%anim%_suit.x
+Value 19 Root DisableSubset 4 Attach armor_%anim%_teslaarmor.fo3d 
+Attach eff_%anim%_tesla.fo3d Link L_Clavicle RotZ 15 MoveY 14 RotX -14 MoveX 6 MoveZ -8 RotY -13
+
+Value 20   Root Attach armor_%anim%_leatherarmormk2.fo3d     
 
 # Head --------------------------
 Layer 4
   Value 5 Root DisableLayer 7 Attach armor_%anim%_combatarmorhelmet.fo3d
-  Value 6 Root Root Attach ATR_PowerArmorhelmet.x
+  Value 6 Root Root Attach armor_PowerArmor_helmet.fo3d
   Value 9 Root Attach Armor_apahelmet.x
   Value 13 Root Attach Armor_%anim%_combatrangerhelmet.x
    Value 14 Root DisableLayer 7 Attach armor_%anim%_combatarmorhelmet.fo3d
@@ -148,15 +158,7 @@ Value 2    Root
  Value 3  
 
    
-Value 4   Root Subset 0 Texture 0 %anim%_cloth.png Texture 2 no_spec.tga
-Root Subset 1 Texture 0 %anim%_cloth.png Texture 2 no_spec.tga
-Root Subset 2 Texture 0 %anim%_cloth.png Texture 2 no_spec.tga
-Root Subset 3 Texture 0 %anim%_cloth.png Texture 2 no_spec.tga
-Root Subset 4 Texture 0 %anim%_cloth.png Texture 2 no_spec.tga
-Root Subset 6 Texture 0 %anim%_cloth.png Texture 2 no_spec.tga
-Root Subset 7 Texture 0 %anim%_cloth.png Texture 2 no_spec.tga
-Root Subset 8 Texture 0 %anim%_cloth.png Texture 2 no_spec.tga
-Root Subset 10 Texture 0 %anim%_cloth.png Texture 2 no_spec.tga             
+         
  Value 5   Root 
             Subset 0 Texture 0 %anim%_CAclothing.jpg Texture 2 no_spec.tga
             Subset 1 Texture 0 %anim%_CAclothing.jpg Texture 2 no_spec.tga
@@ -222,28 +224,30 @@ Subset 7 Texture 0 Armor_%anim%_suit_clothing.jpg Texture 2 no_spec.tga
 Subset 8 Texture 0 Armor_%anim%_suit_clothing.jpg Texture 2 no_spec.tga
 Subset 10 Texture 0 Armor_%anim%_suit_clothing.jpg Texture 2 no_spec.tga
 
+Value 20   Root  
+#Subset 1 Texture 0 leatherarmorbody_%anim%.tga  Texture 2 no_spec.tga
+Subset 3 Texture 0 leatherarmorbody_%anim%.tga  Texture 2 no_spec.tga
+Subset 6 Texture 0 leatherarmorbody_%anim%.tga  Texture 2 no_spec.tga
+Subset 8 Texture 0 leatherarmorbody_%anim%.tga  Texture 2 no_spec.tga
 
 # Right Handle
 Layer 1
- Value 1   Attach WP_bazooka.x                           Link R_Handle_1  Scale 1 RotX -90 RotY -15
- Value 2   Attach WP_223Autoloader.fo3d                             Link R_Handle_1  Scale 50
- Value 3   Attach WP_223Autoloader_GunSilencer.fo3d                 Link R_Handle_1  Scale 50
+
  Value 4   Attach WP_AvengerMinigun.fo3d                                Link R_Handle_1  
  Value 5   Attach WP_club.x                                         Link R_Handle_1  Scale 1.6
- Value 6   Attach WP_22Autoloader_GunSilencer.fo3d                  Link R_Handle_1  Scale 50
- Value 7   Attach WP_2mmGaussPistol.fo3d                            Link R_Handle_1  Scale 50
+ Value 6   Attach WP_sledgehammer.fo3d                  Link R_Handle_1  Scale 50
+ Value 7   Attach WP_spear.x                            Link R_Handle_1  Scale 50
  Value 8   Attach WP_10mmpistol.x                                  Link R_Handle_1  Scale 2.3 RotY -90 RotZ 10 MoveX 4 MoveY 1
  Value 9   Attach WP_10mmsmg.x                                     Link R_Handle_1  Scale 1.8 RotY -90 RotZ 10 MoveX 4 MoveY 1
- Value 10  Attach WP_45Autoloader_GunExtClip.fo3d                   Link R_Handle_1  Scale 50
+ Value 10  Attach WP_huntingrifle.x                                 Link R_Handle_1  Scale 3 RotY -75 RotZ -10 MoveX 2
  Value 11  Attach WP_Flamer.x                                       Link Spine_1 Scale 0.25 MoveZ -10 MoveX 32 MoveY 5 RotX 110 RotZ -100 RotY 115
- Value 12  Attach WP_Minigun.fo3d                                Link R_Handle_1
- Value 13  Attach WP_45Revolver.fo3d                                Link R_Handle_1  Scale 50
- Value 14  Attach WP_50Revolver.fo3d                                Link R_Handle_1  Scale 50
- Value 15  Attach WP_9mmAutoloader.fo3d                             Link R_Handle_1  Scale 70 RotX -90
+ Value 12  Attach WP_Minigun.x                                Link R_Handle_1
+ Value 13  Attach WP_bazooka.fo3d                           Link R_Handle_1  Scale 1 RotX -90 RotY -15
+ Value 15  Attach WP_Plasmarifle.x                                 Link R_Handle_1  Scale 0.25 RotY -90
  Value 16  Attach WP_laserpistol.x                                  Link R_Handle_1  Scale 1.4 RotY -90 RotZ 10 MoveX 4
  Value 17  Attach WP_9mmAutoloader_GunExtClip_GunSilencer.fo3d      Link R_Handle_1  Scale 50
  Value 18  Attach WP_9mmAutoloader_GunSilencer.fo3d                 Link R_Handle_1  Scale 50
- Value 19  Attach fxtest.x                                Link R_Handle_1  Scale 1.7 RotY 180 MoveX 2
+ Value 19  Attach WP_greasegun.x                                Link R_Handle_1  Scale 1.7 RotY 180 MoveX 2
  Value 20  Attach Wp_Crowbar.x                                      Link R_Handle_1  Scale 0.8 RotY 10 RotZ 10
  Value 21  Attach WP_brassknuckles.x                                Link R_Hand  Scale 0
  Value 22  Attach WP_14mmpistol.x                                   Link R_Handle_1  Scale 0.6 RotY -90 RotZ 10 MoveX 4 MoveY 1
@@ -254,9 +258,11 @@ Layer 1
  Value 27  Attach WP_Baseballbat.x                                  Link R_Handle_1  Scale 50
  Value 28  Attach WP_CattleProd.x                                   Link R_Handle_1  Scale 50
  Value 29  Attach wp_combatknife.fo3d                                 Link R_Handle_1  Scale 0.25 RotY -90 MoveZ -5.5 MoveX 2
- Value 30  Attach WP_Crowbar.x                                      Link R_Handle_1  Scale 50
+ Value 30  Attach Wp_Crowbar.x                                      Link R_Handle_1  Scale 0.8 RotY 10 RotZ 10
  Value 31  Attach WP_Dynamite.x                                     Link R_Handle_1  Scale 50
- Value 32  Attach WP_flamer.x                                 Link R_Handle_1  Scale 0.25 RotY -90
+ Value 32  
+ Root Attach eff_flamethrower.fo3d
+ Attach WP_flamer.x                                 Link R_Handle_1  Scale 0.25 RotY -90           
  Value 33  Attach WP_m60.x                                 Link R_Handle_1  Scale 2.2 RotY -90 RotZ -20
  Value 34  Attach WP_Flare.x                                        Link R_Handle_1  Scale 50
  Value 35  Attach WP_GrenadeBio.x                                   Link R_Handle_1  Scale 50
@@ -267,7 +273,7 @@ Layer 1
  Value 40  Attach WP_Hatchet.x                                      Link R_Handle_1  Scale 50
  Value 41  Attach WP_HeavyWrench.x                                  Link R_Handle_1  Scale 50
  Value 42  Attach WP_KitchenKnife.x                                 Link R_Handle_1  Scale 50 RotX -90
- Value 43  Attach WP_Plasmarifle.x                                 Link R_Handle_1  Scale 0.25 RotY -90
+ Value 43  
  Value 44  Attach WP_LaserPistol.x                                  Link R_Handle_1  Scale 50
  Value 45  Attach WP_LaserSaw.x                                     Link R_Handle_1  Scale 50
  Value 46  Attach WP_LeadPipe.x                                     Link R_Handle_1  Scale 50
@@ -311,7 +317,7 @@ Layer 1
  Value 496 Root DisableSubset 5 Attach WP_boxinggloves.x
  Value 544 Attach WP_MineFrag.x                                     Link R_Handle_1  RotX 90 RotZ 90 Scale 0.20 MoveX 3
  Value 600 Attach WP_dynacord.x                                     Link R_Handle_1 Scale 2
-
+ Value 800  Attach Item_guitar.x                                 Link R_Handle_1  Scale 0.12 RotY -75 RotZ -10 MoveX 2 MoveY 4
 
 # Left Handle
 Layer 2
@@ -666,7 +672,7 @@ Layer 8
 
 # Mustache
 Layer 9
- Value 10 Attach ATR_%atr%_MusFull.x
+ Value 10 Attach Item_%anim%_makeupeffect.fo3d Link Head RotZ -90 RotX 180 MoveZ 0.4 MoveX 0.1
  Value 11 Attach ATR_%atr%_MusFull.x Texture 0 MusFull_brownGrey_LG.tga
  Value 12 Attach ATR_%atr%_MusFull.x Texture 0 MusFull_black_LG.tga
  Value 13 Attach ATR_%atr%_MusFull.x Texture 0 MusFull_blackGrey_LG.tga
@@ -1061,7 +1067,8 @@ Anim F 2  %anim_file% %anim%_Com_1H_Stunned_01
 Anim F 3  %anim%_sledgehammer.x sledgehammer_Walk
 Anim F 7  %anim%_sledgehammer.x sledgehammer_on
 Anim F 8  %anim%_sledgehammer.x sledgehammer_off
-Anim F 9  %anim_file% %anim%_Def_1H_Fidget_01
+Anim F 9  %anim%_sledgehammer.x sledgehammer_fidget
+Anim F 10 %anim%_sledgehammer.x sledgehammer_fidget
 Anim F 15 %anim_file% %anim%_Def_1H_to_Com_01
 Anim F 16 %anim%_sledgehammer.x sledgehammer_idle
 Anim F 24 %anim%_sledgehammer.x sledgehammer_thurst
@@ -1158,6 +1165,8 @@ Anim I 54 %anim_file% %anim%_Com_1H_Walk_DmgFr_01
 Anim J 1 %anim%_Rifle.x Rifle_idle
 Anim J 7 %anim%_Rifle.x Rifle_on
 Anim J 8 %anim%_Rifle.x Rifle_off
+Anim J 9 %anim%_Rifle.x Rifle_idle
+Anim J 10 %anim%_Rifle.x Rifle_idle
 Anim J 16 %anim%_Rifle.x Rifle_idle
 Anim J 29 %anim%_Rifle.x Rifle_shoot
 Anim J 30 %anim%_Rifle.x Rifle_burst
@@ -1171,6 +1180,7 @@ Anim K 3  %anim%_BigGun.x Biggun_walk
 Anim K 7  %anim%_BigGun.x Biggun_off
 Anim K 8  %anim%_BigGun.x Biggun_on
 Anim K 9  %anim_file% %anim%_Def_2HH_Fidget_01
+Anim K 10  %anim%_BigGun.x Biggun_idle
 Anim K 15 %anim_file% %anim%_Def_2HH_to_Com_01
 Anim K 16 %anim_file% %anim%_Com_2HH_Idle_01
 Anim K 17 %anim_file% %anim%_Com_2HH_to_Def_01
@@ -1187,9 +1197,14 @@ Anim K 40 %anim%_biggun.x biggun_dodge
 Anim K 42 %anim_file% %anim%_Com_2HH_DmgFr_01
 Anim K 44 %anim_file% %anim%_Com_2HH_DmgFrMult_01
 Anim K 46 %anim_file% %anim%_Com_2HH_Walk_DmgFr_01
-Anim K 52 %anim_file% %anim%_Com_2HH_Knock_ProneB_01
-Anim K 54 %anim_file% %anim%_Com_2HH_Laydown_ProneB_01
-Anim K 58 %anim_file% %anim%_Com_ProneB_2HH_to_Com_01
+Anim K 52 %anim%_Fallgetupbig.x Fall_back
+Anim K 53 %anim%_Fallgetupbig.x Fall_forward
+Anim K 56 %anim%_Fallgetupbig.x knockedback
+Anim K 57 %anim%_Fallgetupbig.x knockedforward
+Anim K 58 %anim%_Fallgetupbig.x Getup_back
+Anim K 59 %anim%_Fallgetupbig.x Getup_forward
+Anim K 66 %anim%_Fallgetupbig.x knockedback
+Anim K 67 %anim%_Fallgetup.x knockedforward
 
 # Bazooka
 Anim M 1  %anim%_bazooka.x bazooka_idle
@@ -1205,6 +1220,8 @@ Anim L 1  %anim%_minigun.x minigun_idle
 Anim L 3  %anim%_minigun.x minigun_walk
 Anim L 7  %anim%_minigun.x minigun_on
 Anim L 8  %anim%_minigun.x minigun_off
+Anim L 9  %anim%_minigun.x minigun_fidget
+Anim L 10  %anim%_minigun.x minigun_fidget2
 Anim L 30 %anim%_minigun.x minigun_burst
 Anim L 35 %anim%_minigun.x minigun_burst
 Anim L 40 %anim%_minigun.x minigun_dodge
