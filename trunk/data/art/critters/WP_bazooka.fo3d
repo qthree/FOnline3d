@@ -1,0 +1,7 @@
+Include _VBWeapon.fo3d name WP_bazooka
+
+Effect 3D_SpecularMapping.fx
+EffDef Floats Specular_Power 9.5
+
+Texture 0 ITEM_bazooka.tga
+Texture 2 ITEM_bazooka_spec.tga

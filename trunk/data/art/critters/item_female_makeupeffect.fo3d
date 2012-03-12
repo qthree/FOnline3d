@@ -1,0 +1,17 @@
+
+Effect 3D_SpecularMapping.fx
+EffDef Floats Specular_Power 8.0
+
+
+model item_female_makeupeffect.x
+
+
+DisableShadow
+
+Layer 0
+    Value 4 Root Texture 0 female_makeupdarktone.tga
+     Value 6 Root Texture 0 female_makeupdarktone.tga
+     Value 7 Root Texture 0 female_makeupdarktone.tga
+Value 9 Root Texture 0 female_makeupdarktone.tga
+Value 19 Root Texture 0 female_makeupdarktone.tga
+Value 21 Root Texture 0 female_makeupdarktone.tga

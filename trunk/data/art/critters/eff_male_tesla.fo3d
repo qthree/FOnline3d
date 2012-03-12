@@ -1,0 +1,8 @@
+
+model eff_male_tesla.x
+
+Effect 3D_SelfIlluminated.fx 
+DisableShadow
+
+Anim A 3 eff_male_tesla.x teslaidle
+Anim A 40 eff_male_tesla.x teslashield

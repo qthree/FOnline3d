@@ -1,0 +1,6 @@
+Model armor_male_teslaarmor.x
+Effect 3D_SpecularMapping.fx 
+EffDef Floats Specular_Power 14.5 
+
+Texture 0 armor_male_teslaarmor.tga
+             Texture 2 armor_male_teslaarmor_spec.tga
