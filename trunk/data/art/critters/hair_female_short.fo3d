@@ -1,0 +1,9 @@
+Model Hair_female_short.x
+Effect 3D_SpecularMapping.fx 
+EffDef Floats Specular_Power 8.0 
+
+Layer 7
+ Value 48  Root Texture 0 Hair_female_short.tga Texture 2 hair_female_short_spec.tga
+ Value 49  Root Texture 0 Hair_female_short_Blonde.tga Texture 2 hair_female_short_spec.tga
+ Value 50  Root Texture 0 Hair_female_short_Brown.tga Texture 2 hair_female_short_spec.tga
+ Value 51  Root Texture 0 Hair_female_short_black.tga Texture 2 hair_female_short_spec.tga

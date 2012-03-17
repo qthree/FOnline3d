@@ -1,0 +1,9 @@
+Model Hair_male_short.x
+Effect 3D_SpecularMapping.fx 
+EffDef Floats Specular_Power 10.0 
+
+Layer 7
+ Value 48  Root Texture 0 Hair_male_short.jpg Texture 2 hair_male_short_spec.tga
+ Value 49  Root Texture 0 Hair_male_short_Blonde.jpg Texture 2 hair_male_short_spec.tga
+ Value 50  Root Texture 0 Hair_male_short_Brown.jpg Texture 2 hair_male_short_spec.tga
+ Value 51  Root Texture 0 Hair_male_short_black.jpg Texture 2 hair_male_short_spec.tga

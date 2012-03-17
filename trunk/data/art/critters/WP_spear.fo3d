@@ -1,0 +1,13 @@
+Include _VBWeapon.fo3d name WP_spear
+
+Effect 3D_SpecularMapping.fx
+EffDef Floats Specular_Power 9.5
+
+Texture 0 Item_spear.jpg
+Texture 2 Item_spear_spec.jpg
+
+Anim G 1 WP_Spear.x idle
+Anim G 3 WP_Spear.x walk
+Anim G 6 WP_Spear.x run
+Anim G 9 WP_Spear.x fidget
+Anim G 10 WP_Spear.x fidget

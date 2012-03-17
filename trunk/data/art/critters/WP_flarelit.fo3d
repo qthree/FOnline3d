@@ -1,0 +1,6 @@
+Model WP_flare.x
+
+Effect 3D_SelfIlluminated.fx 
+DisableShadow
+
+Texture 0 Item_flarelit.tga

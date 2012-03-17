@@ -1,0 +1,12 @@
+
+model eff_gatlinglaser.x
+
+Effect 3D_SelfIlluminated.fx 
+DisableShadow
+
+Root Texture 0 eff_muzzleflashlaser.tga
+
+Anim L 7  eff_gatlinglaser.x idle
+Anim A 3  eff_gatlinglaser.x idle
+
+Anim L 30 eff_gatlinglaser.x burst
