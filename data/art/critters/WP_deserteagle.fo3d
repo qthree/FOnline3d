@@ -1,0 +1,6 @@
+Include _VBWeapon.fo3d name WP_deserteagle
+
+Effect 3D_SpecularMapping.fx
+EffDef Floats Specular_Power 9.5
+
+Texture 2 genericspecular.jpg
