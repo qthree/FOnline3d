@@ -9,6 +9,11 @@ Anim A 56 eff_bloodfloor.x idle
 Anim A 57 eff_bloodfloor.x idle
 Anim A 66 eff_bloodfloor.x bloodback
 Anim A 67 eff_bloodfloor.x bloodfront
+Anim A 70 eff_bloodfloor.x idle
+Anim A 71 eff_bloodfloor.x bloodfront
+Anim A 72 eff_bloodfloor.x bloodback
+Anim A 75 eff_bloodfloor.x idle
+Anim A 76 eff_bloodfloor.x bloodback
 
 Root Texture 0 Bloodfloor.jpg
 Root Texture 2 Bloodfloor_spec.jpg

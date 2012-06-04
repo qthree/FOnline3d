@@ -3,4 +3,4 @@ Effect 3D_SpecularMapping.fx
 EffDef Floats Specular_Power 5.5 
 
  Texture 0 armor_male_leatherjacket.tga
-Texture 2 armor_female_leatherjacket_spec.tga
+Texture 2 armor_male_leatherjacket_spec.tga

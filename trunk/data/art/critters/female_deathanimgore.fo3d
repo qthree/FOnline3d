@@ -1,0 +1,21 @@
+Model male_deathanimgore.x
+
+
+Effect 3D_SpecularMapping.fx
+EffDef Floats Specular_Power 3.0
+
+Root Texture 0 gore.tga
+Root Texture 2 gorespec.jpg
+
+
+
+Anim A 70 male_deathanimgore.x deathpierce
+Anim A 71 male_deathanimgore.x deathburstbloody
+Anim A 72 male_deathanimgore.x deathburst
+Anim A 75 male_deathanimgore.x deathlaser
+Anim A 76 male_deathanimgore.x deathplasma
+Anim A 1  male_deathanimgore.x idle
+Anim A 56 male_deathanimgore.x idle
+Anim A 57 male_deathanimgore.x idle
+Anim A 66 male_deathanimgore.x idle
+Anim A 67 male_deathanimgore.x idle

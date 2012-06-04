@@ -3,5 +3,5 @@ Effect 3D_SpecularMapping.fx
 EffDef Floats Specular_Power 5.0 
 
 Layer 3
-Value 8 Root Texture 0 armor_male_leatherarmor.tga
+Value 8 Root Texture 0 armor_female_leatherarmor.tga
 Value 8 Root Texture 2 armor_male_leatherarmor_spec.tga
