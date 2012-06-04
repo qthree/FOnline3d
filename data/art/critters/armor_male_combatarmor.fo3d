@@ -1,9 +1,9 @@
-Model armor_male_combatarmor.x
+Model testarmor.x
 Effect 3D_SpecularMapping.fx 
-EffDef Floats Specular_Power 14.0 
+EffDef Floats Specular_Power 11.5 
 
 Layer 3
-Value 5  Root  Texture 0 CA_Standard.jpg
+Value 5  Root  Texture 0 CA_Standard.tga
                Texture 2 CA_spec.tga
 Value 14 Root  Texture 0 CA_mk2.jpg
                Texture 2 CA_spec.tga

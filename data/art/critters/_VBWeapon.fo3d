@@ -18,14 +18,6 @@ Anim J 30 ModelFile burst
 
 Anim L 30 ModelFile burst
 
-Anim A 75 laserdeath.x laserdeath
 Anim A 77 ModelFile boomdeath
 
 
-
-//Not a weapon, but serves the same purpose.
-
-Anim A 70 ModelFile deathpierce
-Anim A 71 ModelFile deathburstbloody
-Anim A 72 ModelFile deathburst
-Anim A 76 ModelFile deathplasma

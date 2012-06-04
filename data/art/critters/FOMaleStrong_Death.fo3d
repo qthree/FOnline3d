@@ -1,0 +1,2 @@
+Model           male_deathmodel.x
+Include _FOHuman_death.fo3d anim_file male_deathmodel.x anim male 

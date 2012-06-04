@@ -1,6 +1,6 @@
 Model armor_male_combatarmorhelmet.x
 Effect 3D_SpecularMapping.fx 
-EffDef Floats Specular_Power 12.0 
+EffDef Floats Specular_Power 10.5 
 
 Layer 4
 Value 5 Root Texture 0 CA_Standard.tga Texture 2 CA_spec.tga
