@@ -338,8 +338,9 @@ Layer 1
  Value 5 Attach WP_club.x Texture 0 ITEM_club.jpg Link R_Handle_1  Scale 1.6
  Value 386 Attach WP_slugger.x Texture 0 ITEM_slugger.jpg Link R_Handle_1 Scale 40
  Value 160 Attach WP_CattleProd.x Link R_Handle_1 Scale 0.8 RotY 10 RotZ 10
- Value 399
- Value 6
+ Value 399 Attach WP_super_cattle_prod.x Texture 0 ITEM_super_cattle_prod.jpg  Link R_Handle_1 Scale 0.35 RotY 10 RotZ 10
+ Value 498 Attach WP_plasma_torch.x Texture 0 ITEM_plasma_torch.jpg  Link R_Handle_1 Scale 0.35 RotY 10 RotZ 10
+ Value 6 Attach WP_sledgehammer.x Texture 0 ITEM_sledgehammer.jpg Link L_Handle_1 RotX 90 Scale 3 RotY 6 RotZ -70
  Value 115 Attach WP_super_sledge.x Texture 0 ITEM_super_sledge.jpg Link L_Handle_1 RotX 90 Scale 1.05 RotY 6 RotZ -70
 
 #Other
@@ -349,11 +350,11 @@ Layer 1
  Value 384 Attach WP_HeavyWrench.x Link R_Handle_1 Scale 50
 
 #Throwing_Explosives
- Value 25 Attach WP_GrenadeFrag.x Link R_Handle_1 Scale 3.5 MoveX 3 RotY -60
- Value 26
- Value 27 
- Value 421
- Value 159
+  Value 25 Attach WP_GrenadeFrag.x Texture 0 ITEM_GrenadeFrag.jpg Link R_Handle_1 Scale 1.7 MoveX 3 RotY -60
+ Value 26 Attach WP_plasma_grenade.x Texture 0 ITEM_plasma_grenade.jpg Link R_Handle_1 Scale 0.2 MoveX 3 RotY -60
+ Value 27 Attach WP_pulse_grenade.x Texture 0 ITEM_pulse_grenade.jpg Link R_Handle_1 Scale 1.7 MoveX 3 RotY -60
+ Value 421 Attach WP_holy_hand_grenade.x Texture 0 ITEM_holy_hand_grenade.jpg Link R_Handle_1 Scale 0.6 MoveX 3 RotY -60
+ Value 159 Attach WP_molotov_cocktail.x Texture 0 ITEM_molotov_cocktail.jpg Link R_Handle_1 Scale 2.5 MoveX 3 RotY -60
  Value 602 Attach WP_dynacord.x Link R_Handle_1 Scale 2
 
 #Regular_Explosives
