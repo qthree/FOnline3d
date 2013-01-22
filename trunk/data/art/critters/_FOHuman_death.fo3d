@@ -84,16 +84,7 @@ Layer 3
  Value 1   Root Attach Armor_%anim%_leatherjacket.fo3d  
  Value 2   Root DisableSubset 4 Attach armor_%anim%_metalarmor.fo3d 
  Value 3   Root DisableSubset 4 Attach armor_%anim%_metalarmor.fo3d
- Value 4 Root 
-            Subset 3  Texture 0 %anim%_vault.png Texture 2 no_spec.tga
-            Subset 2  Texture 0 %anim%_vault.png Texture 2 no_spec.tga
-             Subset 4  Texture 0 %anim%_vault.png Texture 2 no_spec.tga
-            Subset 0  Texture 0 %anim%_vault.png Texture 2 no_spec.tga
-            Subset 1  Texture 0 %anim%_vault.png Texture 2 no_spec.tga
-            Subset 6  Texture 0 %anim%_vault.png Texture 2 no_spec.tga
-            Subset 7  Texture 0 %anim%_vault.png Texture 2 no_spec.tga
-            Subset 8  Texture 0 %anim%_vault.png Texture 2 no_spec.tga
-            Subset 10  Texture 0 %anim%_vault.png  Texture 2 no_spec.tga         
+       
  Value 5   Root DisableSubset 4-7             
 Attach armor_%anim%_combatarmor.fo3d            
  Value 6   Root DisableSubset 0-1-2-3-4-5-6-7-8     Attach armor_PowerArmor.fo3d 
@@ -161,7 +152,16 @@ Value 2    Root
             Subset 8 Texture 0 %anim%_metaloutfit.tga Texture 2 no_spec.tga
             Subset 10 Texture 0 %anim%_metaloutfit.tga  Texture 2 no_spec.tga   
  Value 3  
-
+ Value 4 Root 
+            Subset 3  Texture 0 %anim%_vault.png Texture 2 no_spec.tga
+            Subset 2  Texture 0 %anim%_vault.png Texture 2 no_spec.tga
+             Subset 4  Texture 0 %anim%_vault.png Texture 2 no_spec.tga
+            Subset 0  Texture 0 %anim%_vault.png Texture 2 no_spec.tga
+            Subset 1  Texture 0 %anim%_vault.png Texture 2 no_spec.tga
+            Subset 6  Texture 0 %anim%_vault.png Texture 2 no_spec.tga
+            Subset 7  Texture 0 %anim%_vault.png Texture 2 no_spec.tga
+            Subset 8  Texture 0 %anim%_vault.png Texture 2 no_spec.tga
+            Subset 10  Texture 0 %anim%_vault.png  Texture 2 no_spec.tga  
    
          
  Value 5   Root 

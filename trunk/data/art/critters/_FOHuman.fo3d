@@ -85,16 +85,7 @@ Layer 3
  Value 1   Root Attach Armor_%anim%_leatherjacket.fo3d  
  Value 2   Root DisableSubset 4 Attach armor_%anim%_metalarmor.fo3d 
  Value 3   Root DisableSubset 4 Attach armor_%anim%_metalarmor.fo3d
- Value 4 Root 
-            Subset 3  Texture 0 %anim%_vault.png Texture 2 no_spec.tga
-            Subset 2  Texture 0 %anim%_vault.png Texture 2 no_spec.tga
-             Subset 4  Texture 0 %anim%_vault.png Texture 2 no_spec.tga
-            Subset 0  Texture 0 %anim%_vault.png Texture 2 no_spec.tga
-            Subset 1  Texture 0 %anim%_vault.png Texture 2 no_spec.tga
-            Subset 6  Texture 0 %anim%_vault.png Texture 2 no_spec.tga
-            Subset 7  Texture 0 %anim%_vault.png Texture 2 no_spec.tga
-            Subset 8  Texture 0 %anim%_vault.png Texture 2 no_spec.tga
-            Subset 10  Texture 0 %anim%_vault.png  Texture 2 no_spec.tga           
+          
  Value 5   Root DisableSubset 4-7             
 Attach armor_%anim%_combatarmor.fo3d            
  Value 6   Root DisableSubset 0-1-2-3-4-5-6-7-8     Attach armor_PowerArmor.fo3d 
@@ -163,7 +154,16 @@ Value 2    Root
             Subset 10 Texture 0 %anim%_metaloutfit.tga  Texture 2 no_spec.tga   
  Value 3  
 
-   
+Value 4 Root 
+            Subset 3  Texture 0 %anim%_vault.png Texture 2 no_spec.tga
+            Subset 2  Texture 0 %anim%_vault.png Texture 2 no_spec.tga
+             Subset 4  Texture 0 %anim%_vault.png Texture 2 no_spec.tga
+            Subset 0  Texture 0 %anim%_vault.png Texture 2 no_spec.tga
+            Subset 1  Texture 0 %anim%_vault.png Texture 2 no_spec.tga
+            Subset 6  Texture 0 %anim%_vault.png Texture 2 no_spec.tga
+            Subset 7  Texture 0 %anim%_vault.png Texture 2 no_spec.tga
+            Subset 8  Texture 0 %anim%_vault.png Texture 2 no_spec.tga
+             Subset 10  Texture 0 %anim%_vault.png Texture 2 no_spec.tga 
          
  Value 5   Root 
             Subset 0 Texture 0 %anim%_CAclothing.jpg Texture 2 no_spec.tga
@@ -242,10 +242,10 @@ Layer 1
 
 #Pistols
  Value 241 Attach WP_223pistol.x Link R_Handle_1  Scale 3.7 RotY -90 RotZ 10 MoveX 4 MoveY 1        
- Value 313 Attach WP_magnum.x Texture 0 ITEM_magnum.jpg Link R_Handle_1 Scale 2.3 RotY -90 RotZ 10 MoveX 4 MoveY 1
+ Value 313 Attach WP_magnum.x Texture 0 ITEM_44magnum.jpg Link R_Handle_1 Scale 2.3 RotY -90 RotZ 10 MoveX 4 MoveY 1
  Value 122 Attach WP_mauser.x Texture 0 ITEM_mauser.jpg Link R_Handle_1 Scale 2 RotY -90 RotZ 10 MoveX 4 MoveY 1
  Value 8 Attach WP_10mm_pistol.x Texture 0 ITEM_10mm_pistol.jpg Link R_Handle_1 Scale 2.3 RotY -90 RotZ 10 MoveX 4 MoveY 1
- Value 22 Attach WP_14mm_pistol.x Texture 0 ITEM_14mm_pistol.jpg Link R_Handle_1 Scale 2.0 RotY -90 RotZ 10 MoveX 4 MoveY 1
+ Value 22 Attach WP_14mm_pistol.x Texture 0 ITEM_14mmpistol.tga Link R_Handle_1 Scale 2.0 RotY -90 RotZ 10 MoveX 4 MoveY 1
  Value 18 Attach WP_desert_eagle.x Texture 0 ITEM_desert_eagle.jpg Link R_Handle_1 Scale 4.0 RotY -90 RotZ 10 MoveX 4 MoveY 1
  Value 404 Attach WP_desert_eagle_ext.x Texture 0 ITEM_desert_eagle.jpg Link R_Handle_1 Scale 4.0 RotY -90 RotZ 10 MoveX 4 MoveY 1
  Value 394 Attach WP_gauss_pistol.x Texture 0 ITEM_gauss_pistol.jpg Link R_Handle_1 Scale 1 RotY -90 RotZ 10 MoveX 4 MoveY 1
@@ -276,15 +276,17 @@ Layer 1
  Value 353 Attach WP_xl70e3.x Texture 0 ITEM_xl70e3.jpg Link R_Handle_1   Scale 0.27 RotY -75 RotZ -10 MoveX 2 
 
 #Shotguns
- Value 385 Attach wp_shotgun.x Texture 0 ITEM_shotgun.jpg Link R_Handle_1 Scale 0.15 RotY -75 RotZ -10 MoveX 2
- Value 94 Attach WP_SawedOff_Shotgun.x Texture 0 ITEM_sawedoff_shotgun.jpg Link R_Handle_1 Scale 1.3 RotY -90 RotZ 10 MoveX 4 MoveY 1
+ Value 94 Attach wp_shotgun.x Texture 0 ITEM_shotgun.jpg Link R_Handle_1 Scale 0.15 RotY -75 RotZ -10 MoveX 2
+ Value 385 Attach WP_SawedOff_Shotgun.x Texture 0 ITEM_sawedoff_shotgun.jpg Link R_Handle_1 Scale 1.3 RotY -90 RotZ 10 MoveX 4 MoveY 1
  Value 242 Attach WP_combatshotgun.x Link R_Handle_1 Scale 0.9 RotY -75 RotZ -10 MoveX 2
  Value 268 Attach WP_hkcaws.x Link R_Handle_1   Scale 6 RotY -75 RotZ -10 MoveX 2 
  Value 354 Attach WP_pancor.x Texture 0 ITEM_pancor_jackhammer.jpg Link R_Handle_1   Scale 0.10 RotY -75 RotZ -10 MoveX 2 
 
 #Big guns
- Value 12 Attach WP_Minigun.fo3d Texture 0 ITEM_regular_minigun.jpg Link R_Handle_1
- Value 389 Attach WP_Minigun.fo3d Texture 0 ITEM_avengerminigun.tga Link R_Handle_1
+ Value 12 Attach WP_Minigun.fo3d Link R_Handle_1
+ Value 28  Root DisableLayer 11
+           Attach WP_gatlinglaser.fo3d                                Link R_Handle_1 Scale 1.5 MoveX 2
+ Value 389 Attach WP_Minigun.fo3d Link R_Handle_1
  Value 395 Attach WP_vindicator.fo3d Link R_Handle_1 
  Value 350 Attach WP_bozar.x Link R_Handle_1 Scale 0.6 RotY -75 RotZ -10 MoveX 2
  Value 355 Attach wp_light_support_weapon.x Texture 0 ITEM_light_support_weapon.jpg Link R_Handle_1 Scale 0.03 RotY -75 RotZ -10 MoveX 2
@@ -292,7 +294,11 @@ Layer 1
  Value 13 Attach WP_bazooka.x Link R_Handle_1 Scale 1 RotX -90 RotY -15
  Value 600 Attach WP_bazooka202.x Texture 0 ITEM_m202.jpg Link R_Handle_1 Scale 1 RotX -90 RotY -15 
  Value 11 Attach WP_flamer.x Link R_Handle_1  Scale 0.25 RotY -90
+DisableLayer 11  
+           Root Attach eff_flamethrower.fo3d
  Value 400 Attach WP_improved_flamer.x Texture 0 ITEM_improved_flamer.jpg Link R_Handle_1  Scale 0.25 RotY -90
+DisableLayer 11  
+           Root Attach eff_flamethrower.fo3d
 
 #Energy_Pistols
  Value 120 Attach WP_alien.x Texture 0 ITEM_alien.jpg Link R_Handle_1 Scale 1 RotX -90 RotY -15
@@ -322,7 +328,7 @@ Layer 1
  Value 292 Root DisableSubset 5 Attach WP_boxinggloves.x
  Value 21
  Value 234
- Value 235 Attach wp_powerfist.x
+ Value 235 Root Attach wp_powerfist.x
  Value 407
 
 #Knives
@@ -344,7 +350,7 @@ Layer 1
  Value 115 Attach WP_super_sledge.x Texture 0 ITEM_super_sledge.jpg Link L_Handle_1 RotX 90 Scale 1.05 RotY 6 RotZ -70
 
 #Other
- Value 7 Attach WP_Speartest.x Texture 0 ITEM_spear.jpg Link R_Handle_1 Scale 0.8 RotX 90 MoveX 5
+  Value 7   Attach WP_spear.fo3d                            Link R_Handle_1  Scale 0.56 RotY 180 RotX 6 MoveX 3 MoveY -4
  Value 320
  Value 20 Attach Wp_Crowbar.x Link R_Handle_1  Scale 0.8 RotY 10 RotZ 10
  Value 384 Attach WP_HeavyWrench.x Link R_Handle_1 Scale 50
@@ -377,143 +383,137 @@ Layer 1
  Value 409 Attach MISC_Paramedic_Bag.x Texture 0 ITEM_Paramedic_Bag.jpg Link R_Handle_1 Scale 1.3 RotY 207 MoveZ 0.85 MoveX 2 MoveY -1.75
  Value 91 Attach MISC_Doctor_Bag.x Texture 0 ITEM_Doctor_Bag.jpg Link R_Handle_1 RotY 112 Scale 1.35
  Value 47 Attach MISC_First_Aid_Kit.x Texture 0 ITEM_First_Aid_Kit.jpg Link R_Handle_1 Scale 0.5 RotX 180 RotY -15
+ Value 273 Attach MISC_healing_powder.x Texture 0 MISC_healing_powder.jpg Link R_Handle_1 Scale 0.01
+ Value 49 Attach MISC_antidote.x Texture 0 MISC_antidote.jpg Link R_Handle_1 Scale 3.5
+ Value 40 Attach MISC_stimpak.x Texture 0 MISC_stimpak.jpg Link R_Handle_1 Scale 0.6 RotY 90
+ Value 144 Attach MISC_super_stimpak.x Texture 0 MISC_super_stimpak.jpg Link R_Handle_1 Scale 2.4
+ Value 525 Attach MISC_hypo.x Texture 0 MISC_hypo.png Link R_Handle_1 Scale 0.25
 #-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 # Left Handle
 Layer 2
 
-# Test entries for the left handle, corrections required (doesn't seem to do any changes to ~param 0 151 x)
-
-# Unarmed - Link L_Handle_1
-# Knife
-# Club
-# Sledgehammer
-# Spear
-# Pistol - Link L_Hand RotX -90 RotZ 75 MoveZ 0.11 MoveX -0.03
-# Rifles - Link Spine_1 Scale 3 MoveZ -10 MoveX 15 RotX 70 RotZ 90
-# 2 handed - Link Spine_1 Scale 0.25 MoveZ -10 MoveX 32 MoveY 5 RotX 110 RotZ -100 RotY 115
-# Bazooka - Link Spine_1 RotZ 180 RotY 80 MoveZ -20 MoveX 16 MoveY -14
-# Minigun - Link R_Handle_1
+#parameters for pistols Link R_Thigh RotX 80 RotY -90 MoveY 3 MoveZ -5 MoveX 3.4 Scale 1
+#For rifles Link Spine_1 MoveZ -10 MoveX 15 RotX 70 RotZ 90 RotY 55 MoveY -6 Scale 1
+#for flamer big bun  Link Spine_1 MoveZ -10 MoveX 32 MoveY 5 RotX 110 RotZ -100 RotY 115 Scale 1
+#for miniguns Link Spine_1 RotZ 180 RotY 80 MoveZ -20 MoveX 16 MoveY -14
+#knives Link R_Thigh RotZ -80 MoveY 8 MoveX -3 MoveZ -5 RotY -20 Scale 1
 
 #Pistols
- Value 241 Attach WP_223pistol.x                                              Link R_Thigh RotX -90   Scale 50
- Value 313 Attach WP_magnum.x Texture 0 ITEM_magnum.jpg                       Link R_Thigh RotX -90   Scale 50
- Value 122
- Value 8 Attach WP_10mm_pistol.x Texture 0 ITEM_10mm_pistol.jpg               Link R_Thigh RotX -90   Scale 50
- Value 22 Attach WP_14mm_pistol.x Texture 0 ITEM_14mm_pistol.jpg              Link R_Thigh RotX -90   Scale 50
- Value 18 Attach WP_desert_eagle.x Texture 0 ITEM_desert_eagle.jpg            Link R_Thigh RotX -90   Scale 50
- Value 404 Attach WP_desert_eagle_ext.x Texture 0 ITEM_desert_eagle.jpg       Link R_Thigh RotX -90   Scale 50
- Value 394
- Value 388
- Value 300
+ Value 241 Attach WP_223pistol.x Link Link R_Thigh RotX 80 RotY -90 MoveY 3 MoveZ -5 MoveX 3.4 Scale 3.7        
+ Value 313 Attach WP_magnum.x Texture 0 ITEM_44magnum.jpg Link R_Thigh RotX 80 RotY -90 MoveY 3 MoveZ -5 MoveX 3.4 Scale 2.3
+ Value 122 Attach WP_mauser.x Texture 0 ITEM_mauser.jpg Link R_Thigh RotX 80 RotY -90 MoveY 3 MoveZ -5 MoveX 3.4 Scale 2
+ Value 8 Attach WP_10mm_pistol.x Texture 0 ITEM_10mm_pistol.jpg Link R_Thigh RotX 80 RotY -90 MoveY 3 MoveZ -5 MoveX 3.4 Scale 2.3
+ Value 22 Attach WP_14mm_pistol.x Texture 0 ITEM_14mmpistol.tga Link R_Thigh RotX 80 RotY -90 MoveY 3 MoveZ -5 MoveX 3.4 Scale 2
+ Value 18 Attach WP_desert_eagle.x Texture 0 ITEM_desert_eagle.jpg Link R_Thigh RotX 80 RotY -90 MoveY 3 MoveZ -5 MoveX 3.4 Scale 4
+ Value 404 Attach WP_desert_eagle_ext.x Texture 0 ITEM_desert_eagle.jpg Link R_Thigh RotX 80 RotY -90 MoveY 3 MoveZ -5 MoveX 3.4 Scale 4
+ Value 394 Attach WP_gauss_pistol.x Texture 0 ITEM_gauss_pistol.jpg Link R_Thigh RotX 80 RotY -90 MoveY 3 MoveZ -5 MoveX 3.4 Scale 1
+ Value 388 Attach WP_needler.x Texture 0 ITEM_needler.jpg Link R_Thigh RotX 80 RotY -90 MoveY 3 MoveZ -5 MoveX 3.4 Scale 2.5
+ Value 300 Attach WP_zipgun.x Texture 0 ITEM_zipgun.jpg Link R_Thigh RotX 80 RotY -90 MoveY 3 MoveZ -5 MoveX 3.4 Scale 0.5
 
 #SMG
- Value 9 Attach WP_10mmsmg.x                                                  Link R_Thigh RotX -90   Scale 50
- Value 352 Attach WP_HKg11.x                                                  Link R_Thigh RotX -90   Scale 50
- Value 391 Attach WP_HKg11e.x                                                 Link R_Thigh RotX -90   Scale 50
- Value 296
- Value 332
- Value 283
+ Value 9 Attach WP_10mmsmg.x Link R_Thigh RotX 80 RotY -90 MoveY 3 MoveZ -5 MoveX 3.4 Scale 1.8
+ Value 352 Attach WP_HKg11.x Link R_Thigh RotX 80 RotY -90 MoveY 3 MoveZ -5 MoveX 3.4 Scale 6
+ Value 391 Attach WP_HKg11e.x Link R_Thigh RotX 80 RotY -90 MoveY 3 MoveZ -5 MoveX 3.4 Scale 6
+ Value 296 Attach WP_p90c.x Texture 0 ITEM_p90c.jpg Link R_Thigh RotX 80 RotY -90 MoveY 3 MoveZ -5 MoveX 3.4 Scale 0.2
+ Value 332 Attach Wp_GreaseGun.X Texture 0 ITEM_greasegun.jpg Link R_Thigh RotX 80 RotY -90 MoveY 3 MoveZ -5 MoveX 3.4 Scale 2
+ Value 283 Attach WP_tommy_gun.x Texture 0 ITEM_tommy_gun.jpg Link R_Thigh RotX 80 RotY -90 MoveY 3 MoveZ -5 MoveX 3.4 Scale 4
 
 #Regular_Rifles
- Value 23
- Value 405 Attach WP_assaultrifleext.x                                        Link Spine_1   Scale 10 RotX 90 MoveZ -9 RotZ 30 RotY 55
- Value 351 Attach WP_fnfal.x                                                  Link Spine_1   Scale 1.4 RotX 90 MoveZ -9 RotZ 30 RotY 55
- Value 500
- Value 403 Attach WP_fnfal_redsight.x                                         Link Spine_1   Scale 1.4 RotX 90 MoveZ -9 RotZ 30 RotY 55
- Value 10 Attach WP_huntingrifle.fo3d Texture 0 ITEM_magnum.jpg               Link Spine_1   Scale 10 RotX 90 MoveZ -9 RotZ 30 RotY 55 
- Value 287
- Value 392 Attach WP_gaussrifle.x                                             Link Spine_1   Scale 10 RotX 90 MoveZ -9 RotZ 30 RotY 55
- Value 299
- Value 161 Attach WP_bbgunLE.x                                                Link Spine_1   Scale 10 RotX 90 MoveZ -9 RotZ 30 RotY 55
- Value 162 Attach WP_bbgun.x                                                  Link Spine_1   Scale 10 RotX 90 MoveZ -9 RotZ 30 RotY 55
- Value 143
- Value 353
+ Value 23 Attach WP_assault_rifle_regular.x Texture 0 ITEM_assault_rifle_regular.jpg Link Spine_1 MoveZ -10 MoveX 15 RotX 70 RotZ 90 RotY 55 MoveY -6 Scale 3
+ Value 405 Attach WP_assaultrifleext.x Link Spine_1 MoveZ -10 MoveX 15 RotX 70 RotZ 90 RotY 55 MoveY -6 Scale 3
+ Value 351 Attach WP_fnfal.x Link Spine_1 MoveZ -10 MoveX 15 RotX 70 RotZ 90 RotY 55 MoveY -6 Scale 1.4
+ Value 500 Attach WP_fnfal.x Link Spine_1 MoveZ -10 MoveX 15 RotX 70 RotZ 90 RotY 55 MoveY -6 Scale 1.4
+ Value 403 Attach WP_fnfal_redsight.x Link Spine_1 MoveZ -10 MoveX 15 RotX 70 RotZ 90 RotY 55 MoveY -6 Scale 1.4
+ Value 10 Attach WP_huntingrifle.fo3d Texture 0 ITEM_hunting_rifle.jpg Link Spine_1 MoveZ -10 MoveX 15 RotX 70 RotZ 90 RotY 55 MoveY -6 Scale 0.17
+ Value 287 Attach WP_scoped_hunting_rifle.x Texture 0 ITEM_scoped_hunting_rifle.jpg Link Spine_1 MoveZ -10 MoveX 15 RotX 70 RotZ 90 RotY 55 MoveY -6 Scale 0.17
+ Value 392 Attach WP_gaussrifle.x Link Spine_1 MoveZ -10 MoveX 15 RotX 70 RotZ 90 RotY 55 MoveY -6 Scale 8
+ Value 299 Attach WP_pipe_rifle.x Texture 0 ITEM_pipe_rifle.jpg Link Spine_1 MoveZ -10 MoveX 15 RotX 70 RotZ 90 RotY 55 MoveY -6 Scale 2.5
+ Value 161 Attach WP_bbgunLE.x Link Spine_1 MoveZ -10 MoveX 15 RotX 70 RotZ 90 RotY 55 MoveY -6 Scale 1.25
+ Value 162 Attach WP_bbgun.x Link Spine_1 MoveZ -10 MoveX 15 RotX 70 RotZ 90 RotY 55 MoveY -6 Scale 1.3
+ Value 143 Attach WP_sniper_rifle.x Texture 0 ITEM_sniper_rifle.jpg Link Spine_1 MoveZ -10 MoveX 15 RotX 70 RotZ 90 RotY 55 MoveY -6 Scale 0.23
+ Value 353 Attach WP_xl70e3.x Texture 0 ITEM_xl70e3.jpg Link Spine_1 MoveZ -10 MoveX 15 RotX 70 RotZ 90 RotY 55 MoveY -6 Scale 0.27
 
 #Shotguns
- Value 385
- Value 94
- Value 242 Attach WP_combatshotgun.x                                          Link Spine_1   Scale 10 RotX 90 MoveZ -9 RotZ 30 RotY 55
- Value 268 Attach WP_hkcaws.x                                                 Link Spine_1   Scale 10 RotX 90 MoveZ -9 RotZ 30 RotY 55
- Value 354 Attach WP_pancor.x                                                 Link Spine_1   Scale 0.5 RotX 90 MoveZ -9 RotZ 30 RotY 55
+ Value 94 Attach wp_shotgun.x Texture 0 ITEM_shotgun.jpg Link Spine_1 MoveZ -10 MoveX 15 RotX 70 RotZ 90 RotY 55 MoveY -6 Scale 0.15
+ Value 385 Attach WP_SawedOff_Shotgun.x Texture 0 ITEM_sawedoff_shotgun.jpg Link R_Thigh RotX 80 RotY -90 MoveY 3 MoveZ -5 MoveX 3.4 Scale 1.3
+ Value 242 Attach WP_combatshotgun.x Link Spine_1 MoveZ -10 MoveX 15 RotX 70 RotZ 90 RotY 55 MoveY -6 Scale 0.9
+ Value 268 Attach WP_hkcaws.x Link Spine_1 MoveZ -10 MoveX 15 RotX 70 RotZ 90 RotY 55 MoveY -6 Scale 6
+ Value 354 Attach WP_pancor.x Texture 0 ITEM_pancor_jackhammer.jpg Link Spine_1 MoveZ -10 MoveX 15 RotX 70 RotZ 90 RotY 55 MoveY -6 Scale 0.1
 
 #Big guns
- Value 12 Attach WP_Minigun.fo3d Texture 0 ITEM_regular_minigun.jpg           Link Spine_1 RotZ 180 RotY 80 MoveZ -20 MoveX 16 MoveY -14
- Value 389 Attach WP_Minigun.fo3d Texture 0 ITEM_avengerminigun.tga           Link Spine_1 RotZ 180 RotY 80 MoveZ -20 MoveX 16 MoveY -14
- Value 395 Attach WP_vindicator.fo3d                                          Link Spine_1 RotZ 180 RotY 80 MoveZ -20 MoveX 16 MoveY -14
- Value 350 Attach WP_bozar.x                                                  Link Spine_1 Scale 0.6
- Value 355
- Value 387 Attach WP_m60.x
- Value 13 Attach WP_bazooka.x
- Value 600 Attach WP_bazooka202.x Texture 0 ITEM_m202.jpg
- Value 11 Attach WP_flamer.x
- Value 400
+ Value 12 Attach WP_Minigun.fo3d Link Spine_1 RotZ 180 RotY 80 MoveZ -20 MoveX 16 MoveY -14
+ Value 28  Root DisableLayer 11
+           Attach WP_gatlinglaser.fo3d                                Link Spine_1 RotZ 180 RotY 80 MoveZ -20 MoveX 16 MoveY -14 Scale 1.5
+ Value 389 Attach WP_Minigun.fo3d Link Spine_1 RotZ 180 RotY 80 MoveZ -20 MoveX 16 MoveY -14
+ Value 395 Attach WP_vindicator.fo3d Link Spine_1 RotZ 180 RotY 80 MoveZ -20 MoveX 16 MoveY -14 
+ Value 350 Attach WP_bozar.x Link Spine_1 MoveZ -10 MoveX 32 MoveY 5 RotX 110 RotZ -100 RotY 115 Scale 0.6
+ Value 355 Attach wp_light_support_weapon.x Texture 0 ITEM_light_support_weapon.jpg Link Spine_1 MoveZ -10 MoveX 15 RotX 70 RotZ 90 RotY 55 MoveY -6 Scale 0.03
+ Value 387 Attach WP_m60.x Link Spine_1 MoveZ -10 MoveX 32 MoveY 5 RotX 110 RotZ -100 RotY 115 Scale 2.2
+ Value 13 Attach WP_bazooka.x Link R_Handle_1 Scale 1 RotX -90 RotY -15
+ Value 600 Attach WP_bazooka202.x Texture 0 ITEM_m202.jpg Link R_Handle_1 Scale 1 RotX -90 RotY -15 
+ Value 11 Attach WP_flamer.x Link Spine_1 MoveZ -10 MoveX 32 MoveY 5 RotX 110 RotZ -100 RotY 115 Scale 0.25
+ Value 400 Attach WP_improved_flamer.x Texture 0 ITEM_improved_flamer.jpg Link Spine_1 MoveZ -10 MoveX 32 MoveY 5 RotX 110 RotZ -100 RotY 115 Scale 0.25
 
 #Energy_Pistols
- Value 120 Attach WP_alien.x Texture 0 ITEM_alien.jpg                         Link R_Thigh RotX -90   Scale 50
- Value 16 Attach WP_LaserPistol.x Texture 0 ITEM_laserpistol.jpg              Link R_Thigh RotX -90   Scale 50
- Value 402
- Value 24
+ Value 120 Attach WP_alien.x Texture 0 ITEM_alien.jpg Link R_Thigh RotX 80 RotY -90 MoveY 3 MoveZ -5 MoveX 3.4 Scale 1
+ Value 16 Attach WP_LaserPistol.x Texture 0 ITEM_laserpistol.jpg Link R_Thigh RotX 80 RotY -90 MoveY 3 MoveZ -5 MoveX 3.4 Scale 50
+ Value 402 Attach WP_magneto_laser_pistol.x Texture 0 ITEM_magneto_laser_pistol.jpg Link R_Thigh RotX 80 RotY -90 MoveY 3 MoveZ -5 MoveX 3.4 Scale 1.5
+ Value 24 Attach wp_plasma_pistol.x Texture 0 ITEM_plasma_pistol.jpg Link Link R_Thigh RotX 80 RotY -90 MoveY 3 MoveZ -5 MoveX 3.4 Scale 1
  Value 406
- Value 396
- Value 390
- Value 393
+ Value 396 Attach WP_yk32_pulse_pistol.x Texture 0 ITEM_yk32_pulse_pistol.jpg Link R_Thigh RotX 80 RotY -90 MoveY 3 MoveZ -5 MoveX 3.4 Scale 0.6
+ Value 390 Attach WP_solar_scorcher.x Texture 0 ITEM_solar_scorcher.jpg Link R_Thigh RotX 80 RotY -90 MoveY 3 MoveZ -5 MoveX 3.4 Scale 0.1
+ Value 393 Attach WP_phazer.x Texture 0 ITEM_phazer.jpg Link R_Thigh RotX 80 RotY -90 MoveY 3 MoveZ -5 MoveX 3.4 Scale 0.3
 
 #Laser_Rifles
- Value 118 Attach WP_laserrifle.x                                             Link Spine_1 Scale 3 MoveZ -10 MoveX 15 RotX 70 RotZ 90
- Value 401 Attach WP_laserrifleext.x                                          Link Spine_1 Scale 3 MoveZ -10 MoveX 15 RotX 70 RotZ 90
- Value 15 Attach WP_Plasmarifle.x                                             Link Spine_1 Scale 0.25 MoveZ -10 MoveX 32 MoveY 5 RotX 110 RotZ -100 RotY 115
- Value 233
+ Value 118 Attach WP_laserrifle.x Link Spine_1 MoveZ -10 MoveX 32 MoveY 5 RotX 110 RotZ -100 RotY 115 Scale 0.25
+ Value 401 Attach WP_laserrifleext.x Link Spine_1 MoveZ -10 MoveX 32 MoveY 5 RotX 110 RotZ -100 RotY 115 Scale 0.25
+ Value 15 Attach WP_Plasmarifle.x Link Spine_1 MoveZ -10 MoveX 32 MoveY 5 RotX 110 RotZ -100 RotY 115 Scale 0.25
+ Value 233 Attach WP_turbo_plasma_rifle.x Texture 0 ITEM_turbo_plasma_rifle.jpg Link Spine_1 MoveZ -10 MoveX 32 MoveY 5 RotX 110 RotZ -100 RotY 115 Scale 0.25
  Value 397
  Value 28
 
 #Throwing
- Value 19 Attach WP_Rock.x
+ Value 19 
  Value 423
  Value 45
  Value 365
 
 #Unarmed
- Value 292 Root DisableSubset 5 Attach WP_boxinggloves.x                      Link L_Handle_1
+ Value 292 
  Value 21
  Value 234
- Value 235 Attach wp_powerfist.x                                              Link L_Handle_1
+ Value 235 
  Value 407
 
 #Knives
- Value 4
- Value 236 Attach wp_combatknife.x                                            
+ Value 4   Attach WP_knife.x  Texture 0 WP_knife.bmp    Link R_Thigh RotZ -80 MoveY 8 MoveX -3 MoveZ -5 RotY -20 Scale 3.5
+ Value 236 Attach wp_combatknife.x Link R_Thigh RotZ -80 MoveY 8 MoveX -3 MoveZ -5 RotY -20 Scale 0.25
  Value 517
- Value 522 
- Value 319 Attach WP_Switchblade.x                                            
+ Value 522 Attach WP_Machete.x Link R_Thigh RotZ -80 MoveY 8 MoveX -3 MoveZ -5 RotY -20 Scale 50
+ Value 319 Attach WP_Switchblade.x Link R_Thigh RotZ -80 MoveY 8 MoveX -3 MoveZ -5 RotY -20 Scale 50
  Value 383
  Value 116
 
 #Hammers
- Value 5 Attach WP_club.x Texture 0 ITEM_club.jpg
- Value 386 Attach WP_slugger.x Texture 0 ITEM_slugger.jpg
- Value 160 Attach WP_CattleProd.x
- Value 399
- Value 6
- Value 115 Attach WP_super_sledge.x Texture 0 ITEM_super_sledge.jpg
+ Value 5 Attach WP_club.x Texture 0 ITEM_club.jpg  Link Spine_1  Scale 1.6
+ Value 386 Attach WP_slugger.x Texture 0 ITEM_slugger.jpg  Link Spine_1  Scale 40
+ Value 160 Attach WP_CattleProd.x Link Spine_1  Scale 0.8 RotY 10 RotZ 10
+ Value 399 Attach WP_super_cattle_prod.x Texture 0 ITEM_super_cattle_prod.jpg   Link Spine_1  Scale 0.35 RotY 10 RotZ 10
+ Value 498 Attach WP_plasma_torch.x Texture 0 ITEM_plasma_torch.jpg   Link Spine_1  Scale 0.35 RotY 10 RotZ 10
+ Value 6 Attach WP_sledgehammer.x Texture 0 ITEM_sledgehammer.jpg  Link Spine_1  RotX 90 Scale 3 RotY 6 RotZ -70
+ Value 115 Attach WP_super_sledge.x Texture 0 ITEM_super_sledge.jpg  Link Spine_1  RotX 90 Scale 1.05 RotY 6 RotZ -70
 
 #Other
- Value 7 Attach WP_Speartest.x Texture 0 ITEM_spear.jpg
+  Value 7   Attach WP_spear.fo3d                            Link R_Handle_1  Scale 0.56 RotY 180 RotX 6 MoveX 3 MoveY -4
  Value 320
- Value 20 Attach Wp_Crowbar.x
- Value 384 Attach WP_HeavyWrench.x
+ Value 20 Attach Wp_Crowbar.x Link R_Handle_1  Scale 0.8 RotY 10 RotZ 10
+ Value 384 Attach WP_HeavyWrench.x Link R_Handle_1 Scale 50
 
 #Throwing_Explosives
- Value 25 Attach WP_GrenadeFrag.x
- Value 26
- Value 27 
- Value 421
- Value 159
- Value 602 Attach WP_dynacord.x
+
 
 #Regular_Explosives
- Value 85
- Value 51 Attach WP_Dynamite.x
- Value 601 Attach WP_MineFrag.x
+
 #-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
 # Hair
@@ -757,6 +757,8 @@ Anim D 54 %anim_file% %anim%_Com_1H_Walk_DmgFr_01
 Anim E 1  %anim%_club.x club_idle
 Anim E 7  %anim%_club.x club_on
 Anim E 8  %anim%_club.x club_off
+Anim E 9  %anim%_club.x club_fidget
+Anim E 10  %anim%_club.x club_fidget
 Anim E 16 %anim%_club.x club_idle
 Anim E 24 %anim%_knife.x knife_thurst
 Anim E 26 %anim%_club.x club_swing
@@ -881,8 +883,8 @@ Anim K 2  %anim_file% %anim%_Com_2HH_Stunned_01
 Anim K 3  %anim%_BigGun.x Biggun_walk
 Anim K 7  %anim%_BigGun.x Biggun_off
 Anim K 8  %anim%_BigGun.x Biggun_on
-Anim K 9  %anim_file% %anim%_Def_2HH_Fidget_01
-Anim K 10  %anim%_BigGun.x Biggun_idle
+Anim K 9  %anim%_BigGun.x Biggun_fidget
+Anim K 10 %anim%_BigGun.x Biggun_fidget
 Anim K 15 %anim_file% %anim%_Def_2HH_to_Com_01
 Anim K 16 %anim_file% %anim%_Com_2HH_Idle_01
 Anim K 17 %anim_file% %anim%_Com_2HH_to_Def_01
@@ -906,6 +908,8 @@ Anim M 1  %anim%_bazooka.x bazooka_idle
 Anim M 3  %anim%_bazooka.x bazooka_walk
 Anim M 7  %anim%_bazooka.x bazooka_on
 Anim M 8  %anim%_bazooka.x bazooka_off
+Anim M 9  %anim%_bazooka.x bazooka_fidget
+Anim M 10  %anim%_bazooka.x bazooka_fidget
 Anim M 29 %anim%_bazooka.x bazooka_shoot
 Anim M 35 %anim%_bazooka.x bazooka_shoot
 Anim M 40 %anim%_bazooka.x bazooka_dodge
@@ -934,3 +938,7 @@ Anim Q 26 %anim%_knife.x knife_swing
 Anim Q 3  %anim%_Walk.x Walk
 
 Anim Q 5  %anim%_Run.x Run
+
+# Use Items (individual animations)
+
+Anim T 10 male_stimpack.x use_stimpack
