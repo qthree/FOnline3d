@@ -7,12 +7,15 @@ DisableShadow
 Anim A 1  eff_muzzleflash.x idle
 
 Anim H 29 eff_muzzleflash.x singlepistol
+Anim H 80 eff_muzzleflash.x singlepistol
 Anim I 29 eff_muzzleflash.x singlepistol
 Anim I 30 eff_muzzleflash.x burstsmg
+Anim I 80 eff_muzzleflash.x singlepistol
 
 
 Anim J 29 eff_muzzleflash.x riflesingle
 Anim J 30 eff_muzzleflash.x rifleburst
+Anim J 80 eff_muzzleflash.x singlepistol
 
 Anim K 30 eff_muzzleflash.x biggunburst
 
