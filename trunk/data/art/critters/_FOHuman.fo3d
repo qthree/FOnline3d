@@ -614,6 +614,34 @@ Value 16  Root DisableLayer 5 Subset 6 Texture 0 %anim%_cloth_lightBrown.jpg Tex
          Root Subset 7 Texture 0 %anim%_cloth_lightBrown.jpg Texture 2 no_spec.tga
          Root Subset 8 Texture 0 %anim%_cloth_lightBrown.jpg Texture 2 no_spec.tga
          Root Subset 10 Texture 0 %anim%_cloth_lightBrown.jpg   Texture 2 no_spec.tga
+Value 17 Root DisableLayer 5 Subset 6 Texture 0 %anim%_cloth_blue.jpg Texture 2 no_spec.tga
+         Root Subset 8 Texture 0 %anim%_cloth_blue.jpg  Texture 2 no_spec.tga
+ Value 18 Root DisableLayer 5 Subset 6 Texture 0 %anim%_cloth_blue.jpg Texture 2 no_spec.tga
+         Root Subset 3 Texture 0 %anim%_cloth_blue.jpg Texture 2 no_spec.tga
+         Root Subset 8 Texture 0 %anim%_cloth_blue.jpg Texture 2 no_spec.tga
+ Value 19 Root DisableLayer 5 Subset 6 Texture 0 %anim%_cloth_blue.jpg Texture 2 no_spec.tga
+         Root Subset 3 Texture 0 %anim%_cloth_blue.jpg Texture 2 no_spec.tga
+         Root Subset 7 Texture 0 %anim%_cloth_blue.jpg Texture 2 no_spec.tga
+         Root Subset 8 Texture 0 %anim%_cloth_blue.jpg Texture 2 no_spec.tga
+Value 20  Root DisableLayer 5  Subset 6 Texture 0 %anim%_cloth_blue.jpg Texture 2 no_spec.tga
+         Root Subset 3 Texture 0 %anim%_cloth_blue.jpg Texture 2 no_spec.tga
+         Root Subset 7 Texture 0 %anim%_cloth_blue.jpg Texture 2 no_spec.tga
+         Root Subset 8 Texture 0 %anim%_cloth_blue.jpg Texture 2 no_spec.tga
+         Root Subset 10 Texture 0 %anim%_cloth_blue.jpg Texture 2 no_spec.tga
+Value 21 Root DisableLayer 5 Subset 6 Texture 0 %anim%_cloth_green.jpg Texture 2 no_spec.tga
+         Root Subset 8 Texture 0 %anim%_cloth_green.jpg  Texture 2 no_spec.tga
+ Value 22 Root DisableLayer 5 Subset 6 Texture 0 %anim%_cloth_green.jpg Texture 2 no_spec.tga
+         Root Subset 3 Texture 0 %anim%_cloth_green.jpg Texture 2 no_spec.tga
+         Root Subset 8 Texture 0 %anim%_cloth_green.jpg Texture 2 no_spec.tga
+ Value 23 Root DisableLayer 5 Subset 6 Texture 0 %anim%_cloth_green.jpg Texture 2 no_spec.tga
+         Root Subset 3 Texture 0 %anim%_cloth_green.jpg Texture 2 no_spec.tga
+         Root Subset 7 Texture 0 %anim%_cloth_green.jpg Texture 2 no_spec.tga
+         Root Subset 8 Texture 0 %anim%_cloth_green.jpg Texture 2 no_spec.tga
+Value 24  Root DisableLayer 5  Subset 6 Texture 0 %anim%_cloth_green.jpg Texture 2 no_spec.tga
+         Root Subset 3 Texture 0 %anim%_cloth_green.jpg Texture 2 no_spec.tga
+         Root Subset 7 Texture 0 %anim%_cloth_green.jpg Texture 2 no_spec.tga
+         Root Subset 8 Texture 0 %anim%_cloth_green.jpg Texture 2 no_spec.tga
+         Root Subset 10 Texture 0 %anim%_cloth_green.jpg Texture 2 no_spec.tga
  
 
 # UpperClothing
@@ -642,12 +670,38 @@ Value 11  Root DisableLayer 5 Subset 0 Texture 0 %anim%_cloth_lightBrown.jpg Tex
 Value 12 Root DisableLayer 5 Subset 0 Texture 0 %anim%_cloth_lightBrown.jpg Texture 2 no_spec.tga
          Root Subset 1 Texture 0 %anim%_cloth_lightBrown.jpg Texture 2 no_spec.tga
          Root Subset 2 Texture 0 %anim%_cloth_lightBrown.jpg Texture 2 no_spec.tga
+Value 13  Root DisableLayer 5 Subset 1 Texture 0 %anim%_cloth_blue.jpg Texture 2 no_spec.tga
+ Value 14  Root DisableLayer 5 Subset 0 Texture 0 %anim%_cloth_blue.jpg Texture 2 no_spec.tga
+          Root  Subset 1 Texture 0 %anim%_cloth_blue.jpg Texture 2 no_spec.tga
+ Value 15 Root DisableLayer 5 Subset 0 Texture 0 %anim%_cloth_blue.jpg Texture 2 no_spec.tga
+         Root Subset 1 Texture 0 %anim%_cloth_blue.jpg Texture 2 no_spec.tga
+         Root Subset 2 Texture 0 %anim%_cloth_blue.jpg Texture 2 no_spec.tga
+Value 16  Root DisableLayer 5 Subset 1 Texture 0 %anim%_cloth_green.jpg Texture 2 no_spec.tga
+ Value 17  Root DisableLayer 5 Subset 0 Texture 0 %anim%_cloth_green.jpg Texture 2 no_spec.tga
+          Root  Subset 1 Texture 0 %anim%_cloth_green.jpg Texture 2 no_spec.tga
+ Value 18 Root DisableLayer 5 Subset 0 Texture 0 %anim%_cloth_green.jpg Texture 2 no_spec.tga
+         Root Subset 1 Texture 0 %anim%_cloth_green.jpg Texture 2 no_spec.tga
+         Root Subset 2 Texture 0 %anim%_cloth_green.jpg Texture 2 no_spec.tga
+
+
 
 # Shoes
 Layer 14
  Value 1 Root DisableLayer 5
+         Root Subset 4 Texture 0 %anim%_cloth_white.jpg  Texture 2 no_spec.tga          
+Value 2 Root DisableLayer 5
          Root Subset 4 Texture 0 %anim%_cloth_white.jpg  Texture 2 no_spec.tga
          Root Subset 7 Texture 0 %anim%_cloth_white.jpg  Texture 2 no_spec.tga
+ Value 3 Root DisableLayer 5
+         Root Subset 4 Texture 0 %anim%_cloth_lightBrown.jpg  Texture 2 no_spec.tga          
+Value 4 Root DisableLayer 5
+         Root Subset 4 Texture 0 %anim%_cloth_lightBrown.jpg  Texture 2 no_spec.tga
+         Root Subset 7 Texture 0 %anim%_cloth_lightBrown.jpg  Texture 2 no_spec.tga
+ Value 5 Root DisableLayer 5
+         Root Subset 4 Texture 0 %anim%_cloth_black.jpg  Texture 2 no_spec.tga          
+Value 6 Root DisableLayer 5
+         Root Subset 4 Texture 0 %anim%_cloth_black.jpg  Texture 2 no_spec.tga
+         Root Subset 7 Texture 0 %anim%_cloth_black.jpg  Texture 2 no_spec.tga
         
 # Backpack                                                                                 Last layer. No more can be added unless they are declared.
 Layer 15
@@ -753,6 +807,7 @@ Anim D 54 %anim_file% %anim%_Com_1H_Walk_DmgFr_01
 
 
 
+
 # Club
 Anim E 1  %anim%_club.x club_idle
 Anim E 7  %anim%_club.x club_on
@@ -834,7 +889,7 @@ Anim H 42 %anim_file% %anim%_Com_1H_DmgFr_01
 Anim H 44 %anim_file% %anim%_Com_1H_DmgFrMult_01
 Anim H 46 %anim_file% %anim%_Com_1H_Walk_DmgFr_01
 Anim H 54 %anim_file% %anim%_Com_1H_Walk_DmgFr_01
-
+Anim H 80 %anim%_pistolaim.x pistol_shoot_aim
 
 # smg
 Anim I 1  %anim%_pistol.x pistol_idle
@@ -863,7 +918,7 @@ Anim I 42 %anim_file% %anim%_Com_1H_DmgFr_01
 Anim I 44 %anim_file% %anim%_Com_1H_DmgFrMult_01
 Anim I 46 %anim_file% %anim%_Com_1H_Walk_DmgFr_01
 Anim I 54 %anim_file% %anim%_Com_1H_Walk_DmgFr_01
-
+Anim I 80 %anim%_pistolaim.x pistol_shoot_aim
 
 #Rifles
 Anim J 1 %anim%_Rifle.x Rifle_idle
@@ -876,6 +931,7 @@ Anim J 29 %anim%_Rifle.x Rifle_shoot
 Anim J 30 %anim%_Rifle.x Rifle_burst
 Anim J 35 %anim%_Rifle.x Rifle_shoot
 Anim J 40 %anim%_rifle.x rifle_dodge
+Anim J 80 %anim%_Rifleaim.x Rifle_shoot_aim
 
 # 2 handed
 Anim K 1  %anim%_BigGun.x Biggun_idle
