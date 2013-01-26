@@ -313,10 +313,10 @@ DisableLayer 11
 #Laser_Rifles
  Value 118 Attach WP_laserrifle.x Link R_Handle_1 Scale 0.25 RotY -75 RotZ -10 MoveX 2
  Value 401 Attach WP_laserrifleext.x Link R_Handle_1 Scale 0.25 RotY -110 RotZ -30
- Value 15 Attach WP_Plasmarifle.x Link R_Handle_1 Scale 0.25 RotY -90
- Value 233 Attach WP_turbo_plasma_rifle.x Texture 0 ITEM_turbo_plasma_rifle.jpg Link R_Handle_1 Scale 0.25 RotY -90
- Value 397
- Value 28
+ Value 15 Attach WP_Plasmarifle.x Link R_Handle_1 Scale 0.23 RotY -90
+ Value 233 Attach WP_turbo_plasma_rifle.x Texture 0 ITEM_turbo_plasma_rifle.jpg Link R_Handle_1 Scale 0.23 RotY -90
+ Value 397 Attach WP_pulse_rifle.x Texture 0 ITEM_pulse_rifle.jpg Link R_Handle_1 Scale 1 RotY -75 RotZ -10 MoveX 2
+
 
 #Throwing
  Value 19 Attach WP_Rock.x Link R_Handle_1  Scale 50
@@ -326,10 +326,10 @@ DisableLayer 11
 
 #Unarmed
  Value 292 Root DisableSubset 5 Attach WP_boxinggloves.x
- Value 21
- Value 234
- Value 235 Root Attach wp_powerfist.x
- Value 407
+Value 234 Attach wp_2knuckles.x Texture 0 ITEM_spiked_knuckes.jpg Link R_Handle_1  Scale 0.35
+Value 21 Attach WP_brassknuckles.x Texture 0 ITEM_brassknuckles.jpg Link R_Handle_1  Scale 0.35
+ Value 235 Root Attach WP_powerfist.x Texture 0 ITEM_power_fist.jpg
+ Value 407 Root Attach WP_powerfist.x Texture 0 ITEM_Mega_Power_fist.jpg
 
 #Knives
  Value 4   Attach WP_knife.x  Texture 0 WP_knife.bmp                 Link R_Handle_1  Scale 3.5 RotY -90 MoveX 1 
@@ -337,8 +337,10 @@ DisableLayer 11
  Value 517
  Value 522 Attach WP_Machete.x Link R_Handle_1 Scale 50
  Value 319 Attach WP_Switchblade.x Link R_Handle_1 Scale 50
- Value 383
- Value 116
+ Value 45 Attach WP_throwing_knife.x Texture 0 ITEM_throwing_knife.jpg Link R_Handle_1  Scale 0.035
+ Value 425 Attach WP_wakizashi_blade.x Texture 0 ITEM_wakizashi_blade.jpg Link R_Handle_1 Scale 3
+ Value 383 Attach WP_shiv.x Texture 0 ITEM_shiv.jpg Link R_Handle_1 Scale 2
+ Value 365 Attach WP_plant_spike.x Texture 0 ITEM_plant_spike.jpg  Link R_Handle_1  Scale 1.5
 
 #Hammers
  Value 5 Attach WP_club.x Texture 0 ITEM_club.jpg Link R_Handle_1  Scale 1.6
@@ -354,6 +356,7 @@ DisableLayer 11
  Value 320
  Value 20 Attach Wp_Crowbar.x Link R_Handle_1  Scale 0.8 RotY 10 RotZ 10
  Value 384 Attach WP_HeavyWrench.x Link R_Handle_1 Scale 50
+ Value 320 Attach WP_pole.x Texture 0 ITEM_sharpened_pole.jpg Link R_Handle_1 Scale 3 RotY 180 RotX 6 MoveX 3 MoveY -4
 
 #Throwing_Explosives
   Value 25 Attach WP_GrenadeFrag.x Texture 0 ITEM_GrenadeFrag.jpg Link R_Handle_1 Scale 1.7 MoveX 3 RotY -60
@@ -364,7 +367,7 @@ DisableLayer 11
  Value 602 Attach WP_dynacord.x Link R_Handle_1 Scale 2
 
 #Regular_Explosives
- Value 85
+ Value 85 Attach WP_plastic_explosives.x Texture 0 ITEM_plastic_explosives.jpg Link R_Handle_1  Scale 0.2 RotX 90 RotY 90
  Value 51 Attach WP_Dynamite.x Link R_Handle_1  Scale 1.5 RotX 90 RotY 90
  Value 601 Attach WP_MineFrag.x Link R_Handle_1  RotX 90 RotZ 90 Scale 0.20 MoveX 3
 
@@ -388,6 +391,48 @@ DisableLayer 11
  Value 40 Attach MISC_stimpak.x Texture 0 MISC_stimpak.jpg Link R_Handle_1 Scale 0.6 RotY 90
  Value 144 Attach MISC_super_stimpak.x Texture 0 MISC_super_stimpak.jpg Link R_Handle_1 Scale 2.4
  Value 525 Attach MISC_hypo.x Texture 0 MISC_hypo.png Link R_Handle_1 Scale 0.25
+ Value 483 Attach MISC_Hintbook.x Texture 0 ITEM_Hintbook.png Link R_Handle_1 Scale 9 RotZ -90 RotY 180 MoveX 7
+ Value 225 Attach MISC_Catpaw.x Texture 0 ITEM_Catpaw.png Link R_Handle_1 Scale 8 RotZ -90 RotY 180 MoveX 6.5
+ Value 331 Attach MISC_Catpaw5.x Texture 0 ITEM_Catpaw5.jpg Link R_Handle_1 Scale 0.3 RotZ -90 RotY 180 RotX 90 MoveX 4
+ Value 86 Attach MISC_Scout_Handbook.x Texture 0 ITEM_Scout_Handbook.png Link R_Handle_1 Scale 8.5 RotZ -90 RotY 180 MoveX 7
+ Value 102 Attach MISC_Guns_Bullets.x Texture 0 ITEM_Guns_Bullets.png Link R_Handle_1 Scale 8 RotZ -90 RotY 180 RotX 90 MoveX 6.5
+ Value 80 Attach MISC_FAbook.x Texture 0 ITEM_FAbook.png Link R_Handle_1 Scale 8 RotZ -90 RotY 180 MoveX 6.5
+ Value 76 Attach MISC_DElectronics.x Texture 0 ITEM_DElectronics.png Link R_Handle_1 Scale 7 RotZ -90 RotY 180 RotX 180 MoveX 7 MoveY -2.5 MoveZ 0.5
+ Value 228 Attach MISC_Tech_manual.x Texture 0 ITEM_Tech_manual.png Link R_Handle_1 Scale 50 RotZ -90 MoveX 2
+ Value 448 Attach MISC_Account_book.x Texture 0 ITEM_Account_book.jpg Link R_Handle_1 Scale 0.3 RotZ -90 RotX 90 MoveX 4
+ Value 423 Attach WP_Rock.x Texture 0 ITEM_gold_nugget.jpg Link R_Handle_1  Scale 50
+ Value 48 Attach MISC_radaway.x Texture 0 MISC_radaway.jpg Link R_Handle_1 Scale 0.3
+ Value 109 Attach MISC_radx.x Texture 0 MISC_radx.bmp Link R_Handle_1 Scale 0.02
+ Value 110 Attach MISC_psycho.x Texture 0 MISC_psycho.png Link R_Handle_1 Scale 0.6
+ Value 53 Attach MISC_mentats.x Texture 0 MISC_mentats.png Link R_Handle_1 Scale 0.6
+ Value 87 Attach MISC_buffout.x Texture 0 MISC_buffout.jpg Link R_Handle_1 Scale 0.35
+ Value 541 Attach MISC_nukeboro.x Texture 0 MISC_nukeboro.png  Link R_Handle_1  Scale 0.12
+ Value 333 Attach MISC_heart_pills.x Texture 0 MISC_heart_pills.png Link R_Handle_1  Scale 0.25
+ Value 334 Attach MISC_poison_hypo.x Texture 0 MISC_poison_hypo.tga Link R_Handle_1  Scale 0.18
+ Value 536 Attach MISC_iron_ore.x Texture 0 MISC_iron_ore.png  Link R_Handle_1  RotX 270 RotZ -75 RotY -10 Scale 3.5
+ Value 537 Attach MISC_minerals.x Texture 0 MISC_minerals.png  Link R_Handle_1  RotX 270 RotZ -75 RotY -10 Scale 3.5 
+ Value 259 Attach MISC_Jet.x Texture 0 MISC_Jet.jpg  Link R_Handle_1 RotX 270 RotY -150 RotZ 90 Scale 0.11
+ Value 260 Attach MISC_Antijet.x Texture 0 MISC_Antijet.bmp  Link R_Handle_1 RotX 0 RotZ 0 MoveX 2 Scale 3.5
+ Value 426 Attach WP_Rock.x Texture 0 MISC_uranium.jpg Link R_Handle_1  Scale 50
+ Value 486 Attach WP_Rock.x Texture 0 MISC_refined_uranium.jpg  Link R_Handle_1  Scale 50
+  Value 301 Attach MISC_clipboard.x Texture 0 ITEM_cr_clipboard.png Link R_Handle_1 RotY 90 Scale 0.44 RotZ 90 Rotx 180 MoveX 8 MoveZ 0.5
+ Value 457 Attach MISC_clipboard.x Texture 0 ITEM_clipboard.png Link R_Handle_1  RotY 90 Scale 0.44 RotZ 90 Rotx 180 MoveX 8 MoveZ 0.5
+ Value 312 Attach MISC_clipboard.x Texture 0 ITEM_pr_clipboard.png Link R_Handle_1  RotY 90 Scale 0.44 RotZ 90 Rotx 180 MoveX 8 MoveZ 0.5
+
+#Food
+
+ Value 295 Attach MISC_cheesy_poofs.x Texture 0 MISC_cheesy_poofs.jpg Link R_Handle_1 RotX 270 RotZ 90 Scale 1
+ Value 226 Attach MISC_noodles.x Texture 0 MISC_noodles.jpg  Link R_Handle_1 RotX 270 RotZ 90 MoveX 3 MoveZ 2 Scale 1
+ Value 227 Attach MISC_tv_dinner.x Texture 0 MISC_tv_dinner.jpg  Link R_Handle_1 RotX 270 RotZ 90 Scale 1
+ Value 468 Attach MISC_meal.x Texture 0 MISC_meal.jpg  Link R_Handle_1 RotX 270 RotZ 90 Scale 0.7
+ Value 378 Attach MISC_cookie.x Texture 0 MISC_cookie.jpg  Link R_Handle_1 RotX 180 RotZ 90 MoveX 2 Scale 1
+ Value 71 Attach MISC_fruit.x Texture 0 MISC_fruit.jpg  Link R_Handle_1 RotX 270 RotZ 90 MoveZ 5 MoveX 4 Scale 0.7
+ Value 103 Attach MISC_iguana_stick.x Texture 0 MISC_iguana_stick.jpg  Link R_Handle_1 RotX 270 RotZ 90 Scale 1
+ Value 81 Attach MISC_iguana.x Texture 0 MISC_iguana.jpg  Link R_Handle_1 RotX 270 RotZ 90 Scale 1
+ Value 284 Attach MISC_meat_jerky.x Texture 0 MISC_meat_jerky.jpg  Link R_Handle_1 RotX 270 RotZ 90 Scale 0.5
+ Value 539 Attach MISC_meat.x Texture 0 MISC_meat.jpg  Link R_Handle_1 RotX 270 RotZ 90 Scale 0.6
+
+
 #-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 # Left Handle
 Layer 2
