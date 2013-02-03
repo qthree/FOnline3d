@@ -344,7 +344,7 @@ Value 21 Attach WP_brassknuckles.x Texture 0 ITEM_brassknuckles.jpg Link R_Handl
 
 #Hammers
  Value 5 Attach WP_club.x Texture 0 ITEM_club.jpg Link R_Handle_1  Scale 1.6
- Value 386 Attach WP_slugger.x Texture 0 ITEM_slugger.jpg Link R_Handle_1 Scale 40
+ Value 386 Attach WP_slugger.x  Texture 0 ITEM_slugger.jpg Texture 2 genericspecular.jpg Link R_Handle_1 Scale 40
  Value 160 Attach WP_CattleProd.x Link R_Handle_1 Scale 0.8 RotY 10 RotZ 10
  Value 399 Attach WP_super_cattle_prod.x Texture 0 ITEM_super_cattle_prod.jpg  Link R_Handle_1 Scale 0.35 RotY 10 RotZ 10
  Value 498 Attach WP_plasma_torch.x Texture 0 ITEM_plasma_torch.jpg  Link R_Handle_1 Scale 0.35 RotY 10 RotZ 10
@@ -418,6 +418,18 @@ Value 21 Attach WP_brassknuckles.x Texture 0 ITEM_brassknuckles.jpg Link R_Handl
   Value 301 Attach MISC_clipboard.x Texture 0 ITEM_cr_clipboard.png Link R_Handle_1 RotY 90 Scale 0.44 RotZ 90 Rotx 180 MoveX 8 MoveZ 0.5
  Value 457 Attach MISC_clipboard.x Texture 0 ITEM_clipboard.png Link R_Handle_1  RotY 90 Scale 0.44 RotZ 90 Rotx 180 MoveX 8 MoveZ 0.5
  Value 312 Attach MISC_clipboard.x Texture 0 ITEM_pr_clipboard.png Link R_Handle_1  RotY 90 Scale 0.44 RotZ 90 Rotx 180 MoveX 8 MoveZ 0.5
+ Value 75 Attach MISC_tool.x Texture 0 MISC_tool.tga  Link R_Handle_1  Scale 0.35
+ Value 84 Attach MISC_lockpicks.x Texture 0 MISC_lockpicks.jpg Link R_Handle_1  Scale 0.5
+ Value 557 Attach MISC_poison_jar.x Texture 0 MISC_poison_jar.png Link R_Handle_1  Scale 0.5
+ Value 266 Attach MISC_radio.x Texture 0 MISC_radio.jpg Link R_Handle_1  RotY 90 Scale 0.62 MoveX 2 MoveZ 2.3
+ Value 271 Attach MISC_broc_flower.x Texture 0 MISC_broc_flower.png Link R_Handle_1  Scale 0.3
+ Value 272 Attach MISC_xander_root.x Texture 0 MISC_xander_root.png Link R_Handle_1  Scale 0.1
+ Value 117 Attach MISC_flower.x Texture 0 MISC_flower.png Link R_Handle_1  Scale 0.3
+ Value 474 Attach MISC_pot_of_daisies.x Texture 0 MISC_flower.png Link R_Handle_1  Scale 0.5
+ Value 329 Attach MISC_poison_hypo.x Texture 0 MISC_mutagen.tga Link R_Handle_1  Scale 0.18
+ Value 78 Attach MISC_painting_of_the_king.x Texture 0 MISC_painting_of_the_king.jpg Link R_Handle_1  Scale 2.5
+Value 417 Attach MISC_OxygenTank.x Texture 0 ITEM_OxygenTank.png Link R_Handle_1  Scale 4 RotX 180 RotY 60
+
 
 #Food
 
@@ -513,7 +525,7 @@ Layer 2
  Value 118 Attach WP_laserrifle.x Link Spine_1 MoveZ -10 MoveX 32 MoveY 5 RotX 110 RotZ -100 RotY 115 Scale 0.25
  Value 401 Attach WP_laserrifleext.x Link Spine_1 MoveZ -10 MoveX 32 MoveY 5 RotX 110 RotZ -100 RotY 115 Scale 0.25
  Value 15 Attach WP_Plasmarifle.x Link Spine_1 MoveZ -10 MoveX 32 MoveY 5 RotX 110 RotZ -100 RotY 115 Scale 0.25
- Value 233 Attach WP_turbo_plasma_rifle.x Texture 0 ITEM_turbo_plasma_rifle.jpg Link Spine_1 MoveZ -10 MoveX 32 MoveY 5 RotX 110 RotZ -100 RotY 115 Scale 0.25
+ Value 233 Attach WP_turbo_plasma_rifle.x Texture 0 ITEM_turbo_plasma_rifle.jpg Texture 2 genericspecular.jpg Link Spine_1 MoveZ -10 MoveX 32 MoveY 5 RotX 110 RotZ -100 RotY 115 Scale 0.25
  Value 397
  Value 28
 
@@ -564,16 +576,94 @@ Layer 2
 # Hair
 Layer 7
 
- Value 42  Root Attach rasta.x
- Value 43  Root Attach Ponytailtest.x
- Value 44  Attach Hair_%anim%_bob.fo3d
- Value 45  Attach Hair_%anim%_bob.fo3d
- Value 46  Attach Hair_%anim%_bob.fo3d
- Value 47  Attach Hair_%anim%_bob.fo3d
- Value 48  Attach Hair_%anim%_short.fo3d
- Value 49  Attach Hair_%anim%_short.fo3d
- Value 50  Attach Hair_%anim%_short.fo3d
- Value 51  Attach Hair_%anim%_short.fo3d
+ Value 1  Root Attach rasta.x
+ Value 2  Root Attach Ponytailtest.x
+ Value 30  Attach Hair_male_bob.fo3d
+ Value 32  Attach Hair_male_bob.fo3d
+ Value 34  Attach Hair_male_bob.fo3d
+ Value 36  Attach Hair_male_bob.fo3d
+ Value 250  Attach Hair_female_bob.fo3d
+ Value 252  Attach Hair_female_bob.fo3d
+ Value 254  Attach Hair_female_bob.fo3d
+ Value 256  Attach Hair_female_bob.fo3d
+ Value 70  Attach Hair_male_short.fo3d
+ Value 72  Attach Hair_male_short.fo3d
+ Value 74  Attach Hair_male_short.fo3d
+ Value 76  Attach Hair_male_short.fo3d
+ Value 340  Attach Hair_female_short.fo3d
+ Value 342  Attach Hair_female_short.fo3d
+ Value 344  Attach Hair_female_short.fo3d
+ Value 346  Attach Hair_female_short.fo3d
+
+# Long - straight long hair
+ Value 120  Root Attach hair_long.x Texture 0 hair_brown.png Texture 2 genericspecular.jpg
+ Value 122  Root Attach hair_long.x Texture 0 hair_black.png Texture 2 genericspecular.jpg
+ Value 126  Root Attach hair_long.x Texture 0 hair_blonde.png  Texture 2 genericspecular.jpg
+ Value 124  Root Attach hair_long.x Texture 0 hair_white.png Texture 2 genericspecular.jpg
+		
+# Minihawk - small mohawk fem
+ Value 280  Root Attach hair_minihawk.x Texture 0 hair_brown.png Texture 2 genericspecular.jpg
+ Value 282  Root Attach hair_minihawk.x Texture 0 hair_black.png Texture 2 genericspecular.jpg
+ Value 286  Root Attach hair_minihawk.x Texture 0 hair_blonde.png Texture 2 genericspecular.jpg
+ Value 284  Root Attach hair_minihawk.x Texture 0 hair_white.png Texture 2 genericspecular.jpg
+
+# Minihawk - small mohawk
+ Value 90  Root Attach hair_minihawk.x Texture 0 hair_brown.png Texture 2 genericspecular.jpg
+ Value 92  Root Attach hair_minihawk.x Texture 0 hair_black.png Texture 2 genericspecular.jpg
+ Value 96  Root Attach hair_minihawk.x Texture 0 hair_blonde.png Texture 2 genericspecular.jpg
+ Value 94  Root Attach hair_minihawk.x Texture 0 hair_white.png Texture 2 genericspecular.jpg
+
+
+# Mohawk - larger mohawk
+ Value 80  Root Attach hair_mohawk.x Texture 0 hair_brown.png Texture 2 genericspecular.jpg
+ Value 82  Root Attach hair_mohawk.x Texture 0 hair_black.png Texture 2 genericspecular.jpg
+ Value 86  Root Attach hair_mohawk.x Texture 0 hair_blonde.png Texture 2 genericspecular.jpg
+ Value 84  Root Attach hair_mohawk.x Texture 0 hair_white.png Texture 2 genericspecular.jpg
+
+# Mohawk - larger mohawk fem
+ Value 310  Root Attach hair_mohawk.x Texture 0 hair_brown.png Texture 2 genericspecular.jpg
+ Value 312  Root Attach hair_mohawk.x Texture 0 hair_black.png Texture 2 genericspecular.jpg
+ Value 316  Root Attach hair_mohawk.x Texture 0 hair_blonde.png Texture 2 genericspecular.jpg
+ Value 314  Root Attach hair_mohawk.x Texture 0 hair_white.png Texture 2 genericspecular.jpg
+
+# Shaggy - midlength hair
+ Value 100  Root Attach hair_shaggy.x Texture 0 hair_brown.png Texture 2 genericspecular.jpg
+ Value 102  Root Attach hair_shaggy.x Texture 0 hair_black.png Texture 2 genericspecular.jpg
+ Value 106  Root Attach hair_shaggy.x Texture 0 hair_blonde.png Texture 2 genericspecular.jpg
+ Value 104  Root Attach hair_shaggy.x Texture 0 hair_white.png Texture 2 genericspecular.jpg
+
+# Shaggy - midlength hair fem
+ Value 290  Root Attach hair_shaggy.x Texture 0 hair_brown.png Texture 2 genericspecular.jpg
+ Value 292  Root Attach hair_shaggy.x Texture 0 hair_black.png Texture 2 genericspecular.jpg
+ Value 296  Root Attach hair_shaggy.x Texture 0 hair_blonde.png Texture 2 genericspecular.jpg
+ Value 294  Root Attach hair_shaggy.x Texture 0 hair_white.png Texture 2 genericspecular.jpg
+
+# Baldspot - short hair with a bald patch
+ Value 40  Root Attach hair_baldspot.x Texture 0 hair_brown.png Texture 2 genericspecular.jpg
+ Value 42  Root Attach hair_baldspot.x Texture 0 hair_black.png Texture 2 genericspecular.jpg
+ Value 46  Root Attach hair_baldspot.x Texture 0 hair_blonde.png Texture 2 genericspecular.jpg
+ Value 44  Root Attach hair_baldspot.x Texture 0 hair_white.png Texture 2 genericspecular.jpg
+
+# Big - Bigger long hair
+ Value 60  Root Attach hair_big.x Texture 0 hair_brown.png Texture 2 genericspecular.jpg
+ Value 62  Root Attach hair_big.x Texture 0 hair_black.png Texture 2 genericspecular.jpg
+ Value 66  Root Attach hair_big.x Texture 0 hair_blonde.png Texture 2 genericspecular.jpg
+ Value 64  Root Attach hair_big.x Texture 0 hair_white.png Texture 2 genericspecular.jpg
+
+# Big - Bigger long hair fem
+ Value 300  Root Attach hair_big.x Texture 0 hair_brown.png Texture 2 genericspecular.jpg
+ Value 302  Root Attach hair_big.x Texture 0 hair_black.png Texture 2 genericspecular.jpg
+ Value 306  Root Attach hair_big.x Texture 0 hair_blonde.png Texture 2 genericspecular.jpg
+ Value 304  Root Attach hair_big.x Texture 0 hair_white.png Texture 2 genericspecular.jpg
+
+# short
+ Value 330  Root Attach hair_close.x Texture 0 hair_brown.png Texture 2 genericspecular.jpg
+
+ Value 332  Root Attach hair_close.x Texture 0 hair_black.png Texture 2 genericspecular.jpg
+
+ Value 336  Root Attach hair_close.x Texture 0 hair_blonde.png  Texture 2 genericspecular.jpg
+
+ Value 334  Root Attach hair_close.x Texture 0 hair_white.png Texture 2 genericspecular.jpg
 
 
 # Eye
@@ -863,6 +953,7 @@ Anim E 16 %anim%_club.x club_idle
 Anim E 24 %anim%_knife.x knife_thurst
 Anim E 26 %anim%_club.x club_swing
 Anim E 40 %anim%_club.x club_dodge
+Anim E 80 %anim%_knife.x knife_thurst
 
 # Sledgehammer
 Anim F 1  %anim%_sledgehammer.x sledgehammer_idle
@@ -878,6 +969,7 @@ Anim F 24 %anim%_sledgehammer.x sledgehammer_thurst
 Anim F 26 %anim%_sledgehammer.x sledgehammer_swing
 Anim F 28 %anim%_knife.x knife_throw
 Anim F 40 %anim%_sledgehammer.x sledgehammer_dodge
+Anim F 80 %anim%_sledgehammer.x sledgehammer_thurst
 
 # Spear
 Anim G 1  %anim%_spear.x spear_idle
@@ -906,6 +998,7 @@ Anim G 42 %anim_file% %anim%_Com_1H_DmgFr_01
 Anim G 44 %anim_file% %anim%_Com_1H_DmgFrMult_01
 Anim G 46 %anim_file% %anim%_Com_1H_Walk_DmgFr_01
 Anim G 54 %anim_file% %anim%_Com_1H_Walk_DmgFr_01
+Anim G 80 %anim%_Spear.x Spear_thurst
 
 # Pistol
 Anim H 1  %anim%_pistol.x pistol_idle
