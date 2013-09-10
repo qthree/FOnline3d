@@ -16,7 +16,7 @@ EffDef Floats Specular_Power 5.0
 
 
 # Skin                                                                                Skin tone and blood loads on the first layer. 
-                                                                                     Blood will play when character dies.
+                                                                                     #Blood will play when character dies.
 Layer 0
  Value 1   Root Texture 0 %anim%_Skin_white.jpg Texture 2 %anim%_skin_spec.tga
            Root Attach Eff_bloodfloor.fo3d 
@@ -38,6 +38,7 @@ Layer 0
            Root Attach Eff_bloodfloor.fo3d 
  Value 10  Root Texture 0 %anim%_Skin_dtanned.jpg Texture 2 %anim%_skin_spec.tga
            Root Attach Eff_bloodfloor.fo3d 
+
  Value 11  Root Texture 0 %anim%_Skin_dtannedTT.jpg Texture 2 %anim%_skin_spec.tga
            Root Attach Eff_bloodfloor.fo3d 
  Value 12  Root Texture 0 %anim%_Skin_dtannedYT.jpg Texture 2 %anim%_skin_spec.tga
@@ -78,13 +79,15 @@ Layer 0
            Root Attach Eff_bloodfloor.fo3d 
  Value 30  Root Texture 0 %anim%_vault.png
            Root Attach Eff_bloodfloor.fo3d 
-
+ Value 31  Root Texture 0 %anim%_dukenukem.jpg
+           Root Attach Eff_bloodfloor.fo3d 
 
 # Body                                                                                      
 Layer 3
- Value 1   Root Attach Armor_%anim%_leatherjacket.fo3d  
- Value 2   Root DisableSubset 4 Attach armor_%anim%_metalarmor.fo3d 
- Value 3   Root DisableSubset 4 Attach armor_%anim%_metalarmor.fo3d
+  Value 1   Root Attach Armor_%anim%_leatherjacket_death.fo3d  
+Attach Armor_male_leatherjacket_shirt.fo3d  
+ Value 2   Root DisableSubset 4 Attach armor_%anim%_metalarmor_death.fo3d 
+ Value 3   Root DisableSubset 4 Attach armor_%anim%_metalarmor_death.fo3d
           
  Value 5   Root DisableSubset 4-7             
 Attach armor_%anim%_combatarmor.fo3d            
@@ -94,17 +97,25 @@ Value 7 Root DisableSubset 4-7
 Attach ATR_environmental.x
 
 Value 8 Root DisableSubset 4-7 
-Attach armor_%anim%_leatherarmor.fo3d
+Attach armor_%anim%_leatherarmor_death.fo3d
 
 Value 9 Root DisableSubset 0-1-2-3-4-5-6-7-8 Attach Armor_apa.x
 
  Value 10   Root DisableSubset 0-2-4-7
-                Attach Armor_%anim%_cmbleatherjacket.X  
+                Attach Armor_%anim%_cmbleatherjacket_death.X  Texture 0 armor_cmbleatherjacket.jpg
 
 #Value 51 Root DisableSubset 0-1-2-3-4-5-6-7-8-9 Attach %anim%_boomtest.fo3d
 #Value 52 Root DisableSubset 0-1-2-3-4-5-6-7-8-9 Attach %anim%_laserdeathmodel.fo3d
 
-Value 11 Root DisableSubset 0-1-2-3-6-7-8-10 Attach Armor_%anim%_robes.x 
+Value 11 Root DisableSubset 0-1-2-3-6-7-8-10 DisableLayer 7
+Subset 4 Texture 0 %anim%_cloth_black.jpg
+Attach Armor_%anim%_robes_death.x 
+Effect 3D_SpecularMapping.fx
+EffDef Floats Specular_Power 6.0
+Texture 0 armor_%anim%_robes.jpg 
+Texture 2 armor_%anim%_robes_spec.jpg
+
+ 
 Value 12 Root DisableSubset 0-1-2-3-6-7-8-10 Attach Armor_%anim%_robes.x Texture 0 robeholy.tga
 
 Value 13   Root Attach armor_%anim%_combatranger.fo3d
@@ -123,7 +134,7 @@ Value 18 Root DisableSubset 0-1-2 Attach armor_%anim%_suit.x
 Value 19 Root DisableSubset 4 Attach armor_%anim%_teslaarmor.fo3d 
 Attach eff_%anim%_tesla.fo3d Link L_Clavicle RotZ 15 MoveY 14 RotX -14 MoveX 6 MoveZ -8 RotY -13
 
-Value 20   Root Attach armor_%anim%_leatherarmormk2.fo3d     
+Value 20   Root Attach armor_%anim%_leatherarmormk2_death.fo3d     
 
 # Head _______________________________________________________
 Layer 4
@@ -864,11 +875,11 @@ Layer 15
 # 2 handed - K L M
 
 # Unarmed
-Anim A 1  %anim%_Idle.x Idle
+Anim 1 1  %anim%_Idle.x Idle
 Anim A 2  %anim_file% %anim%_Com_Una_Stunned_01
-Anim A 3  %anim%_Walk.x Walk
+Anim 1 3  %anim%_Walk.x Walk
 Anim A 4  %anim_file% %anim%_Com_Una_Limp_01
-Anim A 5  %anim%_Run.x Run
+Anim 1 5  %anim%_Run.x Run
 Anim A 6  %anim_file% %anim%_Com_Una_PanicRun_01
 Anim A 7  %anim%_Spear.x Spearout
 Anim A 8  %anim%_Spear.x Spearoff
@@ -905,11 +916,13 @@ Anim A 59 %anim%_Fallgetup.x Getup_forward
 Anim A 66 %anim%_Fallgetup.x knockedback
 Anim A 67 %anim%_Fallgetup.x knockedforward
 
-Anim A 70 %anim%_deathmodel.x deathpierce
-Anim A 71 %anim%_Deathmodel.x deathburstbloody
-Anim A 72 %anim%_Deathmodel.x deathburst
-Anim A 75 %anim%_Deathmodel.x deathlaser
-Anim A 76 %anim%_deathmodel.x deathplasma
+Anim 1 100 %anim%_Fallgetup.x Knocked_Back
+Anim 1 101 %anim%_Fallgetup.x Knocked_Front
+Anim 1 110 %anim%_deathmodel.x deathpierce
+Anim 1 111 %anim%_deathmodel.x deathburstbloody
+Anim 1 112 %anim%_Deathmodel.x deathburst
+Anim 1 115 %anim%_Deathmodel.x deathlaser
+Anim 1 116 %anim%_deathmodel.x deathplasma
  
 
 # Knife
