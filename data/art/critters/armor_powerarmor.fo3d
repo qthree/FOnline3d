@@ -1,6 +1,6 @@
 Model armor_powerarmor.x
 Effect 3D_SpecularMapping.fx 
-EffDef Floats Specular_Power 6.0 
+EffDef Floats Specular_Power 8.0 
 
 
 Root Texture 0 armor_powerarmor.tga
