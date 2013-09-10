@@ -4,4 +4,4 @@ model eff_flamethrower.x
 Effect 3D_SelfIlluminated.fx 
 DisableShadow
 
-Anim K 29 eff_flamethrower.x flame
+Anim 11 54 eff_flamethrower.x flame

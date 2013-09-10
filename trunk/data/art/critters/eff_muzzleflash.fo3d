@@ -1,22 +1,22 @@
 
-model eff_muzzleflash.x
-
-Effect 3D_SelfIlluminated.fx 
-DisableShadow
-
-Anim A 1  eff_muzzleflash.x idle
-
-Anim H 29 eff_muzzleflash.x singlepistol
-Anim H 80 eff_muzzleflash.x singlepistol
-Anim I 29 eff_muzzleflash.x singlepistol
-Anim I 30 eff_muzzleflash.x burstsmg
-Anim I 80 eff_muzzleflash.x singlepistol
+Model eff_muzzleflash.x
+Effect 3D_SelfIlluminated.fx
+Root Texture 0 muzzle.tga
 
 
-Anim J 29 eff_muzzleflash.x riflesingle
-Anim J 30 eff_muzzleflash.x rifleburst
-Anim J 80 eff_muzzleflash.x singlepistol
+Anim 1 1  eff_muzzleflash.x idle
 
-Anim K 30 eff_muzzleflash.x biggunburst
+Anim 8 54 eff_muzzleflash.x singlepistol
 
-Anim L 30 eff_muzzleflash.x minigunburst
+Anim 9 54 eff_muzzleflash.x singlepistol
+Anim 9 55 eff_muzzleflash.x burstsmg
+
+
+
+Anim 10 54 eff_muzzleflash.x riflesingle
+Anim 10 55 eff_muzzleflash.x rifleburst
+
+
+Anim 11 55 eff_muzzleflash.x biggunburst
+
+Anim 12 55 eff_muzzleflash.x minigunburst
