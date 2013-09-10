@@ -1,0 +1,38 @@
+Model armor_male_leatherjacket_shirt.x
+
+Texture 0 armor_male_leatherjacket.tga
+Texture 2 armor_male_leatherjacket_spec.tga
+
+Layer 13
+Value 1
+Root Texture 0 eff_invisible.tga
+Value 1
+Root Texture 0 eff_invisible.tga
+Value 2
+Root Texture 0 eff_invisible.tga
+Value 3
+Root Texture 0 eff_invisible.tga
+Value 4
+Root Texture 0 eff_invisible.tga
+Value 5
+Root Texture 0 eff_invisible.tga
+Value 6
+Root Texture 0 eff_invisible.tga
+Value 7
+Root Texture 0 eff_invisible.tga
+Value 8
+Root Texture 0 eff_invisible.tga
+Value 9
+Root Texture 0 eff_invisible.tga
+Value 10
+Root Texture 0 eff_invisible.tga
+Value 11
+Root Texture 0 eff_invisible.tga
+Value 12
+Root Texture 0 eff_invisible.tga
+Value 13
+Root Texture 0 eff_invisible.tga
+Value 14
+Root Texture 0 eff_invisible.tga
+Value 15
+Root Texture 0 eff_invisible.tga

@@ -1,0 +1,9 @@
+Model armor_male_metalarmor_death.x
+Effect 3D_SpecularMapping.fx 
+EffDef Floats Specular_Power 4.0 
+
+Layer 3
+Value 2 Root Texture 0 armor_male_metalarmor.tga
+             Texture 2 armor_male_metalarmor_spec.tga
+Value 3 Root Texture 0 armor_male_metalarmormk2.tga
+             Texture 2 armor_male_metalarmormk2_spec.tga
