@@ -1,0 +1,7 @@
+Model armor_female_leatherarmor_death.x
+Effect 3D_SpecularMapping.fx 
+EffDef Floats Specular_Power 6.0 
+
+Layer 3
+Value 4 Root Texture 0 armor_male_leatherarmormk2.tga
+Value 4 Root Texture 2 armor_male_leatherarmormk2_spec.tga
