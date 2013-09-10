@@ -7,17 +7,16 @@ Model %name%.x
 Speed 1
 
 
-Anim A 29 ModelFile Single
-Anim A 30 ModelFile Burst
-Anim A 31 ModelFile Sweep
+Anim 1 54 ModelFile Single
+Anim 1 55 ModelFile Burst
+Anim 1 31 ModelFile Sweep
 
-Anim H 29 ModelFile Single
+Anim 8 54 ModelFile Single
+Anim 9 54 ModelFile Single
 
-Anim J 29 ModelFile Single
-Anim J 30 ModelFile burst
+Anim 10 54 ModelFile Single
+Anim 10 55 ModelFile burst
 
-Anim L 30 ModelFile burst
-
-Anim A 77 ModelFile boomdeath
+Anim 12 55 ModelFile burst
 
 
