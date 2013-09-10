@@ -8,18 +8,23 @@ Root
 Speed 1
 Scale 0.0165
 Effect 3D_SpecularMapping.fx
-EffDef Floats Specular_Power 5.0
+EffDef Floats Specular_Power 5
 
+
+
+
+Root Texture 0 %anim%_Skin_white.jpg Texture 2 %anim%_skin_spec.tga
 #
 # Layers
 #
 
 
 # Skin                                                                                Skin tone and blood loads on the first layer. 
-                                                                                     Blood will play when character dies.
+                                                                                     #Blood will play when character dies.
 Layer 0
  Value 1   Root Texture 0 %anim%_Skin_white.jpg Texture 2 %anim%_skin_spec.tga
            Root Attach Eff_bloodfloor.fo3d 
+
  Value 2   Root Texture 0 %anim%_Skin_whiteTT.jpg Texture 2 %anim%_skin_spec.tga
            Root Attach Eff_bloodfloor.fo3d 
  Value 3   Root Texture 0 %anim%_Skin_whiteYT.jpg Texture 2 %anim%_skin_spec.tga
@@ -38,6 +43,7 @@ Layer 0
            Root Attach Eff_bloodfloor.fo3d 
  Value 10  Root Texture 0 %anim%_Skin_dtanned.jpg Texture 2 %anim%_skin_spec.tga
            Root Attach Eff_bloodfloor.fo3d 
+
  Value 11  Root Texture 0 %anim%_Skin_dtannedTT.jpg Texture 2 %anim%_skin_spec.tga
            Root Attach Eff_bloodfloor.fo3d 
  Value 12  Root Texture 0 %anim%_Skin_dtannedYT.jpg Texture 2 %anim%_skin_spec.tga
@@ -78,11 +84,14 @@ Layer 0
            Root Attach Eff_bloodfloor.fo3d 
  Value 30  Root Texture 0 %anim%_vault.png
            Root Attach Eff_bloodfloor.fo3d 
+ Value 31  Root Texture 0 %anim%_dukenukem.jpg
+           Root Attach Eff_bloodfloor.fo3d 
 
 
 # Body                                                                                      
 Layer 3
  Value 1   Root Attach Armor_%anim%_leatherjacket.fo3d  
+Attach Armor_male_leatherjacket_shirt.fo3d    
  Value 2   Root DisableSubset 4 Attach armor_%anim%_metalarmor.fo3d 
  Value 3   Root DisableSubset 4 Attach armor_%anim%_metalarmor.fo3d
           
@@ -91,7 +100,11 @@ Attach armor_%anim%_combatarmor.fo3d
  Value 6   Root DisableSubset 0-1-2-3-4-5-6-7-8     Attach armor_PowerArmor.fo3d 
 
 Value 7 Root DisableSubset 4-7           
-Attach ATR_environmental.x
+Attach ATR_environmental.x 
+Effect 3D_SpecularMapping.fx
+EffDef Floats Specular_Power 8.0
+Texture 0 armor_environmental.jpg
+Texture 2 armor_environmental_spec.jpg
 
 Value 8 Root DisableSubset 4-7 
 Attach armor_%anim%_leatherarmor.fo3d
@@ -99,13 +112,23 @@ Attach armor_%anim%_leatherarmor.fo3d
 Value 9 Root DisableSubset 0-1-2-3-4-5-6-7-8 Attach Armor_apa.x
 
  Value 10   Root DisableSubset 0-2-4-7
-                Attach Armor_%anim%_cmbleatherjacket.X  
+                Attach Armor_%anim%_cmbleatherjacket.X 
+Texture 0 armor_cmbleatherjacket.jpg  
 
 #Value 51 Root DisableSubset 0-1-2-3-4-5-6-7-8-9 Attach %anim%_boomtest.fo3d
 #Value 52 Root DisableSubset 0-1-2-3-4-5-6-7-8-9 Attach %anim%_laserdeathmodel.fo3d
 
-Value 11 Root DisableSubset 0-1-2-3-6-7-8-10 Attach Armor_%anim%_robes.x 
+Value 11 Root DisableLayer 7 DisableSubset 0-1-2-3-6-7-8-10 
+Subset 4 Texture 0 %anim%_cloth_black.jpg
+Attach Armor_%anim%_robes.x 
+Effect 3D_SpecularMapping.fx
+EffDef Floats Specular_Power 6.0
+Texture 0 armor_%anim%_robes.jpg 
+Texture 2 armor_%anim%_robes_spec.jpg
+
+
 Value 12 Root DisableSubset 0-1-2-3-6-7-8-10 Attach Armor_%anim%_robes.x Texture 0 robeholy.tga
+
 
 Value 13   Root Attach armor_%anim%_combatranger.fo3d
 
@@ -128,8 +151,8 @@ Value 20   Root Attach armor_%anim%_leatherarmormk2.fo3d
 # Head _______________________________________________________
 Layer 4
   Value 5 Root DisableLayer 7 Attach armor_%anim%_combatarmorhelmet.fo3d
-  Value 6 Root Root Attach armor_PowerArmor_helmet.fo3d
-  Value 9 Root Attach Armor_apahelmet.x
+  Value 6 Root DisableLayer 7 Attach armor_PowerArmor_helmet.fo3d
+  Value 9 Root DisableLayer 7 Attach Armor_apahelmet.x
   Value 13 Root Attach Armor_%anim%_combatrangerhelmet.x
   Value 14 Root DisableLayer 7 Attach armor_%anim%_combatarmorhelmet.fo3d
   Value 15 Root DisableLayer 7 Attach armor_%anim%_combatarmorhelmet.fo3d
@@ -246,7 +269,11 @@ Layer 1
  Value 122 Attach WP_mauser.x Texture 0 ITEM_mauser.jpg Link R_Handle_1 Scale 2 RotY -90 RotZ 10 MoveX 4 MoveY 1
  Value 8 Attach WP_10mm_pistol.x Texture 0 ITEM_10mm_pistol.jpg Link R_Handle_1 Scale 2.3 RotY -90 RotZ 10 MoveX 4 MoveY 1
  Value 22 Attach WP_14mm_pistol.x Texture 0 ITEM_14mmpistol.tga Link R_Handle_1 Scale 2.0 RotY -90 RotZ 10 MoveX 4 MoveY 1
- Value 18 Attach WP_desert_eagle.x Texture 0 ITEM_desert_eagle.jpg Link R_Handle_1 Scale 4.0 RotY -90 RotZ 10 MoveX 4 MoveY 1
+ Value 18 Attach WP_desert_eagle.x 
+Effect 3D_SpecularMapping.fx
+EffDef Floats Specular_Power 7.0
+Texture 0 ITEM_desert_eagle.jpg Texture 2 genericspecular.jpg Link R_Handle_1 Scale 4.0 RotY -90 RotZ 10 MoveX 4 MoveY 1
+
  Value 404 Attach WP_desert_eagle_ext.x Texture 0 ITEM_desert_eagle.jpg Link R_Handle_1 Scale 4.0 RotY -90 RotZ 10 MoveX 4 MoveY 1
  Value 394 Attach WP_gauss_pistol.x Texture 0 ITEM_gauss_pistol.jpg Link R_Handle_1 Scale 1 RotY -90 RotZ 10 MoveX 4 MoveY 1
  Value 388 Attach WP_needler.x Texture 0 ITEM_needler.jpg Link R_Handle_1 Scale 2.5 RotY -90 RotZ 10 MoveX 4 MoveY 1
@@ -266,7 +293,7 @@ Layer 1
  Value 351 Attach WP_fnfal.x Link R_Handle_1   Scale 1.4 RotY -75 RotZ -10 MoveX 2
  Value 500 Attach WP_fnfal.x Link R_Handle_1   Scale 1.4 RotY -75 RotZ -10 MoveX 2
  Value 403 Attach WP_fnfal_redsight.x Link R_Handle_1   Scale 1.4 RotY -75 RotZ -10 MoveX 2
- Value 10 Attach WP_huntingrifle.fo3d Texture 0 ITEM_hunting_rifle.jpg Link R_Handle_1 Scale 0.17 RotY -70 RotX 10 #RotZ -20
+ Value 10 Attach WP_huntingrifle.fo3d Texture 0 ITEM_hunting_rifle.jpg Link R_Handle_ Scale 0.17 RotY -70 RotX 10 #RotZ -20
  Value 287 Attach WP_scoped_hunting_rifle.x Texture 0 ITEM_scoped_hunting_rifle.jpg Link R_Handle_1 Scale 0.17 RotY -70 RotX 10 #RotZ -20
  Value 392 Attach WP_gaussrifle.x Link R_Handle_1   Scale 8 RotY -75 RotZ -10 MoveX 2
  Value 299 Attach WP_pipe_rifle.x Texture 0 ITEM_pipe_rifle.jpg Link R_Handle_1 Scale 2.5 RotY -70 RotX 10 #RotZ -20
@@ -394,7 +421,7 @@ Value 21 Attach WP_brassknuckles.x Texture 0 ITEM_brassknuckles.jpg Link R_Handl
  Value 483 Attach MISC_Hintbook.x Texture 0 ITEM_Hintbook.png Link R_Handle_1 Scale 9 RotZ -90 RotY 180 MoveX 7
  Value 225 Attach MISC_Catpaw.x Texture 0 ITEM_Catpaw.png Link R_Handle_1 Scale 8 RotZ -90 RotY 180 MoveX 6.5
  Value 331 Attach MISC_Catpaw5.x Texture 0 ITEM_Catpaw5.jpg Link R_Handle_1 Scale 0.3 RotZ -90 RotY 180 RotX 90 MoveX 4
- Value 86 Attach MISC_Scout_Handbook.x Texture 0 ITEM_Scout_Handbook.png Link R_Handle_1 Scale 8.5 RotZ -90 RotY 180 MoveX 7
+Value 86 Attach MISC_Scout_Handbook.x Texture 0 ITEM_Scout_Handbook.png Link R_Handle_1 Scale 8.5 RotZ -90 RotY 180 MoveX 7
  Value 102 Attach MISC_Guns_Bullets.x Texture 0 ITEM_Guns_Bullets.png Link R_Handle_1 Scale 8 RotZ -90 RotY 180 RotX 90 MoveX 6.5
  Value 80 Attach MISC_FAbook.x Texture 0 ITEM_FAbook.png Link R_Handle_1 Scale 8 RotZ -90 RotY 180 MoveX 6.5
  Value 76 Attach MISC_DElectronics.x Texture 0 ITEM_DElectronics.png Link R_Handle_1 Scale 7 RotZ -90 RotY 180 RotX 180 MoveX 7 MoveY -2.5 MoveZ 0.5
@@ -687,7 +714,7 @@ Layer 10
 # Weapon Effects                      exclusive layer. Contains only the muzzle flashes and bullet animations. 
                                     #Used as default for every weapons, but can be disabled from the Right Handle Layer if needed.
 Layer 11
- Value 101 Root Attach eff_muzzleflash.fo3d
+ Value 101 Root Attach eff_muzzleflash.fo3d 
            Root Attach eff_Bulletcase_anim.fo3d
 
 # Pants                                                                       The following 3 layers disable the clothing on the armor equipped.
@@ -863,276 +890,155 @@ Layer 15
 # 1 handed - D E F G H I J
 # 2 handed - K L M
 
+
 # Unarmed
-Anim A 1  %anim%_Idle.x Idle
-Anim A 2  %anim_file% %anim%_Com_Una_Stunned_01
-Anim A 3  %anim%_Walk.x Walk
-Anim A 4  %anim_file% %anim%_Com_Una_Limp_01
-Anim A 5  %anim%_Run.x Run
-Anim A 6  %anim_file% %anim%_Com_Una_PanicRun_01
-Anim A 7  %anim%_Spear.x Spearout
-Anim A 8  %anim%_Spear.x Spearoff
-Anim A 9  %anim%_fidget.x fidget
-Anim A 10  %anim%_fidget.x fidget2
-Anim A 11 %anim%_Kick.x Kick
-Anim A 12 %anim%_Pickup.x Pickup
-Anim A 13 %anim%_Use.x Use
-Anim A 15 %anim_file% %anim%_Def_Una_to_Com_01
-Anim A 16 %anim_file% %anim%_Com_Una_Idle_01
-Anim A 17 %anim_file% %anim%_Com_Una_To_Def_01
-Anim A 18 %anim%_Punch.x punch
-Anim A 19 %anim_file% %anim%_Com_Una_Punch_Jab_01
-Anim A 20 %anim_file% %anim%_Def_Una_Fidget_MedSkill_01
-Anim A 21 %anim%_Kick.x Kick
-Anim A 22 %anim%_Kick.x Kick
-Anim A 23 %anim_file% %anim%_Def_Una_Fidget_Medskill_02
-Anim A 28 %anim%_knife.x knife_throw
-Anim A 40 %anim%_Dodge.x Dodge
-Anim A 42 %anim%_Damage.x Damage_back
-Anim A 43 %anim%_Damage.x Damage_front
-Anim A 44 %anim%_bananadance.x dance
-Anim A 46 %anim_file% %anim%_Com_Una_Walk_DmgFr_01
-Anim A 48 %anim_file% %anim%_Com_Una_Limp_DmgFr_01
-Anim A 50 %anim_file% %anim%_Com_Una_Run_DmgFr_01
-Anim A 52 %anim%_Fallgetup.x Fall_back
-Anim A 53 %anim%_Fallgetup.x Fall_forward
-Anim A 54 %anim_file% %anim%_Com_Una_Laydown_ProneB_01
-Anim A 55 %anim_file% %anim%_Com_Una_Laydown_ProneF_01
-Anim A 56 %anim%_Fallgetup.x knockedback
-Anim A 57 %anim%_Fallgetup.x knockedforward
-Anim A 58 %anim%_Fallgetup.x Getup_back
-Anim A 59 %anim%_Fallgetup.x Getup_forward
-Anim A 66 %anim%_Fallgetup.x knockedback
-Anim A 67 %anim%_Fallgetup.x knockedforward
+Anim 1 1  %anim%_Idle.x Idle
+Anim 1 3  %anim%_Walk.x Walk
+Anim 1 5  %anim%_Run.x Run
+Anim 1 24  %anim%_fidget.x Fidget
+Anim 1 25  %anim%_fidget.x Fidget2
+Anim 1 27 %anim%_Pickup.x Pickup
+Anim 1 28 %anim%_Use.x Use
+Anim 1 43 %anim%_Punch.x Punch
+Anim 1 46 %anim%_kick.x Kick
+Anim 1 47 %anim%_kick.x Kick
+Anim 1 70 %anim%_Dodge.x Dodge
+Anim 1 73 %anim%_Damage.x Damage_Back
+Anim 1 72 %anim%_Damage.x Damage_Front
+Anim 1 82 %anim%_Fallgetup.x Fall_Back
+Anim 1 83 %anim%_Fallgetup.x Fall_Front
+Anim 1 86 %anim%_Fallgetup.x Knocked_Back
+Anim 1 87 %anim%_Fallgetup.x Knocked_Front
+Anim 1 88 %anim%_Fallgetup.x Getup_Back
+Anim 1 89 %anim%_Fallgetup.x Getup_Front
 
-Anim A 70 male_deathmodel.x deathpierce
-Anim A 71 male_Deathmodel.x deathburstbloody
-Anim A 72 male_Deathmodel.x deathburst
-Anim A 75 male_Deathmodel.x deathlaser
-Anim A 76 male_deathmodel.x deathplasma
+Anim 1 100 %anim%_Fallgetup.x Knocked_Back
+Anim 1 101 %anim%_Fallgetup.x Knocked_Front
+
+
  
-
+Anim 1 189 %anim%_superdance.x superdance
 # Knife
-Anim D 1  %anim%_knife.x knife_idle
-Anim D 2  %anim_file% %anim%_Com_1H_Stunned_01
-Anim D 3  %anim_file% %anim%_Com_1H_Walk_01
-Anim D 7  %anim%_knife.x knife_on
-Anim D 8  %anim%_knife.x knife_off
-Anim D 9  %anim%_knife.x knife_fidget
-Anim D 10  %anim%_knife.x knife_fidget
-Anim D 15 %anim_file% %anim%_Def_1H_to_Com_01
-Anim D 16 %anim%_knife.x knife_idle
-Anim D 17 %anim_file% %anim%_Com_1H_to_Def_01
-Anim D 24 %anim%_knife.x knife_thurst
-Anim D 26 %anim%_knife.x knife_swing
-Anim D 27 %anim_file% %anim%_Com_2HC_Melee_Slash_01
-Anim D 28 %anim%_knife.x knife_throw
-Anim D 29 %anim%_pistol.x pistol_shoot
-Anim D 30 %anim_file% %anim%_Com_1H_Gun_Burst_01
-Anim D 31 %anim_file% %anim%_Com_1H_Gun_Sweep_01
-Anim D 32 %anim_file% %anim%_Com_1H_Gun_Butt_01
-Anim D 34 %anim_file% %anim%_Com_1H_Gun_NoRecoil_01
-Anim D 35 %anim_file% %anim%_Com_1H_Maintenance_01
-Anim D 36 %anim_file% %anim%_Com_1H_Maintenance_01
-Anim D 40 %anim%_Knife.x knife_dodge
-Anim D 42 %anim_file% %anim%_Com_1H_DmgFr_01
-Anim D 44 %anim_file% %anim%_Com_1H_DmgFrMult_01
-Anim D 46 %anim_file% %anim%_Com_1H_Walk_DmgFr_01
-Anim D 54 %anim_file% %anim%_Com_1H_Walk_DmgFr_01
-
-
-
+Anim 4 1  %anim%_knife.x Knife_Idle
+Anim 4 20  %anim%_knife.x Knife_On
+Anim 4 21  %anim%_knife.x Knife_Off
+Anim 4 24  %anim%_knife.x Knife_Fidget
+Anim 4 49 %anim%_knife.x Knife_Thrust
+Anim 4 52 %anim%_knife.x Knife_Swing
+Anim 4 53 %anim%_knife.x Knife_Throw
+Anim 4 70 %anim%_Knife.x Knife_Dodge
 
 # Club
-Anim E 1  %anim%_club.x club_idle
-Anim E 7  %anim%_club.x club_on
-Anim E 8  %anim%_club.x club_off
-Anim E 9  %anim%_club.x club_fidget
-Anim E 10  %anim%_club.x club_fidget
-Anim E 16 %anim%_club.x club_idle
-Anim E 24 %anim%_knife.x knife_thurst
-Anim E 26 %anim%_club.x club_swing
-Anim E 40 %anim%_club.x club_dodge
-Anim E 80 %anim%_knife.x knife_thurst
+Anim 5 1  %anim%_club.x Club_Idle
+Anim 5 20  %anim%_club.x Club_On
+Anim 5 21  %anim%_club.x Club_Off
+Anim 5 24  %anim%_club.x Club_Fidget
+Anim 5 49 %anim%_knife.x Knife_Thrust
+Anim 5 51 %anim%_club.x Club_Swing
+Anim 5 70 %anim%_club.x Club_Dodge
 
 # Sledgehammer
-Anim F 1  %anim%_sledgehammer.x sledgehammer_idle
-Anim F 2  %anim_file% %anim%_Com_1H_Stunned_01
-Anim F 3  %anim%_sledgehammer.x sledgehammer_Walk
-Anim F 7  %anim%_sledgehammer.x sledgehammer_on
-Anim F 8  %anim%_sledgehammer.x sledgehammer_off
-Anim F 9  %anim%_sledgehammer.x sledgehammer_fidget
-Anim F 10 %anim%_sledgehammer.x sledgehammer_fidget
-Anim F 15 %anim_file% %anim%_Def_1H_to_Com_01
-Anim F 16 %anim%_sledgehammer.x sledgehammer_idle
-Anim F 24 %anim%_sledgehammer.x sledgehammer_thurst
-Anim F 26 %anim%_sledgehammer.x sledgehammer_swing
-Anim F 28 %anim%_knife.x knife_throw
-Anim F 40 %anim%_sledgehammer.x sledgehammer_dodge
-Anim F 80 %anim%_sledgehammer.x sledgehammer_thurst
+Anim 6 1  %anim%_sledgehammer.x Sledgehammer_Idle
+Anim 6 3  %anim%_sledgehammer.x Sledgehammer_Walk
+Anim 6 20 %anim%_sledgehammer.x Sledgehammer_On
+Anim 6 21 %anim%_sledgehammer.x Sledgehammer_Off
+Anim 6 24 %anim%_sledgehammer.x Sledgehammer_Fidget
+Anim 6 49 %anim%_sledgehammer.x Sledgehammer_Thrust
+Anim 6 51 %anim%_sledgehammer.x Sledgehammer_Swing
+Anim 6 70 %anim%_sledgehammer.x Sledgehammer_Dodge
+
 
 # Spear
-Anim G 1  %anim%_spear.x spear_idle
-Anim G 2  %anim_file% %anim%_Com_1H_Stunned_01
-Anim G 3  %anim_file% %anim%_Com_1H_Walk_01
-Anim G 7  %anim%_spear.x spear_on
-Anim G 8  %anim%_spear.x spear_off
-Anim G 9  %anim%_Spear.x Spear_fidget
-Anim G 10  %anim%_Spear.x Spear_fidget
-Anim G 15 %anim_file% %anim%_Def_1H_to_Com_01
-Anim G 16 %anim%_spear.x spear_idle
-Anim G 17 %anim_file% %anim%_Com_1H_to_Def_01
-Anim G 24 %anim%_Spear.x Spear_thurst
-Anim G 26 %anim%_Spear.x Spear_thurst
-Anim G 27 %anim_file% %anim%_Com_2HC_Melee_Slash_01
-Anim G 28 %anim%_Spear.x spear_throw
-Anim G 29 %anim%_spear.x Spear_thurst
-Anim G 30 %anim_file% %anim%_Com_1H_Gun_Burst_01
-Anim G 31 %anim_file% %anim%_Com_1H_Gun_Sweep_01
-Anim G 32 %anim_file% %anim%_Com_1H_Gun_Butt_01
-Anim G 34 %anim_file% %anim%_Com_1H_Gun_NoRecoil_01
-Anim G 35 %anim_file% %anim%_Com_1H_Maintenance_01
-Anim G 36 %anim_file% %anim%_Com_1H_Maintenance_01
-Anim G 40 %anim%_spear.x spear_dodge
-Anim G 42 %anim_file% %anim%_Com_1H_DmgFr_01
-Anim G 44 %anim_file% %anim%_Com_1H_DmgFrMult_01
-Anim G 46 %anim_file% %anim%_Com_1H_Walk_DmgFr_01
-Anim G 54 %anim_file% %anim%_Com_1H_Walk_DmgFr_01
-Anim G 80 %anim%_Spear.x Spear_thurst
+Anim 7 1  %anim%_spear.x Spear_Idle
+Anim 7 20 %anim%_spear.x Spear_On
+Anim 7 21 %anim%_spear.x Spear_Off
+Anim 7 24 %anim%_Spear.x Spear_Fidget
+Anim 7 51 %anim%_Spear.x Spear_Thrust
+Anim 7 53 %anim%_Spear.x Spear_Throw
+Anim 7 49 %anim%_spear.x Spear_Thrust
+Anim 7 70 %anim%_spear.x Spear_Dodge
+
 
 # Pistol
-Anim H 1  %anim%_pistol.x pistol_idle
-Anim H 2  %anim_file% %anim%_Com_1H_Stunned_01
-Anim H 3  %anim_file% %anim%_Com_1H_Walk_01
-Anim H 7  %anim%_pistol.x pistol_on
-Anim H 8  %anim%_pistol.x pistol_off
-Anim H 9  %anim%_pistol.x pistol_fidget
-Anim H 10 %anim%_pistol.x pistol_fidget2
-Anim H 15 %anim_file% %anim%_Def_1H_to_Com_01
-Anim H 16 %anim%_pistol.x pistol_idle
-Anim H 17 %anim_file% %anim%_Com_1H_to_Def_01
-Anim H 24 %anim%_Spear.x Spearhit
-Anim H 26 %anim%_Spear.x Spearhit
-Anim H 27 %anim_file% %anim%_Com_2HC_Melee_Slash_01
-Anim H 28 %anim_file% %anim%_Com_1H_Throw_01
-Anim H 29 %anim%_pistol.x pistol_shoot
-Anim H 30 %anim%_pistol.x pistol_Burst
-Anim H 31 %anim_file% %anim%_Com_1H_Gun_Sweep_01
-Anim H 32 %anim_file% %anim%_Com_1H_Gun_Butt_01
-Anim H 34 %anim_file% %anim%_Com_1H_Gun_NoRecoil_01
-Anim H 35 %anim%_pistol.x pistol_shoot
-Anim H 36 %anim_file% %anim%_Com_1H_Maintenance_01
-Anim H 40 %anim%_Dodge.x dodge
-Anim H 42 %anim_file% %anim%_Com_1H_DmgFr_01
-Anim H 44 %anim_file% %anim%_Com_1H_DmgFrMult_01
-Anim H 46 %anim_file% %anim%_Com_1H_Walk_DmgFr_01
-Anim H 54 %anim_file% %anim%_Com_1H_Walk_DmgFr_01
-Anim H 80 %anim%_pistolaim.x pistol_shoot_aim
+Anim 8 1  %anim%_pistol.x Pistol_Idle
+Anim 8 20  %anim%_pistol.x Pistol_On
+Anim 8 21  %anim%_pistol.x Pistol_Off
+Anim 8 24  %anim%_pistol.x Pistol_Fidget
+Anim 8 25 %anim%_pistol.x Pistol_Fidget2
+Anim 8 54 %anim%_pistol.x Pistol_Shoot
+Anim 8 55 %anim%_pistol.x Pistol_Burst
+Anim 8 30 %anim%_pistol.x Pistol_Shoot
+Anim 8 70 %anim%_Dodge.x Dodge
 
 # smg
-Anim I 1  %anim%_pistol.x pistol_idle
-Anim I 2  %anim_file% %anim%_Com_1H_Stunned_01
-Anim I 3  %anim_file% %anim%_Com_1H_Walk_01
-Anim I 7  %anim%_pistol.x pistol_on
-Anim I 8  %anim%_pistol.x pistol_off
-Anim I 9  %anim%_pistol.x pistol_fidget
-Anim I 10 %anim%_pistol.x pistol_fidget
-Anim I 15 %anim_file% %anim%_Def_1H_to_Com_01
-Anim I 16 %anim%_pistol.x pistol_idle
-Anim I 17 %anim_file% %anim%_Com_1H_to_Def_01
-Anim I 24 %anim%_Spear.x Spearhit
-Anim I 26 %anim%_Spear.x Spearhit
-Anim I 27 %anim_file% %anim%_Com_2HC_Melee_Slash_01
-Anim I 28 %anim_file% %anim%_Com_1H_Throw_01
-Anim I 29 %anim%_pistol.x pistol_shoot
-Anim I 30 %anim%_pistol.x pistol_Burst
-Anim I 31 %anim_file% %anim%_Com_1H_Gun_Sweep_01
-Anim I 32 %anim_file% %anim%_Com_1H_Gun_Butt_01
-Anim I 34 %anim_file% %anim%_Com_1H_Gun_NoRecoil_01
-Anim I 35 %anim%_pistol.x pistol_shoot
-Anim I 36 %anim_file% %anim%_Com_1H_Maintenance_01
-Anim I 40 %anim%_Dodge.x dodge
-Anim I 42 %anim_file% %anim%_Com_1H_DmgFr_01
-Anim I 44 %anim_file% %anim%_Com_1H_DmgFrMult_01
-Anim I 46 %anim_file% %anim%_Com_1H_Walk_DmgFr_01
-Anim I 54 %anim_file% %anim%_Com_1H_Walk_DmgFr_01
-Anim I 80 %anim%_pistolaim.x pistol_shoot_aim
+Anim 9 1  %anim%_pistol.x Pistol_Idle
+Anim 9 20  %anim%_pistol.x Pistol_On
+Anim 9 21  %anim%_pistol.x Pistol_Off
+Anim 9 24  %anim%_pistol.x Pistol_Fidget
+Anim 9 25 %anim%_pistol.x Pistol_Fidget2
+Anim 9 54 %anim%_pistol.x Pistol_Shoot
+Anim 9 55 %anim%_pistol.x Pistol_Burst
+Anim 9 30 %anim%_pistol.x Pistol_Shoot
+Anim 9 70 %anim%_Dodge.x Dodge
 
 #Rifles
-Anim J 1 %anim%_Rifle.x Rifle_idle
-Anim J 7 %anim%_Rifle.x Rifle_on
-Anim J 8 %anim%_Rifle.x Rifle_off
-Anim J 9 %anim%_Rifle.x Rifle_fidget
-Anim J 10 %anim%_Rifle.x Rifle_fidget2
-Anim J 16 %anim%_Rifle.x Rifle_idle
-Anim J 29 %anim%_Rifle.x Rifle_shoot
-Anim J 30 %anim%_Rifle.x Rifle_burst
-Anim J 35 %anim%_Rifle.x Rifle_shoot
-Anim J 40 %anim%_rifle.x rifle_dodge
-Anim J 80 %anim%_Rifleaim.x Rifle_shoot_aim
+Anim 10 1 %anim%_Rifle.x Rifle_Idle
+Anim 10 20 %anim%_Rifle.x Rifle_On
+Anim 10 21 %anim%_Rifle.x Rifle_Off
+Anim 10 24 %anim%_Rifle.x Rifle_Fidget
+Anim 10 25 %anim%_Rifle.x Rifle_Fidget2
+Anim 10 54 %anim%_Rifle.x Rifle_Shoot
+Anim 10 55 %anim%_Rifle.x Rifle_Burst
+Anim 10 30 %anim%_Rifle.x Rifle_Shoot
+Anim 10 70 %anim%_rifle.x Rifle_Dodge
+
 
 # 2 handed
-Anim K 1  %anim%_BigGun.x Biggun_idle
-Anim K 2  %anim_file% %anim%_Com_2HH_Stunned_01
-Anim K 3  %anim%_BigGun.x Biggun_walk
-Anim K 7  %anim%_BigGun.x Biggun_off
-Anim K 8  %anim%_BigGun.x Biggun_on
-Anim K 9  %anim%_BigGun.x Biggun_fidget
-Anim K 10 %anim%_BigGun.x Biggun_fidget
-Anim K 15 %anim_file% %anim%_Def_2HH_to_Com_01
-Anim K 16 %anim_file% %anim%_Com_2HH_Idle_01
-Anim K 17 %anim_file% %anim%_Com_2HH_to_Def_01
-Anim K 28 %anim_file% %anim%_Com_2HH_Throw_01
-Anim K 29 %anim%_Biggun.x Biggun_shoot
-Anim K 30 %anim%_Biggun.x Biggun_Burst
-Anim K 31 %anim_file% %anim%_Com_2HH_Gun_Sweep_01
-Anim K 32 %anim_file% %anim%_Com_2HH_Gun_Butt_01
-Anim K 33 %anim_file% %anim%_Com_2HH_Gun_Burst_01
-Anim K 34 %anim_file% %anim%_Com_2HH_Gun_NoRecoil_01
-Anim K 35 %anim%_Biggun.x Biggun_shoot
-Anim K 36 %anim_file% %anim%_Com_2HH_Maintenance_01
-Anim K 40 %anim%_biggun.x biggun_dodge
-Anim K 42 %anim_file% %anim%_Com_2HH_DmgFr_01
-Anim K 44 %anim_file% %anim%_Com_2HH_DmgFrMult_01
-Anim K 46 %anim_file% %anim%_Com_2HH_Walk_DmgFr_01
+Anim 11 1  %anim%_biggun.x Biggun_Idle
+Anim 11 3  %anim%_biggun.x Biggun_Walk
+Anim 11 20  %anim%_biggun.x Biggun_Off
+Anim 11 21  %anim%_biggun.x Biggun_On
+Anim 11 24 %anim%_biggun.x Biggun_Fidget
+Anim 11 54 %anim%_biggun.x Biggun_Shoot
+Anim 11 55 %anim%_biggun.x Biggun_Burst
+Anim 11 30 %anim%_biggun.x Biggun_Shoot
+Anim 11 70 %anim%_biggun.x Biggun_Dodge
+
 
 
 # Bazooka
-Anim M 1  %anim%_bazooka.x bazooka_idle
-Anim M 3  %anim%_bazooka.x bazooka_walk
-Anim M 7  %anim%_bazooka.x bazooka_on
-Anim M 8  %anim%_bazooka.x bazooka_off
-Anim M 9  %anim%_bazooka.x bazooka_fidget
-Anim M 10  %anim%_bazooka.x bazooka_fidget
-Anim M 29 %anim%_bazooka.x bazooka_shoot
-Anim M 35 %anim%_bazooka.x bazooka_shoot
-Anim M 40 %anim%_bazooka.x bazooka_dodge
+Anim 13 1  %anim%_bazooka.x Bazooka_Idle
+Anim 13 3  %anim%_bazooka.x Bazooka_Walk
+Anim 13 20 %anim%_bazooka.x Bazooka_On
+Anim 13 21 %anim%_bazooka.x Bazooka_Off
+Anim 13 24 %anim%_bazooka.x Bazooka_Fidget
+Anim 13 54 %anim%_bazooka.x Bazooka_Shoot
+Anim 13 30 %anim%_bazooka.x Bazooka_Shoot
+Anim 13 70 %anim%_bazooka.x Bazooka_Dodge
 
 # Minigun
-Anim L 1  %anim%_minigun.x minigun_idle
-Anim L 3  %anim%_minigun.x minigun_walk
-Anim L 7  %anim%_minigun.x minigun_on
-Anim L 8  %anim%_minigun.x minigun_off
-Anim L 9  %anim%_minigun.x minigun_fidget
-Anim L 10  %anim%_minigun.x minigun_fidget2
-Anim L 30 %anim%_minigun.x minigun_burst
-Anim L 35 %anim%_minigun.x minigun_burst
-Anim L 40 %anim%_minigun.x minigun_dodge
+Anim 12 1  %anim%_minigun.x Minigun_Idle
+Anim 12 3  %anim%_minigun.x Minigun_Walk
+Anim 12 20  %anim%_minigun.x Minigun_On
+Anim 12 21  %anim%_minigun.x Minigun_Off
+Anim 12 24  %anim%_minigun.x Minigun_Fidget
+Anim 12 25  %anim%_minigun.x Minigun_Fidget2
+Anim 12 55 %anim%_minigun.x Minigun_Burst
+Anim 12 30 %anim%_minigun.x Minigun_Burst
+Anim 12 70 %anim%_minigun.x Minigun_Dodge
 
 # Wakizashi
-Anim Q 1  %anim%_wakizashi.x wakizashi_idle
-Anim Q 7  %anim%_wakizashi.x wakizashi_on
-Anim Q 8  %anim%_wakizashi.x wakizashi_off
-Anim Q 9  %anim%_knife.x knife_fidget
-Anim Q 10  %anim%_knife.x knife_fidget
-Anim Q 40 %anim%_Knife.x knife_dodge
+Anim 17 1  %anim%_wakizashi.x wakizashi_idle
+Anim 17 20  %anim%_wakizashi.x wakizashi_on
+Anim 17 21  %anim%_wakizashi.x wakizashi_off
+Anim 17 24  %anim%_knife.x knife_fidget
+Anim 17 10  %anim%_knife.x knife_fidget
+Anim 17 70 %anim%_Knife.x knife_dodge
+Anim 17 49 %anim%_knife.x knife_thurst
+Anim 17 51 %anim%_knife.x knife_swing
+Anim 17 3  %anim%_Walk.x Walk
 
-Anim Q 24 %anim%_knife.x knife_thurst
-Anim Q 26 %anim%_knife.x knife_swing
-Anim Q 3  %anim%_Walk.x Walk
-
-Anim Q 5  %anim%_Run.x Run
 
 # Use Items (individual animations)
 
-Anim T 10 male_stimpack.x use_stimpack
+Anim 20 10 male_stimpack.x use_stimpack
