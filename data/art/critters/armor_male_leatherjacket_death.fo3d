@@ -1,4 +1,4 @@
-Model armor_male_leatherjacket.x
+Model armor_male_leatherjacket_death.x
 Effect 3D_SpecularMapping.fx 
 EffDef Floats Specular_Power 5.5 
 
